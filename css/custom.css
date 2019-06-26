@@ -2,7 +2,7 @@ p {
     margin: 0 0 4px !important;
 }
 
-img {
+.p-img {
     max-width: 100%;
     height: auto;
     margin-left: -21px !important;
