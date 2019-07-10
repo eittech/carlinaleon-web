@@ -31,6 +31,163 @@
     <link rel='stylesheet' href='css/structure-copywriter.css'>
     <link rel='stylesheet' href='css/copywriter.css'>
     <link rel='stylesheet' href='css/custom.css'>
+    <style>
+        .two-fifth.mcb-wrap {
+            width: 100% !important;
+            text-align: center !important;
+        }
+
+        .idea_box, .ui-tabs, .accordion .question, .accordion .question.active .title, .accordion .question .title::before, .ui-tabs .ui-tabs-nav, .ui-tabs .ui-tabs-nav li, .tabs_vertical.ui-tabs .ui-tabs-panel, table th, table td, .list_item .circle, input[type="date"], input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], select, textarea, .promo_box.has_border::after, dl > dt, dl > dd, .article_box .desc_wrapper p, a.icon_bar, a.content_link, .how_it_works .image, .opening_hours, .opening_hours .opening_hours_wrapper li, .icon_box.has_border::after, .chart_box::before, .pricing-box, .team_list .bq_wrapper, .post-footer .post-links, .format-link .post-title .icon-link, .share_wrapper, .post-header .title_wrapper, .section-post-related .section-related-adjustment, #comments > :first-child, .widget-area, .widget::after, .fixed-nav .desc h6, .portfolio_group.list .portfolio-item, .portfolio_group .portfolio-item .desc .details-wrapper, .Recent_posts ul li .desc h6, .widget_recent_entries ul li a, .woocommerce .widget_best_sellers li, .woocommerce .widget_featured_products li, .woocommerce .widget_recent_reviews li, .woocommerce .widget_recent_products li, .woocommerce .widget_recently_viewed_products li, .woocommerce .widget_random_products li, .woocommerce .widget_top_rated_products li, .woocommerce .widget_onsale li, .woocommerce .widget_layered_nav li, .woocommerce .widget_shopping_cart ul.product_list_widget li, .woocommerce .widget_products li, .woocommerce .product .related.products, .woocommerce .product .upsells.products, .woocommerce .product div.entry-summary h1.product_title::after, .woocommerce .quantity input.qty, .header-stack #Top_bar .logo, .offer_thumb .slider_pagination, .offer_thumb .slider_pagination a, .Latest_news ul li .desc_footer, .Latest_news ul li .photo, .offer_thumb.bottom .slider_pagination a, .style-simple .faq .question, .style-simple #Filters .filters_wrapper ul, #edd_checkout_cart th, #edd_checkout_cart td {
+            border-color: rgba(255, 255, 255, 0.1);
+            border-bottom-color: rgba(255, 255, 255, 0.1);
+        }
+
+        a{
+            text-decoration: none !important;
+        }
+
+
+        /* Pop Up*/
+        
+.panel {
+    background-color: #444;
+    height: 34px;
+    padding: 10px;
+}
+.panel a#login_pop, .panel a#join_pop {
+    border: 2px solid #aaa;
+    color: #fff;
+    display: block;
+    float: right;
+    margin-right: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow: 1px 1px #000;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+a#login_pop:hover, a#join_pop:hover {
+    border-color: #eee;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 1;
+
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+.popup {
+    background-color: #fff;
+    border: 3px solid #fff;
+    display: inline-block;
+    left: 50%;
+    opacity: 0;
+    padding: 15px;
+    position: fixed;
+    text-align: justify;
+    top: 40%;
+    visibility: hidden;
+    z-index: 10;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -ms-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -o-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -ms-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+    transition: opacity .5s, top .5s;
+}
+.overlay:target+.popup {
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+.close {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    top: -15px;
+    width: 30px;
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+.close:before {
+    color: rgba(255, 255, 255, 0.9);
+    content: "X";
+    font-size: 24px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+}
+.close:hover {
+    background-color: rgba(64, 128, 128, 0.8);
+}
+.popup p, .popup div {
+    margin-bottom: 10px;
+}
+.popup label {
+    display: inline-block;
+    text-align: left;
+    width: 120px;
+}
+.popup input[type="text"], .popup input[type="password"] {
+    border: 1px solid;
+    border-color: #999 #ccc #ccc;
+    margin: 0;
+    padding: 2px;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}
+.popup input[type="text"]:hover, .popup input[type="password"]:hover {
+    border-color: #555 #888 #888;
+}
+
+    </style>
 
 </head>
 
@@ -135,11 +292,11 @@
                                 </div>
                                 <div class="wrap mcb-wrap three-fifth clearfix">
                                     <!-- One Full Row-->
-                                    <div class="column mcb-column one column_column">
+                                    <!--<div class="column mcb-column one column_column">
                                         <div class="column_attr">
                                             <div style="height: 1px; background: #484a7d;"></div>
                                         </div>
-                                    </div>
+                                    </div>-->
                                     <!-- One Full Row-->
                                     <div class="column mcb-column one column_blog ">
                                       <div class="column_filters">
@@ -156,26 +313,74 @@
                                                 </h2>
                                               </div>
                                             <div class="post-excerpt">
-                                             <p class="big">
-                                                 <img class="p-img" src="images/icons/list_check.png" />
-                                                 <span style="font-weight: 700; color: #000;">VAWA </span>- (Ley de Violencia contra la Mujer por sus siglas en inglés) - La protección de VAWA permite que un inmigrante maltratado o un niño maltratado solicite ayuda de inmigración sin la ayuda de su ciudadano o cónyuge abusivo residente legal permanente (LPR, por sus siglas en inglés), ex cónyuge, cónyuge destinado o hijos mayores de 21 años (NIWAP, 2015)
-                                             </p>
-                                             <p class="big">
-                                                 <img class="p-img" src="images/icons/list_check.png" />
-                                                 <span style="font-weight: 700; color: #000;">Evidencia de dificultades extremas para evitar la deportación:</span> una exención por dificultades extremas permite a un juez de inmigración (IC) u otro adjudicador del Servicio de Inmigración y Ciudadanía de los EE. UU. suspender la orden de deportación de un inmigrante por violación de la ley de inmigración. La base de esta acción legal puede incluir la adversidad que causaría a los cónyuges, hijos o padres de los ciudadanos estadounidenses o residentes permanentes legales.
-                                             </p>
-                                             <p class="big">
-                                                 <img class="p-img" src="images/icons/list_check.png" />
-                                                 <span style="font-weight: 700; color: #000;">Visa U:</span> Alivio para víctimas de actividad criminal.
-                                             </p>
-                                             <p class="big">
-                                                 <img class="p-img" src="images/icons/list_check.png" />
-                                                 <span style="font-weight: 700; color: #000;">Visa T:</span> Alivio para víctimas de trata de personas.
-                                             </p>
-                                             <p class="big">
-                                                <img class="p-img" src="images/icons/list_check.png" />
-                                                 <span style="font-weight: 700; color: #000;">Asilo político:</span> protección otorgada por el gobierno de los Estados Unidos a alguien que ha abandonado su país natal como refugiado político.
-                                             </p>
+
+                                                <div class="image_wrapper">
+                                                    <br>
+                                                    <br>
+                                                    <table style="width: 170% !important;" border="1">
+                                                        <tr style="cursor: pointer;">
+                                                            <td>
+                                                                <a href="#pop-1" id="login_pop">
+                                                                    VAWA
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#pop-2" id="login_pop">
+                                                                    Evidencia de dificultades<br>extremas para evitar la deportación
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#pop-3" id="login_pop">
+                                                                    Visa U
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#pop-4" id="login_pop">
+                                                                    Visa T
+                                                                </a>
+                                                            </td>
+                                                            <td>
+                                                                <a href="#pop-5" id="login_pop">
+                                                                    Asilo político
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+
+                                                    <!-- popup #1 -->
+                                                    <a href="#x" class="overlay" id="pop-1"></a>
+                                                    <div class="popup">
+                                                        (Ley de Violencia contra la Mujer por sus siglas en inglés) - La protección de VAWA permite que un inmigrante maltratado o un niño maltratado solicite ayuda de inmigración sin la ayuda de su ciudadano o cónyuge abusivo residente legal permanente (LPR, por sus siglas en inglés), ex cónyuge, cónyuge destinado o hijos mayores de 21 años (NIWAP, 2015)
+                                                        <a class="close" href="#close"></a>
+                                                    </div>
+                                                    <!-- popup #2 -->
+                                                    <a href="#x" class="overlay" id="pop-2"></a>
+                                                    <div class="popup">
+                                                        Evidencia de dificultades extremas para evitar la deportación:</span> una exención por dificultades extremas permite a un juez de inmigración (IC) u otro adjudicador del Servicio de Inmigración y Ciudadanía de los EE. UU. suspender la orden de deportación de un inmigrante por violación de la ley de inmigración. La base de esta acción legal puede incluir la adversidad que causaría a los cónyuges, hijos o padres de los ciudadanos estadounidenses o residentes permanentes legales.
+                                                        <a class="close" href="#close"></a>
+                                                    </div>
+                                                    <!-- popup #3 -->
+                                                    <a href="#x" class="overlay" id="pop-3"></a>
+                                                    <div class="popup">
+                                                        Alivio para víctimas de actividad criminal.
+                                                        <a class="close" href="#close"></a>
+                                                    </div>
+                                                    <!-- popup #4 -->
+                                                    <a href="#x" class="overlay" id="pop-4"></a>
+                                                    <div class="popup">
+                                                            Alivio para víctimas de trata de personas.
+                                                        <a class="close" href="#close"></a>
+                                                    </div>
+                                                    <!-- popup #5 -->
+                                                    <a href="#x" class="overlay" id="pop-5"></a>
+                                                    <div class="popup">
+                                                        protección otorgada por el gobierno de los Estados Unidos a alguien que ha abandonado su país natal como refugiado político.
+                                                        <a class="close" href="#close"></a>
+                                                    </div>
+
+
+                                                </div>
                                            </div>
                                              </div>
                                                         </div>
@@ -211,11 +416,11 @@
                                 </div>
                                 <div class="wrap mcb-wrap three-fifth clearfix">
                                     <!-- One Full Row-->
-                                    <div class="column mcb-column one column_column">
+                                    <!--<div class="column mcb-column one column_column">
                                         <div class="column_attr">
                                             <div style="height: 1px; background: #484a7d;"></div>
                                         </div>
-                                    </div>
+                                    </div>-->
                                     <!-- One Full Row-->
                                     <div class="column mcb-column one column_blog ">
                                       <div class="column_filters">
@@ -232,14 +437,65 @@
                                                 </h2>
                                               </div>
                                             <div class="post-excerpt">
-                                                    <img class="p-img" style="width: 29px !important;" src="images/icons/iconos 300x300_Mesa de trabajo 1 copia 26.png" /> Orientación para las mejores prácticas antes y durante la aplicación de pruebas psicológicas.<br>
-                                                    <img class="p-img" style="width: 29px !important;" src="images/icons/iconos 300x300_Mesa de trabajo 1 copia 26.png" /> Recopilación y organización de toda la información proporcionada por la/el examinado. <br>
-                                                    <img class="p-img" style="width: 29px !important;" src="images/icons/iconos 300x300_Mesa de trabajo 1 copia 26.png" /> Revisión de todos los documentos relevantes.<br>
-                                                    <img class="p-img" style="width: 29px !important;" src="images/icons/iconos 300x300_Mesa de trabajo 1 copia 26.png" /> Evaluación psicológica para determinar el nivel de veracidad de la información.<br>
-                                                    <img class="p-img" style="width: 29px !important;" src="images/icons/iconos 300x300_Mesa de trabajo 1 copia 26.png" /> Se proporcionará un informe psicológico que resume los datos y la interpretación de la información en el contexto de la ley pertinente.
+                                                    <br>
+                                                    <br>
+                                                    <table style="width: 170% !important;" border="1">
+                                                        <tr style="cursor: pointer;">
+                                                            <td>
+                                                                <img class="p-img" style="width: 29px !important;" src="images/icons/iconos 300x300_Mesa de trabajo 1 copia 26.png" />
+                                                            </td>
+                                                            <td>
+                                                                <img class="p-img" style="width: 29px !important;" src="images/icons/iconos 300x300_Mesa de trabajo 1 copia 26.png" />
+                                                            </td>
+                                                            <td>
+                                                                <img class="p-img" style="width: 29px !important;" src="images/icons/iconos 300x300_Mesa de trabajo 1 copia 26.png" />
+                                                            </td>
+                                                            <td>
+                                                                <img class="p-img" style="width: 29px !important;" src="images/icons/iconos 300x300_Mesa de trabajo 1 copia 26.png" />
+                                                            </td>
+                                                            <td>
+                                                                <img class="p-img" style="width: 29px !important;" src="images/icons/iconos 300x300_Mesa de trabajo 1 copia 26.png" />
+                                                            </td>
+                                                        </tr>
+                                                        <tr style="cursor: pointer;">
+                                                            <td>
+                                                                Orientación para las mejores prácticas antes y durante la aplicación de pruebas psicológicas.
+                                                            </td>
+                                                            <td>
+                                                                Recopilación y organización de toda la información proporcionada por la/el examinado.
+                                                            </td>
+                                                            <td>
+                                                                Revisión de todos los documentos relevantes.
+                                                            </td>
+                                                            <td>
+                                                                Evaluación psicológica para determinar el nivel de veracidad de la información.
+                                                            </td>
+                                                            <td>
+                                                                Se proporcionará un informe psicológico que resume los datos y la interpretación de la información en el contexto de la ley pertinente.
+                                                            </td>
+                                                        </tr>
+                                                    </table>
                                              </div>
                                                </div>
                                              </div>
+                                             
+                                             <div class="column mcb-column one column_column">
+                                                <div class="column_attr">
+                                                    <br><br>
+                                                    <table style="width: 170% !important;" border="1">
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/about_perfil.png" class="scale-with-grid">
+                                                            </td>
+                                                            <td>
+                                                                5 maneras diferentes de ganar dinero LEGALMENTE en los EE. UU, incluso si usted esta
+                                                                indocumentado.
+                                                                Como inmigrante, entiendo el sentido de urgencia y preocupación cuando necesita un remedio
+                                                                para su situación de inmigración en estos tiempos inciertos. Déjame ayudarte en este proceso
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                              </div>
                                               </div>
                                             </div>
                                           </div>
