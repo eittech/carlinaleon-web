@@ -9,12 +9,12 @@ p {
     width: 16px !important;
 }
 
-#Top_bar #logo img {
+/*#Top_bar #logo img {
     vertical-align: middle;
     max-height: 100%;
     width: 229.6px !important;
     height: 60px !important;
-}
+}*/
 
 .header-classic #Top_bar {
     background-color: #fff;
