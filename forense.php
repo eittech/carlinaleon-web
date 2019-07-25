@@ -1,3 +1,11 @@
+<?php
+// Cargamos el archivo de fijación de idioma
+include "lang.php";
+// Obtiene el nombre de la página actual
+include "check_url.php";
+// Cargamos archivo de configuraciones globales
+include "config.php";
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 ">
@@ -83,35 +91,12 @@
                                     <div class="top_bar_left clearfix">
                                        <!-- Logo-->
                                        <div class="logo">
-                                          <a id="logo" href="index.html" title="CarlinaLeon"> <img class="scale-with-grid" src="images/logo_menu.png" alt="CarlinaLeon" />
+                                          <a id="logo" href="index.php" title="CarlinaLeon"> <img class="scale-with-grid" src="images/logo_menu.png" alt="CarlinaLeon" />
                                           </a>
                                        </div>
-                                       <!-- Main menu-->
-                                       <div class="menu_wrapper">
-                                          <nav id="menu" class="menu-main-menu-container">
-                                             <ul id="menu-main-menu" class="menu">
-                                                <li >
-                                                   <a href="index.html"><span>Inicio</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="about.html"><span>Acerca de mí</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="work-with-me.html"><span>Trabaja conmigo</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="programs.html"><span>Programas</span></a>
-                                                </li>
-                                                <li class="current_page_item">
-                                                   <a href="forense.html"><span>Evaluación forense</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="contact.html"><span>Contacto</span></a>
-                                                </li>
-                                             </ul>
-                                          </nav>
-                                          <a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
-                                       </div>
+                                       <!-- Apertura Menu -->
+                                       <?php include "menu.php"; ?>
+                                       <!-- Cierre Menu -->
                                        <!-- Secondary menu area - only for certain pages -->
                                        <div class="secondary_menu_wrapper"></div>
                                        <!-- Banner area - only for certain pages-->
@@ -469,35 +454,9 @@
                            </div>
                         </div>
                      </div>
-                 <!-- Footer-->
-                     <footer id="Footer" class="clearfix">
-                        <!-- Footer - First area -->
-                        <div class="footer_action">
-                           <div class="container">
-                              <!-- One full width row-->
-                              <div class="column one column_column">
-                                 <span style="font-size: 26px; line-height: 26px;">Encuentrame aqui:</span>
-                                  <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.linkedin.com/in/carlinaleon/?locale=en_US"><i class="icon-linkedin-circled"></i></a>
-                                  <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.facebook.com/carlinadesireel"><i class="icon-facebook-circled"></i></a>
-                                  <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://twitter.com/carlinadla"><i class="icon-twitter-circled"></i></a>
-                                  <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.youtube.com/channel/UC8pfQxG2YhEErtxr7O0W-5A?view_as=subscriber"><i class="icon-youtube"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                        
-                        <!-- Footer copyright-->
-                        <div class="footer_copy">
-                           <div class="container">
-                              <div class="column one">
-                                 <div class="copyright">
-                                    &copy; 2019 Carlina Leon - Powered by <a target="_blank" rel="nofollow" href="http://eittech.net">eittech</a>
-                                 </div>
-                                 <!--Social info area-->
-                                 <ul class="social"></ul>
-                              </div>
-                           </div>
-                        </div>
-                     </footer>
+                 <!-- Apertura Footer -->
+                 <?php include "footer.php"; ?>
+                     <!-- Cierre Footer -->
                   </div>
                   <!-- JS -->
                   <script src="js/jquery-2.1.4.min.js"></script>

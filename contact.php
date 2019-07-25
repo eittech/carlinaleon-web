@@ -1,3 +1,11 @@
+<?php
+// Cargamos el archivo de fijación de idioma
+include "lang.php";
+// Obtiene el nombre de la página actual
+include "check_url.php";
+// Cargamos archivo de configuraciones globales
+include "config.php";
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 ">
@@ -48,35 +56,12 @@
                                     <div class="top_bar_left clearfix">
                                        <!-- Logo-->
                                        <div class="logo">
-                                          <a id="logo" href="index.html" title="CarlinaLeon"> <img class="scale-with-grid" src="images/logo_menu.png" alt="CarlinaLeon" />
+                                          <a id="logo" href="index.php" title="CarlinaLeon"> <img class="scale-with-grid" src="images/logo_menu.png" alt="CarlinaLeon" />
                                           </a>
                                        </div>
-                                       <!-- Main menu-->
-                                       <div class="menu_wrapper">
-                                          <nav id="menu" class="menu-main-menu-container">
-                                             <ul id="menu-main-menu" class="menu">
-                                                <li >
-                                                   <a href="index.html"><span>Inicio</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="about.html"><span>Acerca de mí</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="work-with-me.html"><span>Trabaja conmigo</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="programs.html"><span>Programas</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="forense.html"><span>Evaluación forense</span></a>
-                                                </li>
-                                                <li class="current_page_item">
-                                                   <a href="contact.html"><span>Contacto</span></a>
-                                                </li>
-                                             </ul>
-                                          </nav>
-                                          <a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
-                                       </div>
+                                       <!-- Apertura Menu -->
+                                       <?php include "menu.php"; ?>
+                                       <!-- Cierre Menu -->
                                        <!-- Secondary menu area - only for certain pages -->
                                        <div class="secondary_menu_wrapper"></div>
                                        <!-- Banner area - only for certain pages-->
