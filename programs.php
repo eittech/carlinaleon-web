@@ -1,11 +1,13 @@
+
+
 <?php
-// Cargamos el archivo de fijación de idioma
-include "lang.php";
-// Obtiene el nombre de la página actual
-include "check_url.php";
-// Cargamos archivo de configuraciones globales
-include "config.php";
-?>
+   // Cargamos el archivo de fijación de idioma
+   include "lang.php";
+   // Obtiene el nombre de la página actual
+   include "check_url.php";
+   // Cargamos archivo de configuraciones globales
+   include "config.php";
+   ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 ">
@@ -82,7 +84,7 @@ include "config.php";
                         <div id="Subheader" style="padding:90px 0 70px;">
                            <div class="container">
                               <div class="column one">
-                                 <h1 class="title" style="color:#ffffff;">Programas</h1>
+                                 <h1 class="title" style="color:#ffffff;"><?php echo $lang['programs']['content_1']; ?></h1>
                               </div>
                            </div>
                         </div>
@@ -93,88 +95,38 @@ include "config.php";
                            <div class="sections_group">
                               <div class="entry-content">
                                  <div class="section mcb-section " style="padding-top:80px; padding-bottom:10px; background-color:#f0f1f2">
-                                  
-                              <!-- One Third (1/3) Column -->
-                              <div class="column one-third column_column">
-                                 <div class="column_attr ">
-                                    <p style="display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;">Solo para comenzar</p>
-                                    <ul style="font-size: 17px;">
-                                       Abordaremos un desafío específico que se está interponiendo en el camino para alcanzar tus metas.
-                                       <br>
-                                       <br>
-                                       Estrategia diseñada exclusivamente para tu desafío.
-                                       <br>
-                                       Acceso al banco de estrategias “Para crecer en las dificultades”.
-                                       <br>
-                                       <br>
-                                       <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" /><span style="font-weight: 700; font-size: 20px; color: #2edacd;"> 3</span> sesiones en línea: para procesar los obstáculos que se han presentado al utilizar las estrategias del banco de estrategias.<br><br>
-                                       <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" /><span style="font-weight: 700; font-size: 20px; color: #2edacd;"> 1</span> sesión de emergencia en línea - Después de todo, soy parte de tu familia escogida.<br><br>
-                                       <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" /><span style="font-weight: 700; font-size: 20px; color: #2edacd;"> 1</span> sesión de desensibilización y reprocesamiento de movimientos oculares (EMDR) (*): para acelerar el proceso de recuperación.<br>
-                                       <br>
-                                       <br>
-                                    </ul>
-                                 </div>
-                              </div>
-                              <!-- One Third (1/3) Column -->
-                              <div class="column one-third column_column">
-                                 <div class="column_attr ">
-                                    <p style="display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;">Compromiso más profundo</p>
-                                    <ul style="font-size: 17px;">
-                                       Avanzaremos con 1 a 3 desafíos que has identificado como problemáticos y que representan un obstáculo para hacer realidad su sueño.
-                                       <br>
-                                       <br>
-                                       Estrategia diseñada exclusivamente para tu desafío.
-                                       <br>
-                                       Acceso al banco de estrategias “Para crecer en las dificultades”.
-                                       <br>
-                                       <br>
-                                       <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" /><span style="font-weight: 700; font-size: 20px; color: #2edacd;"> 6</span> sesiones en línea: para procesar los obstáculos que se han presentado al utilizar las estrategias del banco de estrategias.<br><br>
-                                       <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" /><span style="font-weight: 700; font-size: 20px; color: #2edacd;"> 1</span> sesión de emergencia en línea - Después de todo, soy parte de tu familia escogida.<br><br>
-                                       <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" /><span style="font-weight: 700; font-size: 20px; color: #2edacd;"> 4</span> sesiones de EMDR (*)
-                                       <spam style="font-weight: 500; color: #5b268d;"> (EYE MOVEMENT DESENSITIZATION AND REPROCESSING)</spam>
-                                       por sus siglas en inglés.
-                                       <br>
-                                       <br>
-                                    </ul>
-                                 </div>
-                              </div>
-                              <!-- One Third (1/3) Column -->
-                              <div class="column one-third column_column">
-                                 <div class="column_attr ">
-                                    <p style="display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;">Hasta el final</p>
-                                    <ul style="font-size: 17px;">
-                                       Enfrentaremos de 1 a 3 desafíos para aquellos que enfrentan reacciones fuertes que afectan profundamente su funcionamiento diario con consecuencias significativas y negativas.
-                                       <br>
-                                       <br>
-                                       Estrategia diseñada exclusivamente para tu desafío.
-                                       <br>
-                                       Acceso al banco de estrategias “Para crecer en las dificultades”.
-                                       <br>
-                                       <br>
-                                       <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" /><span style="font-weight: 700; font-size: 20px; color: #2edacd;"> 10</span> sesiones online<br><br>
-                                       <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" /><span style="font-weight: 700; font-size: 20px; color: #2edacd;"> 2</span> sesiones de emergencia en línea<br><br>
-                                       <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" /><span style="font-weight: 700; font-size: 20px; color: #2edacd;"> 4</span> sesiones de EMDR (*)<br><br>
-                                       <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" /><span style="font-weight: 700; font-size: 20px; color: #2edacd;"> 22</span> sesiones de Neurofeedback (*) - para profundizar el control de sus respuestas psicológicas.<br><br>
-                                       <br>
-                                       <br>
-                                    </ul>
-                                 </div>
-                              </div>
-                              <hr class="no_line" style="margin: 0 auto 10px;">
-                              <div id="Content">
-                                 <div class="content_wrapper clearfix">
-                                    <div class="sections_group">
-                                       <div class="entry-content">
-                                          <div class="section mcb-section" style="padding-top:0px; padding-bottom:10px; background-color:#f0f1f2">
-                                             <div class="container">
-                                                <div class="row">
-                                                   <div class="col-sm">
-                                                      <div class="section_wrapper">
-                                                         <div class="inside" style="text-align: center;">
-                                                            <p style="font-size: 18px; font-weight: 600; line-height: 35px; color: #6b7c93;">(*) Estas son técnicas relativamente nuevas para tratar el trauma   psicológico. Si desea escuchar y leer más,<a target="_blank" rel="nofollow" href="tecnicas.html" style="color: #512a8a;"> haga clic aquí.</a>
-                                                               <br>
-                                                               Si la idea de comprometerte con un programa parece complicada, podemos planificar sesiones individuales semanales a un costo de <span style="font-weight: 700; font-size: 20px; color: #512a8a;"> <a href="https://cleon.mytherabook.com/home/login"> $80.</a></span>
-                                                            </p>
+                                    <!-- One Third (1/3) Column -->
+                                    <div class="column one-third column_column">
+                                       <div class="column_attr ">
+                                          <?php echo $lang['programs']['content_2']; ?>
+                                       </div>
+                                    </div>
+                                    <!-- One Third (1/3) Column -->
+                                    <div class="column one-third column_column">
+                                       <div class="column_attr ">
+                                          <?php echo $lang['programs']['content_3']; ?>
+                                       </div>
+                                    </div>
+                                    <!-- One Third (1/3) Column -->
+                                    <div class="column one-third column_column">
+                                       <div class="column_attr ">
+                                          <?php echo $lang['programs']['content_4']; ?>
+                                       </div>
+                                    </div>
+                                    <hr class="no_line" style="margin: 0 auto 10px;">
+                                    <div id="Content">
+                                       <div class="content_wrapper clearfix">
+                                          <div class="sections_group">
+                                             <div class="entry-content">
+                                                <div class="section mcb-section" style="padding-top:0px; padding-bottom:10px; background-color:#f0f1f2">
+                                                   <div class="container">
+                                                      <div class="row">
+                                                         <div class="col-sm">
+                                                            <div class="section_wrapper">
+                                                               <div class="inside" style="text-align: center;">
+                                                                  <?php echo $lang['programs']['content_5']; ?>
+                                                               </div>
+                                                            </div>
                                                          </div>
                                                       </div>
                                                    </div>
@@ -183,9 +135,6 @@ include "config.php";
                                           </div>
                                        </div>
                                     </div>
-                                 </div>
-                              </div>
-                                   
                                  </div>
                                  <div class="section mcb-section mcb-section-jlo4hi97l dark equal-height-wrap" style="padding-top:0px; padding-bottom:80px;">
                                     <div class="section-decoration top" style="background-image:url(images/separador-linea.png);height:135px">
@@ -199,118 +148,90 @@ include "config.php";
                         <hr class="no_line hrmargin_b_30" />
                         <div class="section_wrapper mcb-section-inner">
                            <div class="section mcb-section " style="padding-top:0px; padding-bottom:20px; ">
-                             <div class="section_wrapper mcb-section-inner">
-                                       <div class="wrap mcb-wrap mcb-wrap-e655bh0wn one-third valign-top clearfix" style="padding:0 1%">
-                                          <div class="mcb-wrap-inner">
-                                             <div class="column mcb-column mcb-item-dc5qvgmdl one column_column">
-                                                <div class="column_attr clearfix align_center" style=" background-color:rgba(255,255,255,0.6); padding:50px 50px 35px; border-radius: 8px;">
-                                                   <h4 style="margin-bottom: 5px;">Para comenzar</h4>
-                                                   <h3 class="themecolor">$250</h3>
-                                                   <p>
-                                                      Total
-                                                   </p>
-                                                   <hr style="margin: 0 auto 30px;">
-                                                   <p class="subtitle">
-                                                      <span class="big">Abordaremos un desafío específico para alcanzar tus metas.
-                                                      </span>
-                                                   </p>
-                                                   <hr class="no_line" style="margin: 0 auto 15px;">
-                                                   <div style="text-align: left;">
-                                                      <p style="background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;">
-                                                         Plan de pago
-                                                      </p>
-                                                      <p style="background: url(content/product4/images/home_product4_pic12.png) no-repeat left 4px; padding-left: 25px;">
-                                                         Pago inicial:  <strong>$ 100</strong>
-                                                      </p>
-                                                      <p style="background: url(content/product4/images/home_product4_pic12.png) no-repeat left 4px; padding-left: 25px;">
-                                                         Cuotas mensuales:  <strong>$ 30</strong>
-                                                      </p>
-                                                      <p style="background: url(content/product4/images/home_product4_pic12.png) no-repeat left 4px; padding-left: 25px;">
-                                                         Pago completo por adelantado:  <strong>$ 225</strong>
-                                                      </p>
-                                                   </div>
-                                                   <hr class="no_line" style="margin: 0 auto 15px;">
-                                                   <div class="plan-footer">
-                                                      <a href="https://cleon.mytherabook.com/home/login" class="button button_left button_theme button_js kill_the_icon"><span class="button_icon"><i class="icon-basket"></i></span><span class="button_label">Conseguir</span></a>
-                                                   </div>
-                                                </div>
-                                             </div>
+                              <div class="section_wrapper mcb-section-inner">
+                                 <div class="wrap mcb-wrap mcb-wrap-e655bh0wn one-third valign-top clearfix" style="padding:0 1%">
+                                    <div class="mcb-wrap-inner">
+                                       <div class="column mcb-column mcb-item-dc5qvgmdl one column_column">
+                                          <div class="column_attr clearfix align_center" style=" background-color:rgba(255,255,255,0.6); padding:50px 50px 35px; border-radius: 8px;">
+                                             <?php echo $lang['programs']['content_6']; ?>
                                           </div>
                                        </div>
-                                       <div class="wrap mcb-wrap mcb-wrap-tfjf9p4ux one-third valign-top clearfix" style="padding:0 1%">
-                                          <div class="mcb-wrap-inner">
-                                             <div class="column mcb-column mcb-item-m83lbkvew one column_column">
-                                                <div class="column_attr clearfix align_center" style=" background-color:#fff; padding:50px 50px 35px; border-radius: 8px;">
-                                                   <h4 style="margin-bottom: 5px;">Comprometido</h4>
-                                                   <h3 class="themecolor">$650</h3>
-                                                   <p>
-                                                      Total
-                                                   </p>
-                                                   <hr style="margin: 0 auto 30px;">
-                                                   <p class="subtitle">
-                                                      <span class="big"> Avanzaremos con 1 a 3 desafíos para hacer realidad su sueño.
-                                                      </span>
-                                                   </p>
-                                                   <hr class="no_line" style="margin: 0 auto 15px;">
-                                                   <div style="text-align: left;">
-                                                      <p style="background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;">
-                                                         Plan de pago
-                                                      </p>
-                                                      <p style="background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;">
-                                                         Pago inicial:  <strong>$ 250</strong>
-                                                      </p>
-                                                      <p style="background: url(content/product4/images/home_product4_pic12.png) no-repeat left 4px; padding-left: 25px;">
-                                                         Cuotas mensuales:  <strong>$ 50</strong>
-                                                      </p>
-                                                      <p style="background: url(content/product4/images/home_product4_pic12.png) no-repeat left 4px; padding-left: 25px;">
-                                                         Pago completo por adelantado:  <strong>$ 585</strong>
-                                                      </p>
-                                                   </div>
-                                                   <hr class="no_line" style="margin: 0 auto 15px;">
-                                                   <div class="plan-footer">
-                                                      <a href="https://cleon.mytherabook.com/home/login" class="button button_left button_theme button_js kill_the_icon"><span class="button_icon"><i class="icon-basket"></i></span><span class="button_label">Conseguir</span></a>
-                                                   </div>
-                                                </div>
+                                    </div>
+                                 </div>
+                                 <div class="wrap mcb-wrap mcb-wrap-tfjf9p4ux one-third valign-top clearfix" style="padding:0 1%">
+                                    <div class="mcb-wrap-inner">
+                                       <div class="column mcb-column mcb-item-m83lbkvew one column_column">
+                                          <div class="column_attr clearfix align_center" style=" background-color:#fff; padding:50px 50px 35px; border-radius: 8px;">
+                                             <h4 style="margin-bottom: 5px;">Comprometido</h4>
+                                             <h3 class="themecolor">$650</h3>
+                                             <p>
+                                                Total
+                                             </p>
+                                             <hr style="margin: 0 auto 30px;">
+                                             <p class="subtitle">
+                                                <span class="big"> Avanzaremos con 1 a 3 desafíos para hacer realidad su sueño.
+                                                </span>
+                                             </p>
+                                             <hr class="no_line" style="margin: 0 auto 15px;">
+                                             <div style="text-align: left;">
+                                                <p style="background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;">
+                                                   Plan de pago
+                                                </p>
+                                                <p style="background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;">
+                                                   Pago inicial:  <strong>$ 250</strong>
+                                                </p>
+                                                <p style="background: url(content/product4/images/home_product4_pic12.png) no-repeat left 4px; padding-left: 25px;">
+                                                   Cuotas mensuales:  <strong>$ 50</strong>
+                                                </p>
+                                                <p style="background: url(content/product4/images/home_product4_pic12.png) no-repeat left 4px; padding-left: 25px;">
+                                                   Pago completo por adelantado:  <strong>$ 585</strong>
+                                                </p>
                                              </div>
-                                          </div>
-                                       </div>
-                                       <div class="wrap mcb-wrap mcb-wrap-hsolinufz one-third valign-top clearfix" style="padding:0 1%">
-                                          <div class="mcb-wrap-inner">
-                                             <div class="column mcb-column mcb-item-dl9h7hae6 one column_column">
-                                                <div class="column_attr clearfix align_center" style=" background-color:rgba(255,255,255,0.6); padding:50px 50px 35px; border-radius: 8px;">
-                                                   <h4 style="margin-bottom: 5px;">Hasta el final</h4>
-                                                   <h3 class="themecolor">$1500</h3>
-                                                   <p>
-                                                      Total
-                                                   </p>
-                                                   <hr style="margin: 0 auto 30px;">
-                                                   <p class="subtitle">
-                                                      <span class="big">Enfrentaremos reacciones fuertes en su funcionamiento diario.</span>
-                                                   </p>
-                                                   <hr class="no_line" style="margin: 0 auto 15px;">
-                                                   <div style="text-align: left;">
-                                                      <p style="background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;">
-                                                         Plan de pago
-                                                      </p>
-                                                      <p style="background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;">
-                                                         Pago inicial:  <strong>$ 500</strong>
-                                                      </p>
-                                                      <p style="background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;">
-                                                         Cuotas mensuales:  <strong>$ 250</strong>
-                                                      </p>
-                                                      <p style="background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;">
-                                                         Pago completo por adelantado:  <strong>$ 1350</strong>
-                                                      </p>
-                                                   </div>
-                                                   <hr class="no_line" style="margin: 0 auto 15px;">
-                                                   <div class="plan-footer">
-                                                      <a href="https://cleon.mytherabook.com/home/login" class="button button_left button_theme button_js kill_the_icon"><span class="button_icon"><i class="icon-basket"></i></span><span class="button_label">Conseguir</span></a>
-                                                   </div>
-                                                </div>
+                                             <hr class="no_line" style="margin: 0 auto 15px;">
+                                             <div class="plan-footer">
+                                                <a href="https://cleon.mytherabook.com/home/login" class="button button_left button_theme button_js kill_the_icon"><span class="button_icon"><i class="icon-basket"></i></span><span class="button_label">Conseguir</span></a>
                                              </div>
                                           </div>
                                        </div>
                                     </div>
+                                 </div>
+                                 <div class="wrap mcb-wrap mcb-wrap-hsolinufz one-third valign-top clearfix" style="padding:0 1%">
+                                    <div class="mcb-wrap-inner">
+                                       <div class="column mcb-column mcb-item-dl9h7hae6 one column_column">
+                                          <div class="column_attr clearfix align_center" style=" background-color:rgba(255,255,255,0.6); padding:50px 50px 35px; border-radius: 8px;">
+                                             <h4 style="margin-bottom: 5px;">Hasta el final</h4>
+                                             <h3 class="themecolor">$1500</h3>
+                                             <p>
+                                                Total
+                                             </p>
+                                             <hr style="margin: 0 auto 30px;">
+                                             <p class="subtitle">
+                                                <span class="big">Enfrentaremos reacciones fuertes en su funcionamiento diario.</span>
+                                             </p>
+                                             <hr class="no_line" style="margin: 0 auto 15px;">
+                                             <div style="text-align: left;">
+                                                <p style="background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;">
+                                                   Plan de pago
+                                                </p>
+                                                <p style="background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;">
+                                                   Pago inicial:  <strong>$ 500</strong>
+                                                </p>
+                                                <p style="background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;">
+                                                   Cuotas mensuales:  <strong>$ 250</strong>
+                                                </p>
+                                                <p style="background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;">
+                                                   Pago completo por adelantado:  <strong>$ 1350</strong>
+                                                </p>
+                                             </div>
+                                             <hr class="no_line" style="margin: 0 auto 15px;">
+                                             <div class="plan-footer">
+                                                <a href="https://cleon.mytherabook.com/home/login" class="button button_left button_theme button_js kill_the_icon"><span class="button_icon"><i class="icon-basket"></i></span><span class="button_label">Conseguir</span></a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
                               <div style="height: 2px; background: #484a7d;"></div>
                               <hr class="no_line hrmargin_b_30" />
                               <hr class="no_line hrmargin_b_30" />
@@ -383,17 +304,17 @@ include "config.php";
                         <hr class="no_line hrmargin_b_30" />
                         <hr class="no_line hrmargin_b_30" />
                         <div class="section the_content no_content">
-                        <div class="section_wrapper">
-                        <div class="the_content_wrapper"></div>
-                        </div>
+                           <div class="section_wrapper">
+                              <div class="the_content_wrapper"></div>
+                           </div>
                         </div>
                      </div>
                   </div>
                   </div>
                   </div>
-                   <!-- Apertura Footer -->
-                   <?php include "footer.php"; ?>
-                     <!-- Cierre Footer -->
+                  <!-- Apertura Footer -->
+                  <?php include "footer.php"; ?>
+                  <!-- Cierre Footer -->
                   </div>
                   <!-- JS -->
                   <script src="js/jquery-2.1.4.min.js"></script>
@@ -423,3 +344,4 @@ include "config.php";
                   </script>
                </body>
             </html>
+

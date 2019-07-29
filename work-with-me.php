@@ -1,11 +1,13 @@
+
+
 <?php
-// Cargamos el archivo de fijación de idioma
-include "lang.php";
-// Obtiene el nombre de la página actual
-include "check_url.php";
-// Cargamos archivo de configuraciones globales
-include "config.php";
-?>
+   // Cargamos el archivo de fijación de idioma
+   include "lang.php";
+   // Obtiene el nombre de la página actual
+   include "check_url.php";
+   // Cargamos archivo de configuraciones globales
+   include "config.php";
+   ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 ">
@@ -46,39 +48,35 @@ include "config.php";
                      background-color: #f0f1f2 !important;
                      }
                   </style>
-                   <style>
-            
-            #carousel {
-              position: relative;
-              width: 100%;
-              margin: 0 auto;
-            }
-            
-            #slides {
-              overflow: hidden;
-              position: relative;
-              width: 100%;
-              height: 250px;
-            }
-            
-            #slides ul {
-              list-style: none;
-              width: 100%;
-              height: 250px;
-              margin: 0;
-              padding: 0;
-              position: relative;
-            }
-            
-            #slides li {
-              width: 100%;
-              height: 250px;
-              float: left;
-              text-align: center;
-              position: relative;
-              font-family: lato, sans-serif;
-            }
-            </style>
+                  <style>
+                     #carousel {
+                     position: relative;
+                     width: 100%;
+                     margin: 0 auto;
+                     }
+                     #slides {
+                     overflow: hidden;
+                     position: relative;
+                     width: 100%;
+                     height: 250px;
+                     }
+                     #slides ul {
+                     list-style: none;
+                     width: 100%;
+                     height: 250px;
+                     margin: 0;
+                     padding: 0;
+                     position: relative;
+                     }
+                     #slides li {
+                     width: 100%;
+                     height: 250px;
+                     float: left;
+                     text-align: center;
+                     position: relative;
+                     font-family: lato, sans-serif;
+                     }
+                  </style>
                </head>
                <body class="style-simple layout-full-width mobile-tb-left button-stroke no-content-padding header-classic minimalist-header sticky-header sticky-white ab-hide subheader-title-left menuo-right menuo-no-borders footer-sliding footer-copy-center">
                   <!-- Main Theme Wrapper -->
@@ -119,9 +117,7 @@ include "config.php";
                         <!--Subheader area - only for certain pages -->
                         <div id="Subheader" style="padding:90px 0 70px;">
                            <div class="container">
-                              
-                                 <spam class="title" style="color:#ffffff; text-align: center !important;">Trabaja conmigo</spam>
-                              
+                              <spam class="title" style="color:#ffffff; text-align: center !important;"><?php echo $lang['work-with-me']['content_1']; ?></spam>
                            </div>
                         </div>
                      </div>
@@ -136,7 +132,7 @@ include "config.php";
                                        <!-- One Full Row-->
                                        <div class="column mcb-column one column_column column-margin-20px">
                                           <div class="column_attr">
-                                             <h2 style="display: inline-block; font-size: 40px; line-height: 50px; font-weight: 600; margin-right: 15px;">Aquí perteneces</h2>
+                                             <h2 style="display: inline-block; font-size: 40px; line-height: 50px; font-weight: 600; margin-right: 15px;"><?php echo $lang['work-with-me']['content_2']; ?></h2>
                                           </div>
                                        </div>
                                     </div>
@@ -144,7 +140,7 @@ include "config.php";
                                        <!-- One Full Row-->
                                        <div class="column mcb-column two column_column ">
                                           <div class="column_attr">
-                                             <h2 style="display: inline-block; font-size: 40px; line-height: 50px; font-weight: 600; margin-right: 15px;">Técnicas y estrategias terapéuticas:  </h2>
+                                             <h2 style="display: inline-block; font-size: 40px; line-height: 50px; font-weight: 600; margin-right: 15px;"><?php echo $lang['work-with-me']['content_3']; ?>:  </h2>
                                           </div>
                                        </div>
                                     </div>
@@ -160,28 +156,21 @@ include "config.php";
                                        <div class="column mcb-column one column_column">
                                           <div class="column_attr">
                                              <li class="big" style="font-size: 18px;font-weight: 400;line-height: 31px;">
-                                                <span style="font-weight: 700; font-size: 20px; color: #512a8a;">Imagina esto: </span>
+                                                <span style="font-weight: 700; font-size: 20px; color: #512a8a;"><?php echo $lang['work-with-me']['content_4']; ?>: </span>
                                                 <br>
-                                                Escoger su respuesta y no sólo reaccionar por dolor, miedo o ira.
-                                                Tener un antídoto secreto para todos los desafíos emocionales, interpersonales, profesionales y familiares que enfrentas. Tener relaciones sanas, íntimas y afectuosas.
+                                                <?php echo $lang['work-with-me']['content_5']; ?>
                                              </li>
                                              <hr class="no_line hrmargin_b_30" />
                                              <li class="big" style="font-size: 17px;line-height: 28px;">
-                                                Tengo algo para ti:
+                                                <?php echo $lang['work-with-me']['content_6']; ?>:
                                                 <br>
-                                                <span style="font-weight: 700; font-size: 20px; color: #512a8a;"> UN ARMA SECRETA</span>
+                                                <span style="font-weight: 700; font-size: 20px; color: #512a8a;"> <?php echo $lang['work-with-me']['content_7']; ?>:</span>
                                                 <br>
-                                                Un espacio para el 
-                                                <spam style="font-size: 16px;line-height: 26px;font-weight: 400;">reconocimiento genuino de tus desafíos internos </spam>
-                                                y en el que no te sentirás avergonzada o avergonzado por sufrir de trastorno por estrés postraumático.
-                                                <spam style="font-size: 16px;line-height: 26px;font-weight: 400;">Una hermana que es parte de tu familia escogida</spam>
-                                                y que se encuentra a un clic de distancia cuando se enfrenta a desafíos afectivos e incluso emergencias emocionales.
-                                                <spam style="font-size: 16px;line-height: 26px;font-weight: 400;">Un protocolo de tratamiento con las mejores herramientas</spam>
-                                                tecnológicas a tu servicio. Si deseas saber más sobre estas técnicas.
+                                                <?php echo $lang['work-with-me']['content_8']; ?>
                                              </li>
                                              <br>
                                              <div class="post-links"><i class="icon-doc-text"></i>
-                                                <a href="programs.html" class="post-more">Haga clic aquí</a>
+                                                <a href="programs.php<?php echo $idiom; ?>" class="post-more"><?php echo $lang['work-with-me']['content_9']; ?></a>
                                              </div>
                                              </p>
                                           </div>
@@ -205,19 +194,19 @@ include "config.php";
                                                    <div class="post-desc-wrapper">
                                                       <div class="post-desc">
                                                          <div class="post-title">
-                                                            <li class="entry-title" style="font-weight: 700; font-size: 20px; color: #512a8a;">Solo para comenzar: 
+                                                            <li class="entry-title" style="font-weight: 700; font-size: 20px; color: #512a8a;"><?php echo $lang['work-with-me']['content_10']; ?>: 
                                                             </li>
                                                          </div>
                                                          <br>
                                                          <div class="post-excerpt">
                                                             <p class="big" style="font-size: 17px;line-height: 25px;">
-                                                               Abordaremos un desafío específico que se está interponiendo en el camino para alcanzar tus metas.
+                                                               <?php echo $lang['work-with-me']['content_11']; ?>
                                                             </p>
                                                          </div>
                                                       </div>
                                                       <div class="post-footer">
                                                          <div class="post-links">
-                                                            <i class="icon-doc-text"></i><a href="programs.html" class="post-more">Más información aquí</a>
+                                                            <i class="icon-doc-text"></i><a href="programs.php<?php echo $idiom; ?>" class="post-more"><?php echo $lang['work-with-me']['content_link']; ?></a>
                                                          </div>
                                                          </div
                                                       </div>
@@ -230,20 +219,20 @@ include "config.php";
                                                       <div class="post-desc-wrapper">
                                                          <div class="post-desc">
                                                             <div class="post-title">
-                                                               <li class="entry-title" style="font-weight: 700; font-size: 20px; color: #512a8a;">Compromiso más profundo
+                                                               <li class="entry-title" style="font-weight: 700; font-size: 20px; color: #512a8a;"><?php echo $lang['work-with-me']['content_12']; ?>
                                                                </li>
                                                             </div>
                                                             <br>
                                                             <div class="post-excerpt">
                                                                <p class="big" style="font-size: 18px;line-height: 27px;">
-                                                                  Avanzaremos con 1 a 3 desafíos que has identificado como problemáticos y que representan un obstáculo para hacer realidad su sueño.
+                                                                  <?php echo $lang['work-with-me']['content_13']; ?>
                                                                </p>
                                                             </div>
                                                          </div>
                                                       </div>
-                                                       <div class="post-footer">
+                                                      <div class="post-footer">
                                                          <div class="post-links">
-                                                            <i class="icon-doc-text"></i><a href="programs.html" class="post-more">Más información aquí</a>
+                                                            <i class="icon-doc-text"></i><a href="programs.php<?php echo $idiom; ?>" class="post-more"><?php echo $lang['work-with-me']['content_link']; ?></a>
                                                          </div>
                                                          </div
                                                       </div>
@@ -252,26 +241,25 @@ include "config.php";
                                                       <div class="post-desc-wrapper">
                                                          <div class="post-desc">
                                                             <div class="post-title">
-                                                               <li class="entry-title" style="font-weight: 700; font-size: 20px; color: #512a8a;">Hasta el final: 
+                                                               <li class="entry-title" style="font-weight: 700; font-size: 20px; color: #512a8a;"><?php echo $lang['work-with-me']['content_14']; ?>: 
                                                                </li>
                                                             </div>
                                                             <br>
                                                             <div class="post-excerpt">
                                                                <p class="big" style="font-size: 18px;line-height: 27px;">
-                                                                  Enfrentaremos de 1 a 3 desafíos para aquellos que enfrentan reacciones fuertes que afectan profundamente su funcionamiento diario con consecuencias significativas y negativas
+                                                                  <?php echo $lang['work-with-me']['content_15']; ?>
                                                                </p>
-                                                                <div class="post-footer">
-                                                                 <div class="post-links">
-                                                                    <i class="icon-doc-text"></i><a href="programs.html" class="post-more">Más información aquí</a>
-                                                                 </div>
-                                                                </div>
+                                                               <div class="post-footer">
+                                                                  <div class="post-links">
+                                                                     <i class="icon-doc-text"></i><a href="programs.php<?php echo $idiom; ?>" class="post-more"><?php echo $lang['work-with-me']['content_link']; ?></a>
+                                                                  </div>
+                                                               </div>
                                                                <p class="big" style="font-size: 18px;line-height: 27px;">
                                                                   <br>
-                                                                  Estos paquetes se entregan con compasión, respeto, integridad y resultados específicos en mente. En ellos se combinan técnicas tradicionales y tecnología innovadora en el campo de la salud mental por un tercio del precio. ¿Por qué? Porque el trauma psicológico requiere, según mi experiencia, una combinación de estrategias para el cerebro, la mente y el cuerpo. Obtendremos los resultados que deseas y que necesitas para alcanzar tus metas; será tu arma secreta.
+                                                                  <?php echo $lang['work-with-me']['content_16']; ?>
                                                                </p>
                                                             </div>
-                                                            </div>
-                                                          </div>
+                                                         </div>
                                                       </div>
                                                    </div>
                                                 </div>
@@ -282,202 +270,91 @@ include "config.php";
                                  </div>
                               </div>
                            </div>
-                           <div class="section mcb-section mcb-section-jlo4hi97l dark equal-height-wrap" style="padding-top:0px; padding-bottom:130px;">
-                              <div class="section-decoration top" style="background-image:url(images/separador-linea-sinfondo2.png);height:135px">
-                              </div>
+                        </div>
+                        <div class="section mcb-section mcb-section-jlo4hi97l dark equal-height-wrap" style="padding-top:0px; padding-bottom:130px;">
+                           <div class="section-decoration top" style="background-image:url(images/separador-linea-sinfondo2.png);height:135px">
                            </div>
-                           <div class="section_wrapper mcb-section-inner">
-                              <div class="wrap mcb-wrap one clearfix">
-                                 <!-- One Full Row-->
-                                 <div class="column mcb-column one column_column column-margin-20px">
-                                    <div class="column_attr">
-                                       <h2 style="display: inline-block; font-size: 50px; line-height: 60px; font-weight: 600; margin-right: 15px;">Detalles del paquete</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="wrap mcb-wrap one clearfix">
-                                 <!-- One Full Row-->
-                              </div>
-                              <!-- One Second (1/2) Column -->
-                              <div class="wrap mcb-wrap one-second clearfix">
-                                 <!-- One Full Row-->
-                                 <div class="column mcb-column one column_column">
-                                    <div class="column_attr" style=" padding:0 5% 0 0;">
-                                       <p style="font-size: 16px;line-height: 26px;">Obtendrás herramientas específicas para ayudarte a desarrollar nuevos hábitos que respalden respuestas emocionales más sanas a problemas repetidos, como ansiedad, depresión, manejo de la ira, etc.
-                                       </p>
-                                       <hr class="no_line hrmargin_b_30" />
-                                    </div>
-                                    <p class="big" style="font-size: 16px;line-height: 26px;">Podrás abordar patrones de comportamiento interpersonales que no han tenido éxito en el pasado junto con nuevas estrategias con círculos sociales íntimos, como la familia y los amigos, y más distantes, como el trabajo.
-                                    </p>
-                                    <p class="big" style="font-size: 16px;line-height: 26px;">Podrá procesar las experiencias que te han llevado a enfrentar los desafíos diarios de manera poco saludable. En otras palabras, podrá trabajar directamente en la experiencia traumática.<br><br>
-                                       Como se mencionó anteriormente, el programa será personalizado para adaptarse a sus objetivos. Aquí están las áreas donde puedo proporcionar el mayor apoyo:
-                                    </p>
-                                 </div>
-                              </div>
-                              <div class="wrap mcb-wrap one-fourth clearfix">
-                                 <!-- One Full Row-->
-                                 <div class="column mcb-column one column_chart ">
-                                    <div class="chart_box">
-                                       <div class="chart" data-percent="100" data-color="#484a7d">
-                                          <div class="icon">
-                                             <i class="icon-cc-by"></i>
-                                          </div>
-                                       </div>
-                                       <p>
-                                       </p>
-                                    </div>
-                                 </div>
-                                 <!-- One Full Row-->
-                                 <div class="column mcb-column one column_column">
-                                    <div class="column_attr">
-                                       <p class="big" style="font-size: 15px;line-height: 26px;">
-                                          <span style="font-weight: 700; color: #512a8a;">-  Síntomas corporales:</span> reacciones relacionadas con la ansiedad, la depresión y el estrés, como la incapacidad para iniciar y mantener el sueño, reducir el tiempo de preocupación y las reacciones corporales, como dolores de estómago, dolores de cabeza, etc.
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="wrap mcb-wrap one-fourth clearfix">
-                                 <!-- One Full Row-->
-                                 <div class="column mcb-column one column_chart ">
-                                    <div class="chart_box">
-                                       <div class="chart" data-percent="100" data-color="#484a7d">
-                                          <div class="icon">
-                                             <i class="icon-heart-line"></i>
-                                          </div>
-                                       </div>
-                                       <p>
-                                       </p>
-                                    </div>
-                                 </div>
-                                 <!-- One Full Row-->
-                                 <div class="column mcb-column one column_column">
-                                    <div class="column_attr">
-                                       <p class="big" style="font-size: 15px;line-height: 26px;">
-                                          <span style="font-weight: 700; color: #512a8a;">-  Los síntomas psicológicos:</span> interpersonales y físicos, y abordan el trauma psicológico que provocó estos síntomas.
-                                       </p>
-                                    </div>
+                        </div>
+                        <div class="section_wrapper mcb-section-inner">
+                           <div class="wrap mcb-wrap one clearfix">
+                              <!-- One Full Row-->
+                              <div class="column mcb-column one column_column column-margin-20px">
+                                 <div class="column_attr">
+                                    <h2 style="display: inline-block; font-size: 50px; line-height: 60px; font-weight: 600; margin-right: 15px;"><?php echo $lang['work-with-me']['content_17']; ?></h2>
                                  </div>
                               </div>
                            </div>
-                            <hr class="no_line" style="margin: 0 auto 20px;">
-                               
-                                   <div class="section mcb-section " style="padding-top:40px; padding-bottom:0px; background-color:#f0f1f2">
-                                    <div class="section_wrapper mcb-section-inner">
-                                       <div class="wrap mcb-wrap one clearfix">
-                            <div class="section mcb-section" style="padding-top:30px; padding-bottom:50px; background-repeat:no-repeat;">
-                               <div class="column mcb-column one column_column">
-                                   <div class="column_attr align_center">
-                                       <h2>La gente habla</h2>
-                                          <hr class="hr_narrow hr_color">
+                           <div class="wrap mcb-wrap one clearfix">
+                              <!-- One Full Row-->
+                           </div>
+                           <!-- One Second (1/2) Column -->
+                           <div class="wrap mcb-wrap one-second clearfix">
+                              <!-- One Full Row-->
+                              <div class="column mcb-column one column_column">
+                                 <div class="column_attr" style=" padding:0 5% 0 0;">
+                                    <p style="font-size: 16px;line-height: 26px;">
+                                       <?php echo $lang['work-with-me']['content_18']; ?>
+                                    </p>
+                                    <hr class="no_line hrmargin_b_30" />
+                                 </div>
+                                 <p class="big" style="font-size: 16px;line-height: 26px;">
+                                    <?php echo $lang['work-with-me']['content_19']; ?>
+                                 </p>
+                                 <p class="big" style="font-size: 16px;line-height: 26px;">
+                                    <?php echo $lang['work-with-me']['content_20']; ?>
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="wrap mcb-wrap one-fourth clearfix">
+                              <!-- One Full Row-->
+                              <div class="column mcb-column one column_chart ">
+                                 <div class="chart_box">
+                                    <div class="chart" data-percent="100" data-color="#484a7d">
+                                       <div class="icon">
+                                          <i class="icon-cc-by"></i>
+                                       </div>
                                     </div>
-                               </div>
-                            </div>
-                                           <div id="carousel">
-                                        <div class="btn-bar">
-                                            <div id="buttons"><a id="prev" href="#"></a><a id="next" href="#"></a></div>
-                                        </div>
-                                        <div id="slides">
-                                            <ul>
-                                           <li class="slide">
-                                                <p class="carousel-caption">
-                                                    <div class="idea_box">
-                                                <div class="icon">
-                                                    <i class="icon-quote"></i>
-                                                </div>
-                                                    <div class="desc" style="font-size: 18px;line-height: 25px;">
-                                                           Carlina tiene una habilidad maravillosa para identificar desafíos complicados, trazar soluciones y lograr resultados designados que sirvieron para que los proyectos despegaran. Si bien es una pensadora crítica y un miembro del equipo orientado a la acción, Carlina también puede cambiar para ayudar a los equipos a procesar, crecer y aprender del trauma, el dolor y la marginación.
-                                                    </div>
-                                                    <br/>
-                                                    <span class="date"><span style="font-size: 24px;font-weight: 600; color: #5b258f;">Margaret Della</span></span>
-                                                        <br>
-                                                       <span style="font-size: 16px;font-weight: 400;line-height: 23px;line-height: 41px;font-style: italic;"> Directora ejecutiva - Kingsbridge Heights Community Center.</span>
-                                                        
-                                                </p>
-                                                </div>
-                                            </li>
-                                            <li class="slide">
-                                                <p class="carousel-caption">
-                                                    <div class="idea_box">
-                                                <div class="icon">
-                                                    <i class="icon-quote"></i>
-                                                </div>
-                                                    <div class="desc" style="font-size: 17.5px;line-height: 25px;">
-                                                           Carlina es una profesional dedicada y apasionada, que va más allá del deber. Tuve el placer de trabajar en estrecha colaboración con Carlina en un entorno sin fines de lucro, y puedo dar fe de su verdadero compromiso para garantizar el mejor interés si los que prestan servicios. Ella es culturalmente competente, sensible y altamente conocedora en el campo de la salud mental y servicios informados sobre traumas.
-                                                    </div>
-                                                    <br/>
-                                                    <span class="date"><span style="font-size: 24px;font-weight: 600; color: #5b258f;">Karina Aybar</span></span>
-                                                        <br>
-                                                       <span style="font-size: 16px;font-weight: 400;line-height: 23px;line-height: 41px;font-style: italic;"> Profesional en Practica Privada. Ex-comisionada de la Oficina de Derechos Humanos de la Ciudad de Nueva York.</span>
-                                                        
-                                                </p>
-                                                </div>
-                                            </li>
-                                            <li class="slide">
-                                                <p class="carousel-caption">
-                                                    <div class="idea_box">
-                                                <div class="icon">
-                                                    <i class="icon-quote"></i>
-                                                </div>
-                                                    <div class="desc" style="font-size: 18px;line-height: 25px;">
-                                                           Carlina es honesta, confiable e increíblemente trabajadora. Más allá de eso, tiene una impresionante ética de trabajo que siempre es tranquilizadora. Su conocimiento del trauma psicológico y la perspectiva de género y la experiencia en el cambio cultural fue una gran ventaja para nuestro programa.
-                                                    </div>
-                                                    <br/>
-                                                    <span class="date"><span style="font-size: 24px;font-weight: 600; color: #5b258f;">Ireen Ninonuevo</span></span>
-                                                        <br>
-                                                       <span style="font-size: 16px;font-weight: 400;line-height: 23px;line-height: 41px;font-style: italic;">  Profesional en Practica Privada. Ex-Directora del Programa Cambiando Futuros - Kingsbridge Heights Community Center.</span>
-                                                        
-                                                </p>
-                                                </div>
-                                            </li>
-                                              <li class="slide">
-                                                <p class="carousel-caption">
-                                                    <div class="idea_box">
-                                                <div class="icon">
-                                                    <i class="icon-quote"></i>
-                                                </div>
-                                                    <div class="desc" style="font-size: 18px;line-height: 25px;">
-                                                          Carlina L. demostró una comprensión del trabajo comunitario realizado en el programa Nuevo Amanecer a través de su capacidad para incorporar las implicaciones psicológicas, culturales, económicas, sociales y legales que afectan a nuestra población.
-                                                    </div>
-                                                    <br/>
-                                                    <span class="date"><span style="font-size: 24px;font-weight: 600;color: #5b258f;"> Karina Bernabe</span></span>
-                                                        <br>
-                                                       <span style="font-size: 16px;font-weight: 400;line-height: 23px;line-height: 41px;font-style: italic;">  Directora del Programa de Violencia Domestica. Centro del Desarrollo de la Mujer Dominicana.</span>
-                                                        
-                                                </p>
-                                                </div>
-                                            </li>
-                                            </ul>
-                                        </div>
-                                        </div>
-                                           <hr class="no_line" style="margin: 0 auto 80px;">
-                                           <!-- One Full Row-->
-                                          <div class="column mcb-column one column_column column-margin-20px">
-                                             <div class="column_attr">
-                                                <p style="font-size: 22px; line-height: 34px; color: #424242; font-weight: 400;">
-                                                   Encuentrame: <a style="font-size: 20px; font-weight: 600;" href="contact.html">contact info</a>, o reserva una cita aquí <a style="font-size: 20px; font-weight: 600;" target="_blank" rel="nofollow" href="https://itherapy.com/counselor/carlina-d-leon/">carlina-d-leon</a>
-                                                </p>
-                                             </div>
-                                          </div>
-                                           <div class="column mcb-column one column_column padding-bottom: 60px;s">
-                                             <div class="column_attr">
-                                                <div style="height: 1px; background: #484a7d;"></div>
-                                             </div>
-                                          </div>
-                                         </div>
+                                    <p>
+                                    </p>
+                                 </div>
+                              </div>
+                              <!-- One Full Row-->
+                              <div class="column mcb-column one column_column">
+                                 <div class="column_attr">
+                                    <?php echo $lang['work-with-me']['content_21']; ?>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="wrap mcb-wrap one-fourth clearfix">
+                              <!-- One Full Row-->
+                              <div class="column mcb-column one column_chart ">
+                                 <div class="chart_box">
+                                    <div class="chart" data-percent="100" data-color="#484a7d">
+                                       <div class="icon">
+                                          <i class="icon-heart-line"></i>
+                                       </div>
                                     </div>
-                                 
-                                 <div class="section the_content no_content">
-                                    <div class="section_wrapper">
-                                       <div class="the_content_wrapper"></div>
-                                    </div>
+                                    <p>
+                                    </p>
+                                 </div>
+                              </div>
+                              <!-- One Full Row-->
+                              <div class="column mcb-column one column_column">
+                                 <div class="column_attr">
+                                    <?php echo $lang['work-with-me']['content_22']; ?>
                                  </div>
                               </div>
                            </div>
                         </div>
-                     </div>
-                   <!-- Apertura Footer -->
-                   <?php include "footer.php"; ?>
-                     <!-- Cierre Footer -->
+                        <hr class="no_line" style="margin: 0 auto 20px;">
+                        <!-- testimonial -->
+                        <?php include "testimonial.php"; ?>
+                        <!-- Cierre testimonial -->
+                  </div>
+                  </div>
+                  <!-- Apertura Footer -->
+                  <?php include "footer.php"; ?>
+                  <!-- Cierre Footer -->
                   </div>
                   <!-- JS -->
                   <script src="js/jquery-2.1.4.min.js"></script>
@@ -505,78 +382,79 @@ include "config.php";
                          }
                      });
                   </script>
-                <script>
-        $(document).ready(function () {
-            //rotation speed and timer
-            var speed = 9000;
-            
-            var run = setInterval(rotate, speed);
-            var slides = $('.slide');
-            var container = $('#slides ul');
-            var elm = container.find(':first-child').prop("tagName");
-            var item_width = container.width();
-            var previous = 'prev'; //id of previous button
-            var next = 'next'; //id of next button
-            slides.width(item_width); //set the slides to the correct pixel width
-            container.parent().width(item_width);
-            container.width(slides.length * item_width); //set the slides container to the correct total width
-            container.find(elm + ':first').before(container.find(elm + ':last'));
-            resetSlides();
-            
-            
-            //if user clicked on prev button
-            
-            $('#buttons a').click(function (e) {
-                //slide the item
-                
-                if (container.is(':animated')) {
-                    return false;
-                }
-                if (e.target.id == previous) {
-                    container.stop().animate({
-                        'left': 0
-                    }, 8000, function () {
-                        container.find(elm + ':first').before(container.find(elm + ':last'));
-                        resetSlides();
-                    });
-                }
-                
-                if (e.target.id == next) {
-                    container.stop().animate({
-                        'left': item_width * -2
-                    }, 1500, function () {
-                        container.find(elm + ':last').after(container.find(elm + ':first'));
-                        resetSlides();
-                    });
-                }
-                
-                //cancel the link behavior            
-                return false;
-                
-            });
-            
-            //if mouse hover, pause the auto rotation, otherwise rotate it    
-            container.parent().mouseenter(function () {
-                clearInterval(run);
-            }).mouseleave(function () {
-                run = setInterval(rotate, speed);
-            });
-            
-            
-            function resetSlides() {
-                //and adjust the container so current is in the frame
-                container.css({
-                    'left': -1 * item_width
-                });
-            }
-            
-        });
-        //a simple function to click next link
-        //a timer will call this function, and the rotation will begin
-        
-        function rotate() {
-            $('#next').click();
-        }
-        </script>
+                  <script>
+                     $(document).ready(function () {
+                         //rotation speed and timer
+                         var speed = 9000;
+                         
+                         var run = setInterval(rotate, speed);
+                         var slides = $('.slide');
+                         var container = $('#slides ul');
+                         var elm = container.find(':first-child').prop("tagName");
+                         var item_width = container.width();
+                         var previous = 'prev'; //id of previous button
+                         var next = 'next'; //id of next button
+                         slides.width(item_width); //set the slides to the correct pixel width
+                         container.parent().width(item_width);
+                         container.width(slides.length * item_width); //set the slides container to the correct total width
+                         container.find(elm + ':first').before(container.find(elm + ':last'));
+                         resetSlides();
+                         
+                         
+                         //if user clicked on prev button
+                         
+                         $('#buttons a').click(function (e) {
+                             //slide the item
+                             
+                             if (container.is(':animated')) {
+                                 return false;
+                             }
+                             if (e.target.id == previous) {
+                                 container.stop().animate({
+                                     'left': 0
+                                 }, 8000, function () {
+                                     container.find(elm + ':first').before(container.find(elm + ':last'));
+                                     resetSlides();
+                                 });
+                             }
+                             
+                             if (e.target.id == next) {
+                                 container.stop().animate({
+                                     'left': item_width * -2
+                                 }, 1500, function () {
+                                     container.find(elm + ':last').after(container.find(elm + ':first'));
+                                     resetSlides();
+                                 });
+                             }
+                             
+                             //cancel the link behavior            
+                             return false;
+                             
+                         });
+                         
+                         //if mouse hover, pause the auto rotation, otherwise rotate it    
+                         container.parent().mouseenter(function () {
+                             clearInterval(run);
+                         }).mouseleave(function () {
+                             run = setInterval(rotate, speed);
+                         });
+                         
+                         
+                         function resetSlides() {
+                             //and adjust the container so current is in the frame
+                             container.css({
+                                 'left': -1 * item_width
+                             });
+                         }
+                         
+                     });
+                     //a simple function to click next link
+                     //a timer will call this function, and the rotation will begin
+                     
+                     function rotate() {
+                         $('#next').click();
+                     }
+                  </script>
                </body>
             </html>
+
