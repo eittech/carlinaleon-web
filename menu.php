@@ -64,7 +64,7 @@
                 <li style="display:block;" class="nav-item dropdown hidden-xs hidden-sm submenu last" id="li_language">
                     <a class="nav-link smooth-scroll dropdown-toggle count-info page-scroll" data-toggle="dropdown" href="#" title="Idioma">
                         <!--<img src="images/language.png">-->
-                        <span class="label label-warning" id="span_num_respuestas">Language</span>
+                        <span class="label label-warning" id="span_num_respuestas"><?php echo $lang['menu']['url_7']; ?></span>
                     </a>
                     <ul class="dropdown-menu" style="background-color: rgb(93, 104, 174) !important; color: rgb(255, 255, 255) !important; display: none;">
                         <li hidden <?php if($idiom_active == "pt"){ echo "hidden"; } ?>>

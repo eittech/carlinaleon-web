@@ -89,7 +89,7 @@
                 <?php echo $lang['home']['content_test_9']; ?>
                 </div>
             </div>
-            <div class="column mcb-column one column_column padding-bottom: 60px;s">
+            <div class="column mcb-column one column_column padding-bottom: 60px;">
                 <div class="column_attr">
                 <div style="height: 1px; background: #484a7d;"></div>
                 </div>

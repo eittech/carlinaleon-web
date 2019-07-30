@@ -150,7 +150,7 @@
                                           <div class="column mcb-column one column_hover_color ">
                                              <div class="hover_color" style="background:#5b258f;">
                                                 <div class="hover_color_bg" style="background:#7530B6;">
-                                                   <a href="about.php">
+                                                   <a href="about.php<?php echo $idiom; ?>">
                                                       <div class="hover_color_wrapper">
                                                          <div style="text-align: right; font-size: 20px; color: #ffffff; font-weight: 600;">
                                                             <i style="margin-right: 7px;" class="icon icon-right-circled"></i><?php echo $lang['home']['content_3']; ?>
@@ -188,7 +188,7 @@
                                                             <div class="column mcb-column mcb-item-lam3v9tjy one column_image">
                                                                <div class="animate zoomIn" data-anim-type="zoomIn">
                                                                   <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                                     <div class="image_wrapper"><img class="scale-with-grid" src="images/home-chat1.png">
+                                                                     <div class="image_wrapper"><img class="scale-with-grid" src="images/home-chat1-<?php if(isset($_GET['lang']) == ""){ echo "en"; }else{echo $_GET['lang'];} ?>.png">
                                                                      </div>
                                                                   </div>
                                                                </div>
@@ -204,7 +204,7 @@
                                                             <div class="column mcb-column mcb-item-opqw5qzjt one column_image">
                                                                <div class="animate zoomIn" data-anim-type="zoomIn">
                                                                   <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                                     <div class="image_wrapper"><img class="scale-with-grid" src="images/home-chat2.png">
+                                                                     <div class="image_wrapper"><img class="scale-with-grid" src="images/home-chat2-<?php if(isset($_GET['lang']) == ""){ echo "en"; }else{echo $_GET['lang'];} ?>.png">
                                                                      </div>
                                                                   </div>
                                                                </div>
@@ -456,7 +456,7 @@
                                           <?php echo $lang['home']['content_19']; ?>
                                           <a href="suscribete-1.php"  target="_blank" rel="nofollow">   
                                           <button data-hover="Suscribete" class="mfn-link mfn-link-5" style="margin: 10% 33% !important;">
-                                          Suscribete
+                                          <?php echo $lang['home']['button']; ?>
                                           </button>
                                           </a>
                                        </div>
@@ -467,7 +467,7 @@
                                           <?php echo $lang['home']['content_20']; ?>
                                           <a href="suscribete-1.php"  target="_blank" rel="nofollow">   
                                           <button data-hover="Suscribete" class="mfn-link mfn-link-5" style="margin: 10% 33% !important;">
-                                          Suscribete
+                                          <?php echo $lang['home']['button']; ?>
                                           </button>
                                           </a>
                                        </div>

@@ -3,7 +3,7 @@
 // Textos de datos
 
 // programs
-$lang['programs']['content_1'] = "Programas";
+$lang['programs']['content_1'] = "Programs";
 $lang['programs']['content_2'] = "<p style= \"display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;\">Solo para comenzar</p>
                                     <ul style=\"font-size: 17px;\">
                                     Abordaremos un desafío específico que se está interponiendo en el camino para alcanzar tus metas.
@@ -67,22 +67,22 @@ $lang['programs']['content_6'] = "<h4 style=\"margin-bottom: 5px;\">Para comenza
                                     </p>
                                     <hr style=\"margin: 0 auto 30px;\">
                                     <p class=\"subtitle\">
-                                    <span class=\"big\">Abordaremos un desafío específico para alcanzar tus metas.
+                                    <span class=\"big\">One specific challenge that’s getting in the way of achieving your goals.
                                     </span>
                                     </p>
                                     <hr class=\"no_line\" style=\"margin: 0 auto 15px;\">
                                     <div style=\"text-align: left;\">
                                     <p style=\"background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;\">
-                                        Plan de pago
+                                        Payment plan
                                     </p>
                                     <p style=\"background: url(content/product4/images/home_product4_pic12.png) no-repeat left 4px; padding-left: 25px;\">
-                                        Pago inicial:  <strong>$ 100</strong>
+                                        Down payment:  <strong>$ 100</strong>
                                     </p>
                                     <p style=\"background: url(content/product4/images/home_product4_pic12.png) no-repeat left 4px; padding-left: 25px;\">
-                                        Cuotas mensuales:  <strong>$ 30</strong>
+                                        Installments:  <strong>$ 30</strong>
                                     </p>
                                     <p style=\"background: url(content/product4/images/home_product4_pic12.png) no-repeat left 4px; padding-left: 25px;\">
-                                        Pago completo por adelantado:  <strong>$ 225</strong>
+                                        Full payment up front:  <strong>$ 225</strong>
                                     </p>
                                     </div>
                                     <hr class=\"no_line\" style=\"margin: 0 auto 15px;\">
@@ -96,22 +96,22 @@ $lang['programs']['content_7'] = "<h4 style=\"margin-bottom: 5px;\">Comprometido
                                     </p>
                                     <hr style=\"margin: 0 auto 30px;\">
                                     <p class=\"subtitle\">
-                                    <span class=\"big\"> Avanzaremos con 1 a 3 desafíos para hacer realidad su sueño.
+                                    <span class=\"big\"> 1 to 3 challenges you have identified as problematic and an obstacle that prevents your dream from coming true.
                                     </span>
                                     </p>
                                     <hr class=\"no_line\" style=\"margin: 0 auto 15px;\">
                                     <div style=\"text-align: left;\">
                                     <p style=\"background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;\">
-                                        Plan de pago
+                                        Payment plan
                                     </p>
                                     <p style=\"background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;\">
-                                        Pago inicial:  <strong>$ 250</strong>
+                                        Down payment:  <strong>$ 250</strong>
                                     </p>
                                     <p style=\"background: url(content/product4/images/home_product4_pic12.png) no-repeat left 4px; padding-left: 25px;\">
-                                        Cuotas mensuales:  <strong>$ 50</strong>
+                                        Installments:  <strong>$ 50</strong>
                                     </p>
                                     <p style=\"background: url(content/product4/images/home_product4_pic12.png) no-repeat left 4px; padding-left: 25px;\">
-                                        Pago completo por adelantado:  <strong>$ 585</strong>
+                                        Full payment up front:  <strong>$ 585</strong>
                                     </p>
                                     </div>
                                     <hr class=\"no_line\" style=\"margin: 0 auto 15px;\">
@@ -125,32 +125,32 @@ $lang['programs']['content_8'] = "<h4 style=\"margin-bottom: 5px;\">Hasta el fin
                                     </p>
                                     <hr style=\"margin: 0 auto 30px;\">
                                     <p class=\"subtitle\">
-                                    <span class=\"big\">Enfrentaremos reacciones fuertes en su funcionamiento diario.</span>
+                                    <span class=\"big\">1 to 3 challenges for those who are dealing with strong reactions that profoundly affect their daily functioning with meaningful, negative consequences.</span>
                                     </p>
                                     <hr class=\"no_line\" style=\"margin: 0 auto 15px;\">
                                     <div style=\"text-align: left;\">
                                     <p style=\"background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;\">
-                                        Plan de pago
+                                        Payment plan
                                     </p>
                                     <p style=\"background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;\">
-                                        Pago inicial:  <strong>$ 500</strong>
+                                        Down payment:  <strong>$ 500</strong>
                                     </p>
                                     <p style=\"background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;\">
-                                        Cuotas mensuales:  <strong>$ 250</strong>
+                                        Installments:  <strong>$ 250</strong>
                                     </p>
                                     <p style=\"background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;\">
-                                        Pago completo por adelantado:  <strong>$ 1350</strong>
+                                        Full payment up front:  <strong>$ 1350</strong>
                                     </p>
                                     </div>
                                     <hr class=\"no_line\" style=\"margin: 0 auto 15px;\">
                                     <div class=\"plan-footer\">
                                     <a href=\"https://cleon.mytherabook.com/home/login\" class=\"button button_left button_theme button_js kill_the_icon\"><span class=\"button_icon\"><i class=\"icon-basket\"></i></span><span class=\"button_label\">Conseguir</span></a>
                                     </div>";
-$lang['programs']['content_9'] = "Probablemente estás pensando";
-$lang['programs']['content_10'] = "Pero ...  ¿qué tal si esto no funciona en mi caso?";
-$lang['programs']['content_11'] = "¡SI VA A FUNCIONAR!";
-$lang['programs']['content_12'] = "Sé que has intentado muchas estrategias diferentes para superar estos desafíos, y parece inútil intentar otra cosa. Sin embargo, en mi experiencia, este es un proceso que requiere que enfrentes un desafío a la vez. He apoyado a muchos pacientes y sé que es posible recuperarse de un trauma psicológico.";
-$lang['programs']['content_13'] = "Si desea conocer mi experiencia profesional, haga clic aquí";
+$lang['programs']['content_9'] = "You are probably thinking";
+$lang['programs']['content_10'] = "But … what if this doesn’t work for me?";
+$lang['programs']['content_11'] = "¡It will!";
+$lang['programs']['content_12'] = "I know you have tried many different strategies to overcome these challenges, and it feels hopeless to try something else. However, in my experience, this is a journey that requires one challenge at a time. I have supported many patients, and I know recovery from psychological trauma is possible.";
+$lang['programs']['content_13'] = "If you want to know about my professional background, click here";
 
 
 ?>
