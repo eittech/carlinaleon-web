@@ -24,9 +24,9 @@ $lang['home']['content_9'] = "<p style='display: inline-block; font-size: 19px; 
                                 , o muy triste, o muy ansiosa / ansioso, o una combinación de estos sentimientos.
                                 </p>";
 $lang['home']['content_10'] = "<p style='display: inline-block; font-size: 19px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;'>
-                                Muy 
-                                <spam style='color: #5b258f;'>enojada / enojado</spam>
-                                , o muy triste, o muy ansiosa / ansioso, o una combinación de estos sentimientos.
+                                                                
+                                <spam style='color: #5b258f;'></spam>
+                                Que realmente no perteneces en ningún lugar y que nadie puede realmente “entenderte”
                                 </p>";
 $lang['home']['content_11'] = "<p style='display: inline-block; font-size: 19px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;'>
                                 Con temor que posiblemente
