@@ -37,7 +37,7 @@ $lang['about']['content_7'] = "<p style=\"display: inline-block; color: #6b7a6b;
                                 fearful of disasters and maybe a failure.
                                 </p>";
 $lang['about']['content_8'] = "<p style=\"display: inline-block; color: #6b7a6b; margin: 0;  font-size: 19px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;\">
-                                <spam style=\"color: #02252d\"> Desesperada/desesperado</spam>
+                                <spam style=\"color: #02252d\"> </spam>
                                 are beating yourself up because of your inability to “forgive and forget.”
                                 </p>";
 $lang['about']['content_9'] = "<h2>Let me be your proverbial big sister</h2>
@@ -47,27 +47,27 @@ $lang['about']['content_9'] = "<h2>Let me be your proverbial big sister</h2>
                                 </p>";
 $lang['about']['content_10'] = "Your voice deserves to be heard";
 $lang['about']['content_11'] = "<p style=\"font-size: 16px;line-height: 26px;font-weight: 400;\">
-                                <spam style=\"color: #5b268d\"> Me apasiona</spam>
-                                ayudar a las y los sobrevivientes porque puedo presenciar de primera mano la increíble capacidad de recuperación. Creo que el milagro de convertirnos en quienes queremos ser es posible.
+                                <spam style=\"color: #5b268d\"> I love</spam>
+                                helping survivors because I get to witness firsthand the amazing capacity to recovery. I believe that the miracle of becoming who we want to be is possible.
                                 <br><br>
-                                <spam style=\"color: #5b268d\">Creo -genuinamente- que no importa en absoluto de dónde vienes</spam>
-                                o, mejor aún, por lo que has pasado, tu te puedes recuperar.
+                                <spam style=\"color: #5b268d\">I believe -truly believe- it doesn’t matter at all where you come from</spam>
+                                or better yet what you have been through.
                                 <br>
                                 <br>
                                 </p>";
 $lang['about']['content_12'] = "<p style=\"font-size: 16px;line-height: 26px;font-weight: 400;\">
-                                No significa que el camino sea igual para todas y todos.
+                                It doesn’t mean the road will be same for everyone.
                                 <br>
                                 <br>
-                                Algunas y algunos de ustedes tendrán un camino más desafiante y difícil por delante, pero la capacidad de recuperación está presente para cada quien.
+                                Some of you will have a more challenging and difficult path ahead of you, but we all have the capacity to improve our lives.
                                 <br>
-                                <spam style=\"color: #5b268d\">¿Por que me decidí a realizar este trabajo con esta comunidad?</spam>
+                                <spam style=\"color: #5b268d\">¿How come I started on this journey to support this community?</spam>
                                 </p>";
 $lang['about']['content_13'] = "<p style=\"font-size: 16px;line-height: 26px;font-weight: 400;\"> 
-                                Este es mi compromiso: diseñar un protocolo de tratamiento creado exclusivamente para tus necesidades y objetivos, con los RESULTADOS que siempre soñaste para ti y para tu vida.
+                                This is my commitment: I want to design a treatment protocol that is uniquely created for your needs and goals, with the RESULTS you always dreamed for yourself and your life.
                                 <br>
                                 <br>
-                                Establezco que mi propósito en todo momento es ser una bendición y dejar todo y todos en mejores condiciones que como las encontré.
+                                I declare as my purpose at all times is to be a blessing and leave everything and everyone in better condition than I found it.
                                 </p>";
 $lang['about']['content_14'] = "Three fun facts about me";
 $lang['about']['content_15'] = "There was a running joke with my friends and family that I was like Wendy from Bob the Builder because I love construction work.";

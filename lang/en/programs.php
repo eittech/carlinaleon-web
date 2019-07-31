@@ -4,63 +4,63 @@
 
 // programs
 $lang['programs']['content_1'] = "Programs";
-$lang['programs']['content_2'] = "<p style= \"display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;\">Solo para comenzar</p>
+$lang['programs']['content_2'] = "<p style= \"display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;\">Getting my feet wet</p>
                                     <ul style=\"font-size: 17px;\">
-                                    Abordaremos un desafío específico que se está interponiendo en el camino para alcanzar tus metas.
+                                    One specific challenge that’s getting in the way of achieving your goals.
                                     <br>
                                     <br>
-                                    Estrategia diseñada exclusivamente para tu desafío.
+                                    A uniquely designed strategy challenge.
                                     <br>
-                                    Acceso al banco de estrategias “Para crecer en las dificultades”.
+                                    Access to the “Rising to the Challenge” strategies bank”.
                                     <br>
                                     <br>
-                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 3</span> sesiones en línea: para procesar los obstáculos que se han presentado al utilizar las estrategias del banco de estrategias.<br><br>
-                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 1</span> sesión de emergencia en línea - Después de todo, soy parte de tu familia escogida.<br><br>
-                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 1</span> sesión de desensibilización y reprocesamiento de movimientos oculares (EMDR) (*): para acelerar el proceso de recuperación.<br>
+                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 3</span> online sessions - To process all those changes and obstacles to change when using the “Rising to the Challenge” strategies bank techniques.<br><br>
+                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 1</span> emergency online session - After all, I am your proverbial sister.<br><br>
+                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 1</span> eye movement desensitization and reprocessing (EMDR) session (*) - to accelerate the recovery process.<br>
                                     <br>
                                     <br>
                                     </ul>";
-$lang['programs']['content_3'] = "<p style=\"display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;\">Compromiso más profundo</p>
+$lang['programs']['content_3'] = "<p style=\"display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;\">Deeper commitment</p>
                                     <ul style=\"font-size: 17px;\">
-                                    Avanzaremos con 1 a 3 desafíos que has identificado como problemáticos y que representan un obstáculo para hacer realidad su sueño.
+                                    1 to 3 challenges you have identified as problematic and an obstacle that prevents your dream from coming true.
                                     <br>
                                     <br>
-                                    Estrategia diseñada exclusivamente para tu desafío.
+                                    Uniquely designed strategy challenge.
                                     <br>
-                                    Acceso al banco de estrategias “Para crecer en las dificultades”.
+                                    Access to the “Rising to the Challenge” strategies bank.
                                     <br>
                                     <br>
-                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 6</span> sesiones en línea: para procesar los obstáculos que se han presentado al utilizar las estrategias del banco de estrategias.<br><br>
-                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 1</span> sesión de emergencia en línea - Después de todo, soy parte de tu familia escogida.<br><br>
-                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 4</span> sesiones de EMDR (*)
+                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 6</span> online sessions.<br><br>
+                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 1</span> emergency online session.<br><br>
+                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 4</span> EMDR sessions (*)
                                     <spam style=\"font-weight: 500; color: #5b268d;\"> (EYE MOVEMENT DESENSITIZATION AND REPROCESSING)</spam>
-                                    por sus siglas en inglés.
+
                                     <br>
                                     <br>
                                     </ul>";
-$lang['programs']['content_4'] = "<p style=\"display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;\">Hasta el final</p>
+$lang['programs']['content_4'] = "<p style=\"display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;\">All the way</p>
                                     <ul style=\"font-size: 17px;\">
-                                    Enfrentaremos de 1 a 3 desafíos para aquellos que enfrentan reacciones fuertes que afectan profundamente su funcionamiento diario con consecuencias significativas y negativas.
+                                    1 to 3 challenges for those who are dealing with strong reactions that profoundly affect their daily functioning with meaningful, negative consequences.
                                     <br>
                                     <br>
-                                    Estrategia diseñada exclusivamente para tu desafío.
+                                    Uniquely designed strategy challenge.
                                     <br>
-                                    Acceso al banco de estrategias “Para crecer en las dificultades”.
+                                    Access to the “Rising to the Challenge” strategies bank.
                                     <br>
                                     <br>
-                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 10</span> sesiones online<br><br>
-                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 2</span> sesiones de emergencia en línea<br><br>
-                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 4</span> sesiones de EMDR (*)<br><br>
-                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 22</span> sesiones de Neurofeedback (*) - para profundizar el control de sus respuestas psicológicas.<br><br>
+                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 10</span> online sessions<br><br>
+                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 2</span> emergency online sessions<br><br>
+                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 4</span> EMDR sessions (*)<br><br>
+                                    <img style=\"margin-left: -20px !important;width: 10px;\" class=\"p-img\" src=\"images/icons/list_check.png\" /><span style=\"font-weight: 700; font-size: 20px; color: #2edacd;\"> 22</span> Neurofeedback sessions (*) - to deepen control of your psychological responses.<br><br>
                                     <br>
                                     <br>
                                     </ul>
                                     ";
-$lang['programs']['content_5'] = "<p style=\"font-size: 18px; font-weight: 600; line-height: 35px; color: #6b7c93;\">(*) Estas son técnicas relativamente nuevas para tratar el trauma   psicológico. Si desea escuchar y leer más,<a target=\"_blank\" rel=\"nofollow\" href=\"tecnicas.html\" style=\"color: #512a8a;\"> haga clic aquí.</a>
+$lang['programs']['content_5'] = "<p style=\"font-size: 18px; font-weight: 600; line-height: 35px; color: #6b7c93;\">(*) These are relatively new techniques to address psychological trauma. If you would like to hear and read more,<a target=\"_blank\" rel=\"nofollow\" href=\"tecnicas.html\" style=\"color: #512a8a;\"> click here.</a>
                                     <br>
-                                    Si la idea de comprometerte con un programa parece complicada, podemos planificar sesiones individuales semanales a un costo de <span style= \"font-weight: 700; font-size: 20px; color: #512a8a;\"> <a href=\"https://cleon.mytherabook.com/home/login\"> $80.</a></span>
+                                    Still not sure about a program? If you would like regular weekly sessions, no problem! You can book a 50 min session for <span style= \"font-weight: 700; font-size: 20px; color: #512a8a;\"> <a href=\"https://cleon.mytherabook.com/home/login\"> $80.</a></span>
                                     </p>";
-$lang['programs']['content_6'] = "<h4 style=\"margin-bottom: 5px;\">Para comenzar</h4>
+$lang['programs']['content_6'] = "<h4 style=\"margin-bottom: 5px;\">Getting my feet wet</h4>
                                     <h3 class=\"themecolor\">$250</h3>
                                     <p>
                                     Total
@@ -87,9 +87,9 @@ $lang['programs']['content_6'] = "<h4 style=\"margin-bottom: 5px;\">Para comenza
                                     </div>
                                     <hr class=\"no_line\" style=\"margin: 0 auto 15px;\">
                                     <div class=\"plan-footer\">
-                                    <a href=\"https://cleon.mytherabook.com/home/login\" class=\"button button_left button_theme button_js kill_the_icon\"><span class=\"button_icon\"><i class=\"icon-basket\"></i></span><span class=\"button_label\">Conseguir</span></a>
+                                    <a href=\"https://cleon.mytherabook.com/home/login\" class=\"button button_left button_theme button_js kill_the_icon\"><span class=\"button_icon\"><i class=\"icon-basket\"></i></span><span class=\"button_label\">Find</span></a>
                                     </div>";
-$lang['programs']['content_7'] = "<h4 style=\"margin-bottom: 5px;\">Comprometido</h4>
+$lang['programs']['content_7'] = "<h4 style=\"margin-bottom: 5px;\">Deeper commitment</h4>
                                     <h3 class=\"themecolor\">$650</h3>
                                     <p>
                                     Total
@@ -116,9 +116,9 @@ $lang['programs']['content_7'] = "<h4 style=\"margin-bottom: 5px;\">Comprometido
                                     </div>
                                     <hr class=\"no_line\" style=\"margin: 0 auto 15px;\">
                                     <div class=\"plan-footer\">
-                                    <a href=\"https://cleon.mytherabook.com/home/login\" class=\"button button_left button_theme button_js kill_the_icon\"><span class=\"button_icon\"><i class=\"icon-basket\"></i></span><span class=\"button_label\">Conseguir</span></a>
+                                    <a href=\"https://cleon.mytherabook.com/home/login\" class=\"button button_left button_theme button_js kill_the_icon\"><span class=\"button_icon\"><i class=\"icon-basket\"></i></span><span class=\"button_label\">Find</span></a>
                                     </div>";
-$lang['programs']['content_8'] = "<h4 style=\"margin-bottom: 5px;\">Hasta el final</h4>
+$lang['programs']['content_8'] = "<h4 style=\"margin-bottom: 5px;\">All the way</h4>
                                     <h3 class=\"themecolor\">$1500</h3>
                                     <p>
                                     Total
@@ -144,7 +144,7 @@ $lang['programs']['content_8'] = "<h4 style=\"margin-bottom: 5px;\">Hasta el fin
                                     </div>
                                     <hr class=\"no_line\" style=\"margin: 0 auto 15px;\">
                                     <div class=\"plan-footer\">
-                                    <a href=\"https://cleon.mytherabook.com/home/login\" class=\"button button_left button_theme button_js kill_the_icon\"><span class=\"button_icon\"><i class=\"icon-basket\"></i></span><span class=\"button_label\">Conseguir</span></a>
+                                    <a href=\"https://cleon.mytherabook.com/home/login\" class=\"button button_left button_theme button_js kill_the_icon\"><span class=\"button_icon\"><i class=\"icon-basket\"></i></span><span class=\"button_label\">Find</span></a>
                                     </div>";
 $lang['programs']['content_9'] = "You are probably thinking";
 $lang['programs']['content_10'] = "But … what if this doesn’t work for me?";

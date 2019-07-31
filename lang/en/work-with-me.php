@@ -3,7 +3,7 @@
 // Textos de datos
 
 // About
-$lang['work-with-me']['content_link'] = "Más información aquí";
+$lang['work-with-me']['content_link'] = "More information here";
 $lang['work-with-me']['content_1'] = "Work with me";
 $lang['work-with-me']['content_2'] = "You belong here";
 $lang['work-with-me']['content_3'] = "Therapeutic techniques and strategies";

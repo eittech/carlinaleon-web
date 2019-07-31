@@ -3,8 +3,8 @@
 // Textos de datos
 
 // forense
-$lang['forense']['content_1'] = "Evaluación Psicológica";
-$lang['forense']['content_2'] = "Para casos de Inmigración";
+$lang['forense']['content_1'] = "Psychological evaluation";
+$lang['forense']['content_2'] = "For Immigration cases";
 $lang['forense']['content_3'] = "Many immigrants agree that relating their experiences—which are often intimate—can feel painful or shaming. Forensic evaluations can help you transmit this difficult information, becoming the bridge between your experiences and the decision maker in the case (immigration court or adjudicator). I understand that much may be at stake for both you and your family, and I am here to support you in this process. In conducting evaluations, I am always thorough, professional, and respectful of your own pace.";
 $lang['forense']['content_4'] = "I work for the following cases";
 $lang['forense']['content_5'] = "VAWA";
@@ -18,7 +18,7 @@ $lang['forense']['content_12'] = "Relief for victims of criminal activity.";
 $lang['forense']['content_13'] = "Relief for victims of human trafficking.";
 $lang['forense']['content_14'] = "Protection granted by the United States government to someone who has left their native country as a political refugee.";
 $lang['forense']['content_15'] = "My forensic evaluation work consists of a combination of online and face-to-face sessions in order to guarantee a thorough assessment at a reasonable price. I work directly with your lawyer, providing her/him constant feedback to make sure your case gathers as much evidence as possible. This evaluation is by no means intended to falsify or devalue what you went through, but rather to provide the appropriate context to understand and convey the gravity of your experiences.";
-$lang['forense']['content_16'] = "¿En qué consisten las evaluaciones forenses con fines de imigración?";
+$lang['forense']['content_16'] = "¿What are forensic assessments for immigration purposes?";
 $lang['forense']['content_17'] = "Orientation for best practices before and while the examinee is going through the evaluation process.";
 $lang['forense']['content_18'] = "Recollection and organization of all information provided by the examinee.";
 $lang['forense']['content_19'] = "Revision of all relevant documents.";
