@@ -44,6 +44,7 @@
                   <link rel='stylesheet' href='css/copywriter.css'>
                   <link rel='stylesheet' href='css/custom.css'>
                   <link rel='stylesheet' href='css/popup.css'>
+                  <link rel='stylesheet' href='css/media_screen/forense.css'>
                   <style>
                      #carousel {
                      position: relative;
@@ -134,7 +135,7 @@
                                           <!-- One Full Row-->
                                           <div class="column mcb-column one column_column">
                                              <div class="column_attr">
-                                                <p style="display: inline-block; color: #E1DEDE margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 100px 10px !important;">
+                                                <p style="display: inline-block; color: #E1DEDE margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 0px 10px !important;">
                                                    <?php echo $lang['forense']['content_3']; ?>
                                                 </p>
                                              </div>

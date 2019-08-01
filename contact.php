@@ -43,6 +43,7 @@
                   <link rel='stylesheet' href='css/structure-copywriter.css'>
                   <link rel='stylesheet' href='css/copywriter.css'>
                   <link rel='stylesheet' href='css/custom.css'>
+                  <link rel='stylesheet' href='css/media_screen/contact.css'>
                </head>
                <body class="style-simple layout-full-width mobile-tb-left button-stroke no-content-padding header-classic minimalist-header sticky-header sticky-white ab-hide subheader-title-left menuo-right menuo-no-borders footer-sliding footer-copy-center">
                   <!-- Main Theme Wrapper -->
@@ -230,76 +231,9 @@
                            </div>
                         </div>
                      </div>
-                     <!-- Footer-->
-                     <footer id="Footer" class="clearfix">
-                        <!-- Footer - First area -->
-                        <div class="footer_action">
-                           <div class="container">
-                              <!-- One full width row-->
-                              <div class="column one column_column">
-                                 <span style="font-size: 26px; line-height: 26px;"><?php echo $lang['contact']['content_17']; ?></span>
-                                 <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.linkedin.com/in/carlinaleon/?locale=en_US"><i class="icon-linkedin-circled"></i></a>
-                                 <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.facebook.com/carlinadesireel"><i class="icon-facebook-circled"></i></a>
-                                 <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://twitter.com/carlinadla"><i class="icon-twitter-circled"></i></a>
-                                 <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.youtube.com/channel/UC8pfQxG2YhEErtxr7O0W-5A?view_as=subscriber"><i class="icon-youtube"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                        <!-- links finales mas glosario 
-                           <div class="widgets_wrapper">
-                              <div class="container">
-                                 
-                                 <div class="column one-fourth">
-                                    
-                                    <aside id="meta-2" class="widget widget_meta">
-                                       <h4>Enlaces Adicionales</h4>
-                                     </aside>
-                                 </div>
-                                 
-                                 <div class="column one-fourth">
-                                     <aside id="meta-2" class="widget widget_meta">
-                                         <ul>
-                                          <li>
-                                             <a href="tecnicas.html" style="font-size: 17px;line-height: 21px;font-weight: 500;">Terminos y Condiciones</a>
-                                          </li>
-                                         </ul>
-                                    </aside>
-                                 </div>
-                                 
-                                 <div class="column one-fourth">
-                                   <aside id="meta-2" class="widget widget_meta">
-                                        <ul>
-                                            <li>
-                                             <a href="tecnicas.html" style="font-size: 17px;line-height: 21px;font-weight: 500;">Documentos Tecnicos</a>
-                                          </li>
-                                       </ul>
-                                    </aside>
-                                 </div>
-                                 
-                                 <div class="column one-fourth">
-                                     <aside id="meta-2" class="widget widget_meta">
-                                        <ul>
-                                          <li>
-                                             <a href="tecnicas.html" style="font-size: 17px;line-height: 21px;font-weight: 500;">Glosario</a>
-                                          </li>
-                                       </ul>
-                                    </aside>
-                                 </div>
-                              </div>
-                           </div>-->
-                        <!-- Footer copyright-->
-                        <div class="footer_copy">
-                           <div class="container">
-                              <div class="column one">
-                                 <div class="copyright">
-                                    &copy; 2019 Carlina Leon - Powered by <a target="_blank" rel="nofollow" href="http://eittech.net">eittech</a>
-                                 </div>
-                                 <!--Social info area-->
-                                 <ul class="social"></ul>
-                              </div>
-                           </div>
-                        </div>
-                     </footer>
+                     <!-- Apertura Footer -->
+                     <?php include "footer.php"; ?>
+                     <!-- Cierre Footer -->
                   </div>
                   <!-- JS -->
                   <script src="js/jquery-2.1.4.min.js"></script>

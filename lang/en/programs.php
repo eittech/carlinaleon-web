@@ -5,7 +5,7 @@
 // programs
 $lang['programs']['content_1'] = "Programs";
 $lang['programs']['content_2'] = "<p style= \"display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;\">Getting my feet wet</p>
-                                    <ul style=\"font-size: 17px;\">
+                                    <ul style=\"font-size: 17px;color: #6b7c93 !important;padding: 0px 0px 0px 20px !important;\">
                                     One specific challenge that’s getting in the way of achieving your goals.
                                     <br>
                                     <br>
@@ -21,7 +21,7 @@ $lang['programs']['content_2'] = "<p style= \"display: inline-block; color: #512
                                     <br>
                                     </ul>";
 $lang['programs']['content_3'] = "<p style=\"display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;\">Deeper commitment</p>
-                                    <ul style=\"font-size: 17px;\">
+                                    <ul style=\"font-size: 17px;color: #6b7c93 !important;padding: 0px 0px 0px 20px !important;\">
                                     1 to 3 challenges you have identified as problematic and an obstacle that prevents your dream from coming true.
                                     <br>
                                     <br>
@@ -39,7 +39,7 @@ $lang['programs']['content_3'] = "<p style=\"display: inline-block; color: #512a
                                     <br>
                                     </ul>";
 $lang['programs']['content_4'] = "<p style=\"display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;\">All the way</p>
-                                    <ul style=\"font-size: 17px;\">
+                                    <ul style=\"font-size: 17px;color: #6b7c93 !important;padding: 0px 0px 0px 20px !important;\">
                                     1 to 3 challenges for those who are dealing with strong reactions that profoundly affect their daily functioning with meaningful, negative consequences.
                                     <br>
                                     <br>

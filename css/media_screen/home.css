@@ -1,0 +1,13 @@
+@media only screen and (max-width: 767px) {
+    div.home-chat1{
+       margin-top: -380px !important;
+    }
+
+    div.home-chat2{
+       margin-top: -150px !important;
+    }
+
+    h2.font-size-h2{
+        font-size: 20px !important;
+    }
+ }

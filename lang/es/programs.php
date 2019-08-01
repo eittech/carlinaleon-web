@@ -5,7 +5,7 @@
 // programs
 $lang['programs']['content_1'] = "Programas";
 $lang['programs']['content_2'] = "<p style= \"display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;\">Solo para comenzar</p>
-                                    <ul style=\"font-size: 17px;\">
+                                    <ul style=\"font-size: 17px;color: #6b7c93 !important;padding: 0px 0px 0px 20px !important;\">
                                     Abordaremos un desafío específico que se está interponiendo en el camino para alcanzar tus metas.
                                     <br>
                                     <br>
@@ -21,7 +21,7 @@ $lang['programs']['content_2'] = "<p style= \"display: inline-block; color: #512
                                     <br>
                                     </ul>";
 $lang['programs']['content_3'] = "<p style=\"display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;\">Compromiso más profundo</p>
-                                    <ul style=\"font-size: 17px;\">
+                                    <ul style=\"font-size: 17px;color: #6b7c93 !important;padding: 0px 0px 0px 20px !important;\">
                                     Avanzaremos con 1 a 3 desafíos que has identificado como problemáticos y que representan un obstáculo para hacer realidad su sueño.
                                     <br>
                                     <br>
@@ -39,7 +39,7 @@ $lang['programs']['content_3'] = "<p style=\"display: inline-block; color: #512a
                                     <br>
                                     </ul>";
 $lang['programs']['content_4'] = "<p style=\"display: inline-block; color: #512a8a; margin: 0;  font-size: 23px; line-height: 45px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: 0.023em;\">Hasta el final</p>
-                                    <ul style=\"font-size: 17px;\">
+                                    <ul style=\"font-size: 17px;color: #6b7c93 !important;padding: 0px 0px 0px 20px !important;\">
                                     Enfrentaremos de 1 a 3 desafíos para aquellos que enfrentan reacciones fuertes que afectan profundamente su funcionamiento diario con consecuencias significativas y negativas.
                                     <br>
                                     <br>

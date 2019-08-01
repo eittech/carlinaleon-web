@@ -43,6 +43,7 @@
                   <link rel='stylesheet' href='css/structure-copywriter.css'>
                   <link rel='stylesheet' href='css/copywriter.css'>
                   <link rel='stylesheet' href='css/custom.css'>
+                  <link rel='stylesheet' href='css/media_screen/programs.css'>
                </head>
                <body class="style-simple layout-full-width mobile-tb-left button-stroke no-content-padding header-classic minimalist-header sticky-header sticky-white ab-hide subheader-title-left menuo-right menuo-no-borders footer-sliding footer-copy-center">
                   <!-- Main Theme Wrapper -->
@@ -93,48 +94,112 @@
                      <div id="Content">
                         <div class="content_wrapper clearfix">
                            <div class="sections_group">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                               <div class="entry-content">
                                  <div class="section mcb-section " style="padding-top:80px; padding-bottom:10px; background-color:#f0f1f2">
+                                 <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
                                     <!-- One Third (1/3) Column -->
-                                    <div class="column one-third column_column">
-                                       <div class="column_attr ">
-                                          <?php echo $lang['programs']['content_2']; ?>
-                                       </div>
-                                    </div>
-                                    <!-- One Third (1/3) Column -->
-                                    <div class="column one-third column_column">
-                                       <div class="column_attr ">
-                                          <?php echo $lang['programs']['content_3']; ?>
-                                       </div>
-                                    </div>
-                                    <!-- One Third (1/3) Column -->
-                                    <div class="column one-third column_column">
-                                       <div class="column_attr ">
-                                          <?php echo $lang['programs']['content_4']; ?>
-                                       </div>
-                                    </div>
-                                    <hr class="no_line" style="margin: 0 auto 10px;">
-                                    <div id="Content">
-                                       <div class="content_wrapper clearfix">
-                                          <div class="sections_group">
-                                             <div class="entry-content">
-                                                <div class="section mcb-section" style="padding-top:0px; padding-bottom:10px; background-color:#f0f1f2">
-                                                   <div class="container">
-                                                      <div class="row">
-                                                         <div class="col-sm">
-                                                            <div class="section_wrapper">
-                                                               <div class="inside" style="text-align: center;">
-                                                                  <?php echo $lang['programs']['content_5']; ?>
-                                                               </div>
-                                                            </div>
-                                                         </div>
+                                    <div class="column one-third column_icon_box">
+                                        <!-- Animated area -->
+                                        <div>
+                                            <div class="icon_box icon_position_top has_border">
+                                                <a class="scroll" href="#thematic-websites">
+                                                    <div class="icon_wrapper">
+                                                        <div class="icon">
+                                                            <i class="icon-lightbulb-line"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                      <div class="column_attr " style="margin-top: -120px !important;">
+                                                         <?php echo $lang['programs']['content_2']; ?>
                                                       </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <!-- One Third (1/3) Column -->
+                                    <div class="column one-third column_icon_box">
+                                        <!-- Animated area -->
+                                        <div>
+                                            <div class="icon_box icon_position_top has_border">
+                                                <a href="#">
+                                                    <div class="icon_wrapper">
+                                                        <div class="icon">
+                                                            <i class="icon-beaker-line"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                      <div class="column_attr " style="margin-top: -120px !important;">
+                                                            <?php echo $lang['programs']['content_3']; ?>
+                                                      </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- One Third (1/3) Column -->
+                                    <div class="column one-third column_icon_box">
+                                        <!-- Animated area -->
+                                        <div>
+                                            <div class="icon_box icon_position_top no_border">
+                                                <a href="http://support.BeantownThemes.com" target="_blank">
+                                                    <div class="icon_wrapper">
+                                                        <div class="icon">
+                                                            <i class="icon-comment-line"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column_attr " style="margin-top: -120px !important;">
+                                                            <?php echo $lang['programs']['content_4']; ?>
+                                                      </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                                  </div>
                                  <div class="section mcb-section mcb-section-jlo4hi97l dark equal-height-wrap" style="padding-top:0px; padding-bottom:80px;">
                                     <div class="section-decoration top" style="background-image:url(images/separador-linea.png);height:135px">

@@ -1,0 +1,30 @@
+
+
+@media only screen and (max-width: 767px) {
+    
+    #Subheader .title {
+        font-weight: 900;
+        font-size: 35px !important;
+    }
+
+    
+    .column .mcb-column{
+        margin: 0px 0px 0px -105px !important;
+        width: 180% !important;
+    }
+    
+}
+
+
+@media only screen and (min-width: 480px) {
+    
+    #Subheader .title {
+        font-weight: 900;
+        font-size: 40px !important;
+    }
+
+    .column .mcb-column{
+        margin: 0px 0px 0px -105px !important;
+        width: 180% !important;
+    }
+}

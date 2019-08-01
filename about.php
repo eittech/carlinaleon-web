@@ -43,6 +43,7 @@
                   <link rel='stylesheet' href='css/structure-copywriter.css'>
                   <link rel='stylesheet' href='css/copywriter.css'>
                   <link rel='stylesheet' href='css/custom.css'>
+                  <link rel='stylesheet' href='css/media_screen/about.css'>
                   <style>
                      #carousel {
                      position: relative;

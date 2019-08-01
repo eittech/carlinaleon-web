@@ -12,7 +12,12 @@ $active_menu = $config['config']['maintenance']['active'];
         <div class="container">
             <!-- One full width row-->
             <div class="column one column_column">
-                <span style="font-size: 26px; line-height: 26px;">Encuentrame aqui:</span>
+                <a style="margin-left: 92% !important;" id="back_to_top" href="#" class="button button_left button_js">
+                    <span class="button_icon">
+                        <i class="icon-up-open-big"></i>
+                    </span>
+                </a>
+                <span style="font-size: 27px; line-height: 26px;"><?php echo $lang['footer']['content_1']; ?>:</span>
                 <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.linkedin.com/in/carlinaleon/?locale=en_US"><i class="icon-linkedin-circled"></i></a>
                 <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.facebook.com/carlinadesireel"><i class="icon-facebook-circled"></i></a>
                 <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://twitter.com/carlinadla"><i class="icon-twitter-circled"></i></a>

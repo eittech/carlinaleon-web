@@ -43,6 +43,7 @@
                   <link rel='stylesheet' href='css/structure-copywriter.css'>
                   <link rel='stylesheet' href='css/copywriter.css'>
                   <link rel='stylesheet' href='css/custom.css'>
+                  <link rel='stylesheet' href='css/media_screen/work-with-me.css'>
                   <style>
                      .background-content{
                      background-color: #f0f1f2 !important;

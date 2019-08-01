@@ -44,6 +44,7 @@
                   <link rel='stylesheet' href='css/structure-copywriter.css'>
                   <link rel='stylesheet' href='css/copywriter.css'>
                   <link rel='stylesheet' href='css/custom.css'>
+                  <link rel='stylesheet' href='css/media_screen/home.css'>
                   <style>
                      #Top_bar #logo {
                      display: block;
@@ -187,7 +188,7 @@
                                                          <div class="mcb-wrap-inner">
                                                             <div class="column mcb-column mcb-item-lam3v9tjy one column_image">
                                                                <div class="animate zoomIn" data-anim-type="zoomIn">
-                                                                  <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                                  <div class="image_frame image_item no_link scale-with-grid aligncenter no_border home-chat1">
                                                                      <div class="image_wrapper"><img class="scale-with-grid" src="images/home-chat1-<?php if(isset($_GET['lang']) == ""){ echo "en"; }else{echo $_GET['lang'];} ?>.png">
                                                                      </div>
                                                                   </div>
@@ -203,7 +204,7 @@
                                                          <div class="mcb-wrap-inner">
                                                             <div class="column mcb-column mcb-item-opqw5qzjt one column_image">
                                                                <div class="animate zoomIn" data-anim-type="zoomIn">
-                                                                  <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                                                  <div class="image_frame image_item no_link scale-with-grid aligncenter no_border home-chat2">
                                                                      <div class="image_wrapper"><img class="scale-with-grid" src="images/home-chat2-<?php if(isset($_GET['lang']) == ""){ echo "en"; }else{echo $_GET['lang'];} ?>.png">
                                                                      </div>
                                                                   </div>
@@ -429,7 +430,7 @@
                                                       <div class="col-sm">
                                                          <div class="section_wrapper">
                                                             <div class="fancy_heading fancy_heading_arrows">
-                                                               <h2 class="title font-size: 48px; line-height: 50px"><i class="revicon-right-open-1"></i><?php echo $lang['home']['content_18_1']; ?>...<i class="revicon-left-open-1"></i></h2>
+                                                               <h2 class="title font-size: 48px; line-height: 50px font-size-h2"><i class="revicon-right-open-1"></i><?php echo $lang['home']['content_18_1']; ?>...<i class="revicon-left-open-1"></i></h2>
                                                                <div class="inside">
                                                                   <?php echo $lang['home']['content_18_2']; ?>
                                                                </div>
