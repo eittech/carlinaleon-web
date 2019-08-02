@@ -4,12 +4,39 @@
         font-size: 27px !important;
     }
 
-    
+    .section {
 
+        background-attachment: scroll !important;
+        height: -1% !important;
+        background-size: contain !important;
+    
+    }
+
+    #carousel {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        height: 500px !important;
+    }
 }
 
 @media only screen and (min-width: 480px) {
     p {
         margin: -43px 0px 50px !important;
+    }
+
+    .section {
+
+        background-attachment: scroll !important;
+        height: -1% !important;
+        background-size: contain !important;
+    
+    }
+
+    #carousel {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        height: 500px !important;
     }
 }

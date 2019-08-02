@@ -13,5 +13,6 @@ $lang['home']['content_test_8'] = "Directora del Programa de Violencia Domestica
 $lang['home']['content_test_9'] = "<p style='font-size: 22px; line-height: 34px; color: #424242; font-weight: 400;'>
                                 Encuentrame: <a style='font-size: 20px; font-weight: 600;' href='contact.php'>contact info</a>, o reserva una cita aquí <a style='font-size: 20px; font-weight: 600;' target='_blank' rel='nofollow' href='https://itherapy.com/counselor/carlina-d-leon/'>carlina-d-leon</a>
                                 </p>";
+$lang['home']['content_test_10'] = "Directora ejecutiva - Kingsbridge Heights Community Center.";
 
 ?>

@@ -324,8 +324,75 @@
                                  <div class="column one column_divider">
                                     <hr class="no_line flv_style_5">
                                  </div>
+                                 <div class="section flv_sections_6" id="start">
+                            <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
+                                    <!-- One Third (1/3) Column -->
+                                    <div class="column one-third column_icon_box">
+                                        <!-- Animated area -->
+                                        <div class="animate fadeInLeftLarge" data-anim-type="fadeInLeftLarge">
+                                            <div class="icon_box icon_position_top has_border">
+                                                <a class="scroll" href="#thematic-websites">
+                                                    <div class="icon_wrapper">
+                                                        <div class="icon">
+                                                            <img src="images/datos-interesantes1.png" alt="Curabitur ipsum" class="scale-with-grid">
+                                                        </div>
+                                                    </div>
+                                                    <div class="desc_wrapper">
+                                                        <div class="desc" style="font-size: 18px;line-height: 30px;">
+                                                            <?php echo $lang['about']['content_15']; ?>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- One Third (1/3) Column -->
+                                    <div class="column one-third column_icon_box">
+                                        <!-- Animated area -->
+                                        <div class="animate zoomIn" data-anim-type="zoomIn">
+                                            <div class="icon_box icon_position_top has_border">
+                                                <a href="#">
+                                                    <div class="icon_wrapper">
+                                                        <div class="icon">
+                                                            <img src="images/datos-interesantes2.png" alt="Curabitur ipsum" class="scale-with-grid">
+                                                        </div>
+                                                    </div>
+                                                    <div class="desc_wrapper">
+                                                        <div class="desc" style="font-size: 18px;line-height: 30px;">
+                                                            <?php echo $lang['about']['content_16']; ?>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- One Third (1/3) Column -->
+                                    <div class="column one-third column_icon_box">
+                                        <!-- Animated area -->
+                                        <div class="animate fadeInRightLarge" data-anim-type="fadeInRightLarge">
+                                            <div class="icon_box icon_position_top no_border">
+                                                <a href="http://support.BeantownThemes.com" target="_blank">
+                                                    <div class="icon_wrapper">
+                                                        <div class="icon">
+                                                            <img src="images/datos-interesantes3.png" alt="Curabitur ipsum" class="scale-with-grid">
+                                                        </div>
+                                                    </div>
+                                                    <div class="desc_wrapper">
+                                                        <div class="desc" style="font-size: 18px;line-height: 30px;">
+                                                            <?php echo $lang['about']['content_17']; ?>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                                  <!-- One Third (1/3) Column -->
-                                 <div class="column one-third column_icon_box">
+                                 <!--<div class="column one-third column_icon_box">
                                     <div class="icon_box icon_position_left has_border" style="padding-left: 130px;">
                                        <div class="image_wrapper"><img src="images/datos-interesantes1.png" alt="Curabitur ipsum" class="scale-with-grid">
                                        </div>
@@ -336,7 +403,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <!-- One Third (1/3) Column -->
+                                 
                                  <div class="column one-third column_icon_box">
                                     <div class="icon_box icon_position_left has_border" style="padding-left: 130px;">
                                        <div class="image_wrapper"><img src="images/datos-interesantes2.png" alt="Aliquam eratur" class="scale-with-grid">
@@ -348,7 +415,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <!-- One Third (1/3) Column -->
+                                 
                                  <div class="column one-third column_icon_box">
                                     <div class="icon_box icon_position_left no_border" style="padding-left: 130px;">
                                        <div class="image_wrapper"><img src="images/datos-interesantes3.png" alt="Integer aliquam" class="scale-with-grid">
@@ -360,7 +427,7 @@
                                        </div>
                                     </div>
                                  </div>
-                              </div>
+                              </div>-->
                               <hr class="no_line" style="margin: 0 auto 20px;">
                                  <!-- Apertura Menu -->
                                  <?php include "testimonial.php"; ?>

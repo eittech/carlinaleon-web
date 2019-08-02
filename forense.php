@@ -269,9 +269,9 @@
                                     <div class="column one-third column_column">
                                        <div class="column_attr ">
                                           <div class="icon_box icon_position_top no_border">
-                                             <div class="image_wrapper"><img src="images/iconos-emociones-8.png" alt="Sapien massa" class="scale-with-grid">
+                                             <div class="image_wrapper"><img hidden src="images/iconos-emociones-8.png" alt="Sapien massa" class="scale-with-grid">
                                              </div>
-                                             <p style="display: inline-block; font-size: 16px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;"><?php echo $lang['forense']['content_17']; ?> </p>
+                                             <p style="display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;"><?php echo $lang['forense']['content_17']; ?> </p>
                                           </div>
                                        </div>
                                     </div>
@@ -279,9 +279,9 @@
                                     <div class="column one-third column_column">
                                        <div class="column_attr ">
                                           <div class="icon_box icon_position_top no_border">
-                                             <div class="image_wrapper"><img src="images/iconos-emociones-7.png" alt="Sapien massa" class="scale-with-grid">
+                                             <div class="image_wrapper"><img hidden src="images/iconos-emociones-7.png" alt="Sapien massa" class="scale-with-grid">
                                              </div>
-                                             <p style="display: inline-block; font-size: 18px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;letter-spacing: -0.015em;"><?php echo $lang['forense']['content_18']; ?> </p>
+                                             <p style="display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;letter-spacing: -0.015em;"><?php echo $lang['forense']['content_18']; ?> </p>
                                           </div>
                                        </div>
                                     </div>
@@ -289,9 +289,9 @@
                                     <div class="column one-third column_column">
                                        <div class="column_attr ">
                                           <div class="icon_box icon_position_top no_border">
-                                             <div class="image_wrapper"><img src="images/iconos-emociones-4.png" alt="Sapien massa" class="scale-with-grid">
+                                             <div class="image_wrapper"><img hidden src="images/iconos-emociones-4.png" alt="Sapien massa" class="scale-with-grid">
                                              </div>
-                                             <p style="display: inline-block; font-size: 19px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;"><?php echo $lang['forense']['content_19']; ?> </p>
+                                             <p style="display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;"><?php echo $lang['forense']['content_19']; ?> </p>
                                           </div>
                                        </div>
                                     </div>
@@ -299,9 +299,9 @@
                                     <div class="column one-second column_column">
                                        <div class="column_attr ">
                                           <div class="icon_box icon_position_top no_border">
-                                             <div class="image_wrapper"><img src="images/iconos-emociones-2.png" alt="Sapien massa" class="scale-with-grid">
+                                             <div class="image_wrapper"><img hidden src="images/iconos-emociones-2.png" alt="Sapien massa" class="scale-with-grid">
                                              </div>
-                                             <p style="display: inline-block; font-size: 19px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;"><?php echo $lang['forense']['content_20']; ?> </p>
+                                             <p style="display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;"><?php echo $lang['forense']['content_20']; ?> </p>
                                           </div>
                                        </div>
                                     </div>
@@ -309,9 +309,9 @@
                                     <div class="column one-second column_column">
                                        <div class="column_attr ">
                                           <div class="icon_box icon_position_top no_border">
-                                             <div class="image_wrapper"><img src="images/iconos-emociones-1.png" alt="Sapien massa" class="scale-with-grid">
+                                             <div class="image_wrapper"><img hidden src="images/iconos-emociones-1.png" alt="Sapien massa" class="scale-with-grid">
                                              </div>
-                                             <p style="display: inline-block; font-size: 19px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;"><?php echo $lang['forense']['content_21']; ?> </p>
+                                             <p style="display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;"><?php echo $lang['forense']['content_21']; ?> </p>
                                           </div>
                                        </div>
                                     </div>

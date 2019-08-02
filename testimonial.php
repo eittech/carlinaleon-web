@@ -29,7 +29,7 @@
                                 <br/>
                                 <span class="date"><span style="font-size: 24px;font-weight: 600; color: #5b258f;">Margaret Della</span></span>
                                 <br>
-                                <span style="font-size: 16px;font-weight: 400;line-height: 23px;line-height: 41px;font-style: italic;"> Directora ejecutiva - Kingsbridge Heights Community Center.</span>
+                                <span style="font-size: 16px;font-weight: 400;line-height: 23px;line-height: 41px;font-style: italic;"><?php echo $lang['home']['content_test_10']; ?></span>
                             </div>
                         </p>
                     </li>
