@@ -45,6 +45,7 @@
                   <link rel='stylesheet' href='css/custom.css'>
                   <link rel='stylesheet' href='css/popup.css'>
                   <link rel='stylesheet' href='css/media_screen/forense.css'>
+                  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
                   <style>
                      #carousel {
                      position: relative;
@@ -157,76 +158,12 @@
                                                    <div class="post-desc-wrapper">
                                                       <div class="post-desc" >
                                                          <div class="post-title" style="width: 124% !important;text-align: center !important;margin-left: 19% !important;" >
-                                                            <h2 style="display: inline-block; color: #E1DEDE margin: 0;  font-size: 30px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 100px 10px !important;">
+                                                            <h2 style="display: inline-block; color: #E1DEDE margin: 0;  font-size: 30px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 62px 10px !important;">
                                                                <?php echo $lang['forense']['content_4']; ?>:
                                                             </h2>
                                                          </div>
                                                       </div>
-                                                      <div class="post-excerpt">
-                                                         <div class="image_wrapper">
-                                                            <br>
-                                                            <br>
-                                                            <table style="width: 170% !important;" border="1">
-                                                               <tr style="cursor: pointer;">
-                                                                  <td>
-                                                                     <a href="#pop-1" id="login_pop" style="display: inline-block; color: #5b258f; margin: 0;  font-size: 24px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
-                                                                     <?php echo $lang['forense']['content_5']; ?>
-                                                                     </a>
-                                                                  </td>
-                                                                  <td>
-                                                                     <a href="#pop-2" id="login_pop" style="display: inline-block; color: #5b258f; margin: 0;  font-size: 21px; line-height: 29px; line-he_letter-spacing: 0.036em; font-weight: 600;letter-spacing: -0.032em;">
-                                                                     <?php echo $lang['forense']['content_6']; ?>
-                                                                     </a>
-                                                                  </td>
-                                                                  <td>
-                                                                     <a href="#pop-3" id="login_pop" style="display: inline-block; color: #5b258f; margin: 0;  font-size: 24px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
-                                                                     <?php echo $lang['forense']['content_7']; ?>
-                                                                     </a>
-                                                                  </td>
-                                                                  <td>
-                                                                     <a href="#pop-4" id="login_pop" style="display: inline-block; color: #5b258f; margin: 0;  font-size: 24px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
-                                                                     <?php echo $lang['forense']['content_8']; ?>
-                                                                     </a>
-                                                                  </td>
-                                                                  <td>
-                                                                     <a href="#pop-5" id="login_pop" style="display: inline-block; color: #5b258f; margin: 0;  font-size: 24px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
-                                                                     <?php echo $lang['forense']['content_9']; ?>
-                                                                     </a>
-                                                                  </td>
-                                                               </tr>
-                                                            </table>
-                                                            <!-- popup #1 -->
-                                                            <a href="#x" class="overlay" id="pop-1"></a>
-                                                            <div class="popup" style="display: inline-block; color: #0d09aa; margin: 0;  font-size: 23px; line-height: 31px; line-he_letter-spacing: 0.036em; font-weight: 500;font-style: italic;letter-spacing: 0em;">
-                                                               <?php echo $lang['forense']['content_10']; ?>
-                                                               <a class="close" href="#close"></a>
-                                                            </div>
-                                                            <!-- popup #2 -->
-                                                            <a href="#x" class="overlay" id="pop-2"></a>
-                                                            <div class="popup" style="display: inline-block; color: #0d09aa; margin: 0;  font-size: 23px; line-height: 31px; line-he_letter-spacing: 0.036em; font-weight: 500;font-style: italic;letter-spacing: 0em;">
-                                                               <?php echo $lang['forense']['content_11']; ?>
-                                                               <a class="close" href="#close"></a>
-                                                            </div>
-                                                            <!-- popup #3 -->
-                                                            <a href="#x" class="overlay" id="pop-3"></a>
-                                                            <div  class="popup" style="display: inline-block; color: #0d09aa; margin: 0;  font-size: 23px; line-height: 31px; line-he_letter-spacing: 0.036em; font-weight: 500;font-style: italic;letter-spacing: 0em;">
-                                                               <?php echo $lang['forense']['content_12']; ?>
-                                                               <a class="close" href="#close"></a>
-                                                            </div>
-                                                            <!-- popup #4 -->
-                                                            <a href="#x" class="overlay" id="pop-4"></a>
-                                                            <div class="popup" style="display: inline-block; color: #0d09aa; margin: 0;  font-size: 23px; line-height: 31px; line-he_letter-spacing: 0.036em; font-weight: 500;font-style: italic;letter-spacing: 0em;">
-                                                               <?php echo $lang['forense']['content_13']; ?>
-                                                               <a class="close" href="#close"></a>
-                                                            </div>
-                                                            <!-- popup #5 -->
-                                                            <a href="#x" class="overlay" id="pop-5"></a>
-                                                            <div class="popup" style="display: inline-block; color: #0d09aa; margin: 0;  font-size: 23px; line-height: 31px; line-he_letter-spacing: 0.036em; font-weight: 500;font-style: italic;letter-spacing: 0em;">
-                                                               <?php echo $lang['forense']['content_14']; ?>
-                                                               <a class="close" href="#close" ></a>
-                                                            </div >
-                                                         </div>
-                                                      </div>
+                                                      
                                                    </div>
                                                 </div>
                                              </div>
@@ -234,6 +171,64 @@
                                        </div>
                                     </div>
                                  </div>
+                                 <table role="table">
+                                    <tbody role="rowgroup">
+                                       <tr role="row">
+                                          <td role="cell">
+                                             <a data-fancybox="popup_1" data-src="#popup_1" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 24px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                                <?php echo $lang['forense']['content_5']; ?>
+                                             </a>
+                                          </td>
+                                          <td role="cell">
+                                             <a data-fancybox="popup_2" data-src="#popup_2" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 24px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                                <?php echo $lang['forense']['content_6']; ?>
+                                             </a>
+                                          </td>
+                                          <td role="cell">
+                                             <a data-fancybox="popup_3" data-src="#popup_3" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 24px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                                <?php echo $lang['forense']['content_7']; ?>
+                                             </a>
+                                          </td>
+                                          <td role="cell">
+                                             <a data-fancybox="popup_4" data-src="#popup_4" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 24px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                                <?php echo $lang['forense']['content_8']; ?>
+                                             </a>
+                                          </td>
+                                          <td role="cell">
+                                             <a data-fancybox="popup_5" data-src="#popup_5" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 24px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                                <?php echo $lang['forense']['content_9']; ?>
+                                             </a>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <div id="popup_1" style="display: none;width:100%;max-width:660px;">
+                                    <p class="mb-0 text-right" style='display: inline-block; color: #0d09aa; margin: 0;  font-size: 23px; line-height: 31px; line-he_letter-spacing: 0.036em; font-weight: 500;font-style: italic;letter-spacing: 0em;'>
+                                       <?php echo $lang['forense']['content_10']; ?>
+                                    </p>
+                                 </div>
+                                 <div id="popup_2" style="display: none;width:100%;max-width:660px;">
+                                    <p class="mb-0 text-right" style='display: inline-block; color: #0d09aa; margin: 0;  font-size: 23px; line-height: 31px; line-he_letter-spacing: 0.036em; font-weight: 500;font-style: italic;letter-spacing: 0em;'>
+                                       <?php echo $lang['forense']['content_11']; ?>
+                                    </p>
+                                 </div>
+                                 <div id="popup_3" style="display: none;width:100%;max-width:660px;">
+                                    <p class="mb-0 text-right" style='display: inline-block; color: #0d09aa; margin: 0;  font-size: 23px; line-height: 31px; line-he_letter-spacing: 0.036em; font-weight: 500;font-style: italic;letter-spacing: 0em;'>
+                                       <?php echo $lang['forense']['content_12']; ?>
+                                    </p>
+                                 </div>
+                                 <div id="popup_4" style="display: none;width:100%;max-width:660px;">
+                                    <p class="mb-0 text-right" style='display: inline-block; color: #0d09aa; margin: 0;  font-size: 23px; line-height: 31px; line-he_letter-spacing: 0.036em; font-weight: 500;font-style: italic;letter-spacing: 0em;'>
+                                       <?php echo $lang['forense']['content_13']; ?>
+                                    </p>
+                                 </div>
+                                 <div id="popup_5" style="display: none;width:100%;max-width:660px;">
+                                    <p class="mb-0 text-right" style='display: inline-block; color: #0d09aa; margin: 0;  font-size: 23px; line-height: 31px; line-he_letter-spacing: 0.036em; font-weight: 500;font-style: italic;letter-spacing: 0em;'>
+                                       <?php echo $lang['forense']['content_14']; ?>
+                                    </p>
+                                 </div>
+                                 </br>
+                                 </br>
                                  <hr class="no_line" style="margin: 0 auto 10px;">
                                  <div id="Content">
                                     <div class="content_wrapper clearfix">
@@ -245,7 +240,7 @@
                                                       <div class="col-sm">
                                                          <div class="section_wrapper">
                                                             <div class="inside" style="text-align: center;">
-                                                               <p style="display: inline-block; color: #E1DEDE margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 100px 10px !important;">
+                                                               <p style="display: inline-block; color: #E1DEDE margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
                                                                   <?php echo $lang['forense']['content_15']; ?>
                                                                </p>
                                                             </div>
@@ -260,67 +255,53 @@
                                  </div>
                                  <div class="column mcb-column one column_column" style="padding-top:95px; padding-bottom:0px; background-image:url(images/section-md.png); background-repeat:no-repeat; background-position:right top">
                                     <div class="column_attr clearfix align_center">
-                                       <h2 style="display: inline-block; color: #E1DEDE margin: 0;  font-size: 30px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 100px 10px !important;">
+                                       <h2 style="display: inline-block; color: #E1DEDE margin: 0;  font-size: 30px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
                                           <?php echo $lang['forense']['content_16']; ?>
                                        </h2>
                                        <hr class="no_line" style="margin: 0 auto 10px;">
                                     </div>
-                                    <!-- One Third (1/3) Column -->
-                                    <div class="column one-third column_column">
-                                       <div class="column_attr ">
-                                          <div class="icon_box icon_position_top no_border">
-                                             <div class="image_wrapper"><img hidden src="images/iconos-emociones-8.png" alt="Sapien massa" class="scale-with-grid">
-                                             </div>
-                                             <p style="display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;"><?php echo $lang['forense']['content_17']; ?> </p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!-- One Third (1/3) Column -->
-                                    <div class="column one-third column_column">
-                                       <div class="column_attr ">
-                                          <div class="icon_box icon_position_top no_border">
-                                             <div class="image_wrapper"><img hidden src="images/iconos-emociones-7.png" alt="Sapien massa" class="scale-with-grid">
-                                             </div>
-                                             <p style="display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;letter-spacing: -0.015em;"><?php echo $lang['forense']['content_18']; ?> </p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!-- One Third (1/3) Column -->
-                                    <div class="column one-third column_column">
-                                       <div class="column_attr ">
-                                          <div class="icon_box icon_position_top no_border">
-                                             <div class="image_wrapper"><img hidden src="images/iconos-emociones-4.png" alt="Sapien massa" class="scale-with-grid">
-                                             </div>
-                                             <p style="display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;"><?php echo $lang['forense']['content_19']; ?> </p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!-- One Second (1/2) Column -->
-                                    <div class="column one-second column_column">
-                                       <div class="column_attr ">
-                                          <div class="icon_box icon_position_top no_border">
-                                             <div class="image_wrapper"><img hidden src="images/iconos-emociones-2.png" alt="Sapien massa" class="scale-with-grid">
-                                             </div>
-                                             <p style="display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;"><?php echo $lang['forense']['content_20']; ?> </p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <!-- One Second (1/2) Column -->
-                                    <div class="column one-second column_column">
-                                       <div class="column_attr ">
-                                          <div class="icon_box icon_position_top no_border">
-                                             <div class="image_wrapper"><img hidden src="images/iconos-emociones-1.png" alt="Sapien massa" class="scale-with-grid">
-                                             </div>
-                                             <p style="display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;"><?php echo $lang['forense']['content_21']; ?> </p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="column mcb-column one column_column">
-                                    <div class="column_attr" style="text-align: center;">
-                                       <?php echo $lang['forense']['content_22']; ?>
-                                    </div>
-                                 </div>
+                                 <br>
+                                 <br>
+                                 <table role="table">
+                                    <tbody role="rowgroup">
+                                       <tr role="row">
+                                          <td role="cell">
+                                             <span style="display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;text-align:left;">
+                                                <?php echo $lang['forense']['content_17']; ?>
+                                             </span>
+                                          </td>
+                                          <td role="cell">
+                                             <span style="display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;text-align:left;">
+                                                <?php echo $lang['forense']['content_18']; ?>
+                                             </span>
+                                          </td>
+                                          <td role="cell">
+                                             <span style="display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;text-align:left;">
+                                                <?php echo $lang['forense']['content_19']; ?>
+                                             </span>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <table role="table">
+                                    <tbody role="rowgroup">
+                                       <tr role="row">
+                                          <td role="cell">
+                                             <span style="display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;text-align:left;">
+                                                <?php echo $lang['forense']['content_20']; ?>
+                                             </span>
+                                          </td>
+                                          <td role="cell"></td>
+                                          <td role="cell">
+                                             <span style="display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;text-align:left;">
+                                                <?php echo $lang['forense']['content_21']; ?>
+                                             </span>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+
+
                               </div>
                            </div>
                         </div>
@@ -342,7 +323,9 @@
                   <!-- Cierre Footer -->
                   </div>
                   <!-- JS -->
+                  <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>-->
                   <script src="js/jquery-2.1.4.min.js"></script>
+                  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
                   <script src="js/mfn.menu.js"></script>
                   <script src="js/jquery.plugins.js"></script>
                   <script src="js/jquery.jplayer.min.js"></script>
