@@ -1,3 +1,11 @@
+<?php
+   // Cargamos el archivo de fijación de idioma
+   include "lang.php";
+   // Obtiene el nombre de la página actual
+   include "check_url.php";
+   // Cargamos archivo de configuraciones globales
+   include "config.php";
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 ">
@@ -33,6 +41,7 @@
                   <link rel='stylesheet' href='css/structure-copywriter.css'>
                   <link rel='stylesheet' href='css/copywriter.css'>
                   <link rel='stylesheet' href='css/custom.css'>
+                  <link rel='stylesheet' href='css/media_screen/tecnicas.css'>
                    <style>
             
             #carousel {
@@ -157,7 +166,7 @@
                                             </div>
                                          </div>
                                           <div class="inside">
-                                             <p style="display: inline-block; color: #3F3F3F;  font-size: 22px; line-height: 34px; line-he_letter-spacing: 0.036em; font-weight: 500; margin: -43px 80px 50px !important;font-style: italic;" >
+                                             <p style="display: inline-block; color: #3F3F3F;  font-size: 22px; line-height: 34px; line-he_letter-spacing: 0.036em; font-weight: 500; margin: -43px 41px 50px !important;font-style: italic;" >
                                                 <span >la técnica de hacer que la actividad cerebral sea perceptible para los sentidos (como al registrar las ondas cerebrales con un electroencefalograma y presentarlas de manera visual o audible) para alterar conscientemente dicha actividad.(Merriam-Webster Medical Dictionary).</span>
                                              </p>
                                           </div>
@@ -183,7 +192,7 @@
                                                </div>
                                             </div>
                                          </div>
-                                              <p style="display: inline-block; color: #FFFFFF; margin: 0;  font-size: 22px; line-height: 34px; line-he_letter-spacing: 0.036em; font-weight: 500; margin: -30px 100px 20px !important;font-style: italic;">
+                                              <p style="display: inline-block; color: #FFFFFF; margin: 0;  font-size: 22px; line-height: 34px; line-he_letter-spacing: 0.036em; font-weight: 500; margin: -30px 47px 20px !important;font-style: italic;">
                                                 EMDR stands for Eye Movement Desensitization and Reprocessing por sus siglas en inglés. EMDR significa Desensibilización y Reprocesamiento por Movimiento de Ojos. EMDR es una forma única y no tradicional de psicoterapia diseñada para disminuir los sentimientos negativos asociados con los recuerdos de eventos traumáticos.
                                              </p>
                                           </div>
@@ -210,7 +219,7 @@
                                     </div>
                                  </div>
                                           <div class="inside">
-                                              <p style="display: inline-block; color: #3F3F3F;  font-size: 18px; line-height: 34px; line-he_letter-spacing: 0.036em; font-weight: 500; margin: -43px 80px 50px !important;font-style: normal;" >
+                                              <p style="display: inline-block; color: #3F3F3F;  font-size: 18px; line-height: 34px; line-he_letter-spacing: 0.036em; font-weight: 500; margin: -43px 70px 50px !important;font-style: normal;" >
                                                 <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" />Un estudio controlado aleatorizado de Neurofeedback para el TEPT crónico<a target="_blank" rel="nofollow" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5161315/pdf/pone.0166752.pdf" style="color: #512a8a;"> haga clic aquí.</a>
                                                <br>
                                                 <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" />Un estudio piloto de Neurofeedback para el TEPT crónico<a target="_blank" rel="nofollow" href="http://www.traumacenter.org/products/pdf_files/Pilot_Study_Neurofeedback_Chronic_PTSD_G0002.pdf" style="color: #512a8a;"> haga clic aquí.</a>
@@ -247,35 +256,9 @@
                            </div>
                         </div>
                      </div>
-                 <!-- Footer-->
-                     <footer id="Footer" class="clearfix">
-                        <!-- Footer - First area -->
-                        <div class="footer_action">
-                           <div class="container">
-                              <!-- One full width row-->
-                              <div class="column one column_column">
-                                 <span style="font-size: 26px; line-height: 26px;">Encuentrame aqui:</span>
-                                  <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.linkedin.com/in/carlinaleon/?locale=en_US"><i class="icon-linkedin-circled"></i></a>
-                                  <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.facebook.com/carlinadesireel"><i class="icon-facebook-circled"></i></a>
-                                  <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://twitter.com/carlinadla"><i class="icon-twitter-circled"></i></a>
-                                  <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.youtube.com/channel/UC8pfQxG2YhEErtxr7O0W-5A?view_as=subscriber"><i class="icon-youtube"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                       
-                        <!-- Footer copyright-->
-                        <div class="footer_copy">
-                           <div class="container">
-                              <div class="column one">
-                                 <div class="copyright">
-                                    &copy; 2019 Carlina Leon - Powered by <a target="_blank" rel="nofollow" href="http://eittech.net">eittech</a>
-                                 </div>
-                                 <!--Social info area-->
-                                 <ul class="social"></ul>
-                              </div>
-                           </div>
-                        </div>
-                     </footer>
+                     <!-- Apertura Footer -->
+                     <?php include "footer.php"; ?>
+                     <!-- Cierre Footer -->
                   </div>
                   <!-- JS -->
                   <script src="js/jquery-2.1.4.min.js"></script>
