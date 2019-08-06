@@ -1,41 +1,50 @@
 <link rel='stylesheet' href='css/media_screen/testimonial.css'>
 <style>
-.slider {
-	width: 95%;
-	margin: auto;
-	overflow: hidden;
-}
+    .slider {
+        width: 95%;
+        margin: auto;
+        overflow: hidden;
+    }
 
-.slider ul {
-	display: flex;
-	padding: 0;
-	width: 400%;
-	
-	animation: cambio 20s infinite alternate linear;
-}
+    .slider ul {
+        display: flex;
+        padding: 0;
+        width: 400%;
+        
+        animation: cambio 20s infinite alternate linear;
+    }
 
-.slider li {
-	width: 100%;
-	list-style: none;
-}
+    .slider li {
+        width: 100%;
+        list-style: none;
+    }
 
-.slider img {
-	width: 100%;
-}
+    .slider img {
+        width: 100%;
+    }
 
-@keyframes cambio {
-	0% {margin-left: 0;}
-	20% {margin-left: 0;}
-	
-	25% {margin-left: -100%;}
-	45% {margin-left: -100%;}
-	
-	50% {margin-left: -200%;}
-	70% {margin-left: -200%;}
-	
-	75% {margin-left: -300%;}
-	100% {margin-left: -300%;}
-}
+    @keyframes cambio {
+        0% {margin-left: 0;}
+        20% {margin-left: 0;}
+        
+        25% {margin-left: -100%;}
+        45% {margin-left: -100%;}
+        
+        50% {margin-left: -200%;}
+        70% {margin-left: -200%;}
+        
+        75% {margin-left: -300%;}
+        100% {margin-left: -300%;}
+    }
+
+    .content
+    {
+    text-align: center;
+    }
+    .inner
+    {
+    display:inline-block;
+    }
 
 </style>
 
@@ -50,72 +59,6 @@
                 </div>
                 </div>
             </div>
-            <!--<div id="carousel">
-                <div class="btn-bar">
-                <div id="buttons"><a id="prev" href="#"></a><a id="next" href="#"></a></div>
-                </div>
-                <div id="slides">
-                <ul>
-                    <li class="slide">
-                        <p class="carousel-caption">
-                            <div class="idea_box col-sm">
-                                <div class="icon">
-                                <i class="icon-quote"></i>
-                                </div>
-                                <div class="desc" style="font-size: 18px;line-height: 25px;">
-                                <?php echo $lang['home']['content_test_2']; ?>
-                                </div>
-                                
-                            </div>
-                        </p>
-                    </li>
-                    <li class="slide">
-                        <p class="carousel-caption">
-                            <div class="idea_box col-sm">
-                                <div class="icon">
-                                <i class="icon-quote"></i>
-                                </div>
-                                <div class="desc" style="font-size: 17.5px;line-height: 25px;">
-                                <?php echo $lang['home']['content_test_3']; ?>
-                                </div>
-                                
-                            </div>
-                        </p>
-                    </li>
-                    <li class="slide">
-                        <p class="carousel-caption">
-                            <div class="idea_box col-sm">
-                                <div class="icon">
-                                <i class="icon-quote"></i>
-                                </div>
-                                <div class="desc" style="font-size: 18px;line-height: 25px;">
-                                <?php echo $lang['home']['content_test_5']; ?>
-                                </div>
-                                
-                            </div>
-                        </p>
-                    </li>
-                    <li class="slide">
-                        <p class="carousel-caption">
-                            <div class="idea_box col-sm">
-                                <div class="icon">
-                                <i class="icon-quote"></i>
-                                </div>
-                                <div class="desc" style="font-size: 18px;line-height: 25px;">
-                                <?php echo $lang['home']['content_test_7']; ?>
-                                </div>
-                                
-                            </div>
-                        </p>
-                    </li>
-                </ul>
-                </div>
-                <br>
-                <br>
-                <br>
-                <br>
-            </div>-->
-
             <div class="slider">
                 <ul>
                     <li>
@@ -124,9 +67,17 @@
                         </div>
                         <br>
                         <br/>
-                        <span class="date"><span style="font-size: 24px;font-weight: 600; color: #5b258f;text-align:center;">Margaret Della</span></span>
-                        <br>
-                        <span style="font-size: 16px;font-weight: 400;line-height: 23px;line-height: 41px;font-style: italic;"><?php echo $lang['home']['content_test_10']; ?></span>
+                        <div class="content">
+                            <div class="inner">
+                                <span class="date">
+                                    <span style="font-size: 24px;font-weight: 600; color: #5b258f;text-align:center;">Margaret Della</span>
+                                </span>
+                                <br>
+                                <span style="font-size: 16px;font-weight: 400;line-height: 23px;line-height: 41px;font-style: italic;">
+                                    <?php echo $lang['home']['content_test_10']; ?>
+                                </span>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <div class="desc" style="font-size: 18px;line-height: 25px;">
@@ -134,9 +85,17 @@
                         </div>
                         <br>
                         <br/>
-                        <span class="date"><span style="font-size: 24px;font-weight: 600; color: #5b258f;">Karina Aybar</span></span>
-                        <br>
-                        <span style="font-size: 16px;font-weight: 400;line-height: 23px;line-height: 41px;font-style: italic;"> <?php echo $lang['home']['content_test_4']; ?></span>
+                        <div class="content">
+                            <div class="inner">
+                                <span class="date">
+                                    <span style="font-size: 24px;font-weight: 600; color: #5b258f;text-align:center;">Karina Aybar</span>
+                                </span>
+                                <br>
+                                <span style="font-size: 16px;font-weight: 400;line-height: 23px;line-height: 41px;font-style: italic;">
+                                    <?php echo $lang['home']['content_test_4']; ?>
+                                </span>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <div class="desc" style="font-size: 18px;line-height: 25px;">
@@ -144,9 +103,17 @@
                         </div>
                         <br>
                         <br/>
-                        <span class="date"><span style="font-size: 24px;font-weight: 600; color: #5b258f;">Ireen Ninonuevo</span></span>
-                        <br>
-                        <span style="font-size: 16px;font-weight: 400;line-height: 23px;line-height: 41px;font-style: italic;">  <?php echo $lang['home']['content_test_6']; ?></span>
+                        <div class="content">
+                            <div class="inner">
+                                <span class="date">
+                                    <span style="font-size: 24px;font-weight: 600; color: #5b258f;text-align:center;">Ireen Ninonuevo</span>
+                                </span>
+                                <br>
+                                <span style="font-size: 16px;font-weight: 400;line-height: 23px;line-height: 41px;font-style: italic;">
+                                    <?php echo $lang['home']['content_test_6']; ?>
+                                </span>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <div class="desc" style="font-size: 18px;line-height: 25px;">
@@ -154,9 +121,17 @@
                         </div>
                         <br>
                         <br/>
-                        <span class="date"><span style="font-size: 24px;font-weight: 600;color: #5b258f;"> Karina Bernabe</span></span>
-                        <br>
-                        <span style="font-size: 16px;font-weight: 400;line-height: 23px;line-height: 41px;font-style: italic;">  <?php echo $lang['home']['content_test_8']; ?></span>
+                        <div class="content">
+                            <div class="inner">
+                                <span class="date">
+                                    <span style="font-size: 24px;font-weight: 600; color: #5b258f;text-align:center;">Karina Bernabe</span>
+                                </span>
+                                <br>
+                                <span style="font-size: 16px;font-weight: 400;line-height: 23px;line-height: 41px;font-style: italic;">
+                                    <?php echo $lang['home']['content_test_8']; ?>
+                                </span>
+                            </div>
+                        </div>
                     </li>
                 </ul>
 		    </div>
