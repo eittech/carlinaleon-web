@@ -93,32 +93,9 @@
                                           <a id="logo" href="index.html" title="CarlinaLeon"> <img class="scale-with-grid" src="images/logo_menu.png" alt="CarlinaLeon" />
                                           </a>
                                        </div>
-                                       <!-- Main menu-->
-                                       <div class="menu_wrapper">
-                                          <nav id="menu" class="menu-main-menu-container">
-                                             <ul id="menu-main-menu" class="menu">
-                                                <li >
-                                                   <a href="index.html"><span>Inicio</span></a>
-                                                </li>
-                                                <li class="current_page_item">
-                                                   <a href="about.html"><span>Acerca de mí</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="work-with-me.html"><span>Trabaja conmigo</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="programs.html"><span>Programas</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="forense.html"><span>Evaluación forense</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="contact.html"><span>Contacto</span></a>
-                                                </li>
-                                             </ul>
-                                          </nav>
-                                          <a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
-                                       </div>
+                                       <!-- Apertura Menu -->
+                                       <?php include "menu.php"; ?>
+                                       <!-- Cierre Menu -->
                                        <!-- Secondary menu area - only for certain pages -->
                                        <div class="secondary_menu_wrapper"></div>
                                        <!-- Banner area - only for certain pages-->
@@ -139,7 +116,7 @@
                         <div id="Subheader" style="padding:90px 0 70px;">
                            <div class="container">
                               <div class="column one">
-                                 <h1 class="title" style="color:#ffffff;">Técnicas</h1>
+                                 <h1 class="title" style="color:#ffffff;"><?php echo $lang['tecnicas']['content_1']; ?></h1>
                               </div>
                            </div>
                         </div>
@@ -161,13 +138,13 @@
                                            <div class="items_group clearfix">
                                             <div class="column one column_fancy_heading">
                                                <div class="fancy_heading fancy_heading_arrows">
-                                                  <h2 class="title" style="line-height: 60px;"><i class="icon-right-dir"></i>Neuroterapia<i class="icon-left-dir"></i></h2>
+                                                  <h2 class="title" style="line-height: 60px;"><i class="icon-right-dir"></i><?php echo $lang['tecnicas']['content_2']; ?><i class="icon-left-dir"></i></h2>
                                                </div>
                                             </div>
                                          </div>
                                           <div class="inside">
                                              <p style="display: inline-block; color: #3F3F3F;  font-size: 22px; line-height: 34px; line-he_letter-spacing: 0.036em; font-weight: 500; margin: -43px 41px 50px !important;font-style: italic;" >
-                                                <span >la técnica de hacer que la actividad cerebral sea perceptible para los sentidos (como al registrar las ondas cerebrales con un electroencefalograma y presentarlas de manera visual o audible) para alterar conscientemente dicha actividad.(Merriam-Webster Medical Dictionary).</span>
+                                                <span ><?php echo $lang['tecnicas']['content_3']; ?></span>
                                              </p>
                                           </div>
                                        </div>
@@ -188,12 +165,12 @@
                                              <div class="items_group clearfix">
                                             <div class="column one column_fancy_heading">
                                                <div class="fancy_heading fancy_heading_arrows">
-                                                  <h2 class="title">¿Qué es EMDR?</h2>
+                                                  <h2 class="title"><?php echo $lang['tecnicas']['content_4']; ?></h2>
                                                </div>
                                             </div>
                                          </div>
                                               <p style="display: inline-block; color: #FFFFFF; margin: 0;  font-size: 22px; line-height: 34px; line-he_letter-spacing: 0.036em; font-weight: 500; margin: -30px 47px 20px !important;font-style: italic;">
-                                                EMDR stands for Eye Movement Desensitization and Reprocessing por sus siglas en inglés. EMDR significa Desensibilización y Reprocesamiento por Movimiento de Ojos. EMDR es una forma única y no tradicional de psicoterapia diseñada para disminuir los sentimientos negativos asociados con los recuerdos de eventos traumáticos.
+                                                <?php echo $lang['tecnicas']['content_5']; ?>
                                              </p>
                                           </div>
                                        </div>
@@ -211,7 +188,7 @@
                                            <div class="items_group clearfix">
                                             <div class="column one column_fancy_heading">
                                                <div class="fancy_heading fancy_heading_arrows">
-                                                  <h2 class="title" style="line-height: 60px;"><i class="icon-right-dir"></i>¿Se pregunta si es una técnica efectiva?<i class="icon-left-dir"></i></h2>
+                                                  <h2 class="title" style="line-height: 60px;"><i class="icon-right-dir"></i><?php echo $lang['tecnicas']['content_6']; ?><i class="icon-left-dir"></i></h2>
                                                </div>
                                             </div>
                                            </div>
@@ -219,15 +196,7 @@
                                     </div>
                                  </div>
                                           <div class="inside">
-                                              <p style="display: inline-block; color: #3F3F3F;  font-size: 18px; line-height: 34px; line-he_letter-spacing: 0.036em; font-weight: 500; margin: -43px 70px 50px !important;font-style: normal;" >
-                                                <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" />Un estudio controlado aleatorizado de Neurofeedback para el TEPT crónico<a target="_blank" rel="nofollow" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5161315/pdf/pone.0166752.pdf" style="color: #512a8a;"> haga clic aquí.</a>
-                                               <br>
-                                                <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" />Un estudio piloto de Neurofeedback para el TEPT crónico<a target="_blank" rel="nofollow" href="http://www.traumacenter.org/products/pdf_files/Pilot_Study_Neurofeedback_Chronic_PTSD_G0002.pdf" style="color: #512a8a;"> haga clic aquí.</a>
-                                                  <br>
-                                                <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" />Capacitación basada en tareas de Neurofeedback: un enfoque novedoso hacia un ejecutivo de capacitación funciones<a target="_blank" rel="nofollow" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4912915/pdf/nihms771756.pdf" style="color: #512a8a;"> haga clic aquí.</a>
-                                                  <br>
-                                                <img style="margin-left: -20px !important;width: 10px;" class="p-img" src="images/icons/list_check.png" />La eficacia de Neurofeedback en pacientes con trastorno depresivo mayor: una etiqueta abierta estudio prospectivo<a target="_blank" rel="nofollow" href="https://link.springer.com/article/10.1007/s10484-015-9315-8" style="color: #512a8a;"> haga clic aquí.</a>
-                                                </p>
+                                             <?php echo $lang['tecnicas']['content_7']; ?>
                                           </div>
                               
                                            <hr class="no_line" style="margin: 0 auto 80px;">
@@ -235,7 +204,7 @@
                                           <div class="column mcb-column one column_column column-margin-20px">
                                              <div class="column_attr">
                                                 <p style="font-size: 22px; line-height: 34px; color: #424242; font-weight: 400;">
-                                                   Encuentrame: <a style="font-size: 20px; font-weight: 600;" href="contact.html">contact info</a>, o reserva una cita aquí <a style="font-size: 20px; font-weight: 600;" target="_blank" rel="nofollow" href="https://itherapy.com/counselor/carlina-d-leon/">carlina-d-leon</a>
+                                                <?php echo $lang['tecnicas']['content_8']; ?>: <a style="font-size: 20px; font-weight: 600;" href="contact.html">contact info</a>, <?php echo $lang['tecnicas']['content_9']; ?> <a style="font-size: 20px; font-weight: 600;" target="_blank" rel="nofollow" href="https://itherapy.com/counselor/carlina-d-leon/">carlina-d-leon</a>
                                                 </p>
                                              </div>
                                           </div>
