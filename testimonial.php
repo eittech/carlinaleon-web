@@ -48,7 +48,7 @@
 
 </style>
 
-<div class="container section mcb-section " style="padding-top:40px; padding-bottom:0px; background-color:#f0f1f2">
+<div class="container section mcb-section " style="padding-top:40px; padding-bottom:0px; background-color:#f0f1f2;max-width: 100% !important;">
     <div class="row section_wrapper mcb-section-inner">
         <div class="wrap mcb-wrap one clearfix">
             <div class="section mcb-section" style="padding-top:30px; padding-bottom:50px; background-repeat:no-repeat;">
@@ -59,10 +59,10 @@
                 </div>
                 </div>
             </div>
-            <div class="slider">
+            <div class="slider ">
                 <ul>
                     <li>
-                        <div class="desc" style="font-size: 18px;line-height: 25px;">
+                        <div class="desc" style="font-size: 18px;line-height: 25px;text-decoration:none;">
                             <?php echo $lang['home']['content_test_2']; ?>
                         </div>
                         <br>

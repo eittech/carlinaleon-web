@@ -24,11 +24,11 @@ $lang['forense']['content_18'] = "Recopilación y organización de toda la infor
 $lang['forense']['content_19'] = "Revisión de todos los documentos relevantes.";
 $lang['forense']['content_20'] = "Evaluación psicológica para determinar el nivel de veracidad de la información.";
 $lang['forense']['content_21'] = "Se proporcionará un informe psicológico que resume los datos y la interpretación de la información en el contexto de la ley pertinente.";
-$lang['forense']['content_22'] = "<p style=\"display: inline-block; color: #E1DEDE margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 100px 10px !important;\">
+$lang['forense']['content_22'] = "<p style=\"display: inline-block; color: #747474 margin: 0 !important;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 28px 10px !important;\">
                                     5 maneras diferentes de ganar dinero LEGALMENTE en los EE. UU, incluso si usted esta
                                     indocumentado.
                                     Como inmigrante, entiendo el sentido de urgencia y preocupación cuando necesita un remedio
-                                    para su situación de inmigración en estos tiempos inciertos.<a style=\"font-size: 20px; font-weight: 600;\" href=\"suscribete-2.html\" target=\"_blank\" rel=\"nofollow\"> Déjame ayudarte en este proceso</a>
+                                    para su situación de inmigración en estos tiempos inciertos.<a style=\"font-size: 20px; font-weight: 600;\" href=\"suscribete-2.php\" target=\"_blank\" rel=\"nofollow\"> Déjame ayudarte en este proceso</a>
                                     </p>";
 $lang['forense']['content_0'] = "";
 

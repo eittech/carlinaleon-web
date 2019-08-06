@@ -56,7 +56,7 @@ $lang['programs']['content_4'] = "<p style=\"display: inline-block; color: #512a
                                     <br>
                                     </ul>
                                     ";
-$lang['programs']['content_5'] = "<p style=\"font-size: 18px; font-weight: 600; line-height: 35px; color: #6b7c93;\">(*) Estas son técnicas relativamente nuevas para tratar el trauma   psicológico. Si desea escuchar y leer más,<a target=\"_blank\" rel=\"nofollow\" href=\"tecnicas.html\" style=\"color: #512a8a;\"> haga clic aquí.</a>
+$lang['programs']['content_5'] = "<p style=\"font-size: 18px; font-weight: 600; line-height: 35px; color: #6b7c93;\">(*) Estas son técnicas relativamente nuevas para tratar el trauma   psicológico. Si desea escuchar y leer más,<a target=\"_blank\" rel=\"nofollow\" href=\"tecnicas.php\" style=\"color: #512a8a;\"> haga clic aquí.</a>
                                     <br>
                                     Si la idea de comprometerte con un programa parece complicada, podemos planificar sesiones individuales semanales a un costo de <span style= \"font-weight: 700; font-size: 20px; color: #512a8a;\"> <a href=\"https://cleon.mytherabook.com/home/login\"> $80.</a></span>
                                     </p>";

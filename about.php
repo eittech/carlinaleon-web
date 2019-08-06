@@ -168,7 +168,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="section mcb-section mcb-section-13e36fc59 bg-cover" style="padding-top:20px;padding-bottom:30px;background-image:url(images/section-at.png);background-repeat:no-repeat;background-position:center bottom;">
+                                 <div class="section mcb-section mcb-section-13e36fc59 bg-cover" style="padding-top:20px;padding-bottom:90px;background-image:url(images/section-at.png);background-repeat:no-repeat;background-position:center bottom;">
                                     <div class="section_wrapper mcb-section-inner">
                                        <div class="wrap mcb-wrap one clearfix">
                                           <div class="wrap mcb-wrap mcb-wrap-f3ryvcdfj one valign-top clearfix">
@@ -339,7 +339,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="desc_wrapper">
-                                                        <div class="desc" style="font-size: 18px;line-height: 30px;">
+                                                        <div class="desc" style="font-size: 18px;line-height: 30px;text-align: left !important;">
                                                             <?php echo $lang['about']['content_15']; ?>
                                                         </div>
                                                     </div>
@@ -359,7 +359,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="desc_wrapper">
-                                                        <div class="desc" style="font-size: 18px;line-height: 30px;">
+                                                        <div class="desc" style="font-size: 18px;line-height: 30px;text-align: left !important;">
                                                             <?php echo $lang['about']['content_16']; ?>
                                                         </div>
                                                     </div>

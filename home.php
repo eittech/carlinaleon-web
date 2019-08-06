@@ -121,7 +121,7 @@
                               </div>
                            </div>
                            <!-- Revolution slider area-->
-                           <div class="section mcb-section mcb-section-1d2bf82id" style="padding-top:220px; padding-bottom:120px; background-image:url(images/home-slider.png); background-repeat:no-repeat; background-position:center bottom;">
+                           <div class="section mcb-section mcb-section-1d2bf82id" style="padding-top:220px; padding-bottom:120px; background-image:url(images/home-slider-<?php if(isset($_GET['lang']) == ""){ echo "en"; }else{echo $_GET['lang'];} ?>.png); background-repeat:no-repeat; background-position:center bottom;">
                               <div class="section_wrapper mcb-section-inner">
                                  <div class="wrap mcb-wrap mcb-wrap-0cejiz4z0 one valign-top clearfix">
                                     <div class="mcb-wrap-inner">
@@ -369,7 +369,7 @@
                                                       <div class="col-sm">
                                                          <div class="animate fadeInRight" data-anim-type="fadeInRight">
                                                             <div class="icon_box icon_position_top no_border">
-                                                               <div class="image_wrapper"><img src="images/iconos-emociones-6.png" class="scale-with-grid">
+                                                               <div class="image_wrapper"><img src="images/iconos-emociones-9.png" class="scale-with-grid">
                                                                </div>
                                                                <div class="desc_wrapper">
                                                                   <p class="title"></p>
@@ -455,10 +455,17 @@
                                              <div class="image_wrapper"><img class="scale-with-grid" src="images/iconos-doble-1.png" alt="home_herbal_product1" width="600" height="250"></div>
                                           </div>
                                           <?php echo $lang['home']['content_19']; ?>
-                                          <a href="suscribete-1.php"  target="_blank" rel="nofollow">   
-                                          <button data-hover="Suscribete" class="mfn-link mfn-link-5" style="margin: 10% 33% !important;">
-                                          <?php echo $lang['home']['button']; ?>
-                                          </button>
+                                          <br>
+                                          <br>
+                                          <br>
+                                          <a href="suscribete-11111.php"  target="_blank" rel="nofollow">
+                                             <div class="content">
+                                                <div class="inner">
+                                                <button data-hover="<?php echo $lang['home']['button']; ?>" class="mfn-link mfn-link-5">
+                                                   <?php echo $lang['home']['button']; ?>
+                                                </button>
+                                                </div>
+                                             </div>
                                           </a>
                                        </div>
                                        <div class="col-sm">
@@ -466,10 +473,17 @@
                                              <div class="image_wrapper"><img class="scale-with-grid" src="images/iconos-doble-2.png" alt="home_herbal_product1" width="600" height="250"></div>
                                           </div>
                                           <?php echo $lang['home']['content_20']; ?>
-                                          <a href="suscribete-1.php"  target="_blank" rel="nofollow">   
-                                          <button data-hover="Suscribete" class="mfn-link mfn-link-5" style="margin: 10% 33% !important;">
-                                          <?php echo $lang['home']['button']; ?>
-                                          </button>
+                                          <br>
+                                          <br>
+                                          <br>
+                                          <a href="suscribete-1.php"  target="_blank" rel="nofollow">
+                                             <div class="content">
+                                                <div class="inner">
+                                                <button data-hover="<?php echo $lang['home']['button']; ?>" class="mfn-link mfn-link-5">
+                                                   <?php echo $lang['home']['button']; ?>
+                                                </button>
+                                                </div>
+                                             </div>
                                           </a>
                                        </div>
                                     </div>

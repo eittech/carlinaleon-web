@@ -72,6 +72,6 @@ $lang['about']['content_13'] = "<p style=\"font-size: 16px;line-height: 26px;fon
 $lang['about']['content_14'] = "Three fun facts about me";
 $lang['about']['content_15'] = "There was a running joke with my friends and family that I was like Wendy from Bob the Builder because I love construction work.";
 $lang['about']['content_16'] = "I can find space wherever most people would say there isn’t any. It is actually kind of funny to see people surprised if there is commitment, faith, hope and a ton of creativity.";
-$lang['about']['content_17'] = "3. I am a HUGE nerd.";
+$lang['about']['content_17'] = "I am a HUGE nerd.";
 
 ?>

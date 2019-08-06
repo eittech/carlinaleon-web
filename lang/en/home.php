@@ -4,8 +4,8 @@
 
 // Home
 $lang['home']['button'] = "Subscribe";
-$lang['home']['content_1'] = "Experta en tratamiento de trauma psicológico y victimologia";
-$lang['home']['content_2'] = "Especialista en evaluaciones forenses para casos de inmigración";
+$lang['home']['content_1'] = "Expert in treatment of psychological trauma and victimology";
+$lang['home']['content_2'] = "Forensic evaluation specialist for immigration cases";
 $lang['home']['content_3'] = "About me";
 $lang['home']['content_4'] = "¿How badly do you want to hear?";
 $lang['home']['content_5'] = "But instead, you hear";
@@ -80,6 +80,6 @@ $lang['home']['content_26'] = "Profesional en Practica Privada. Ex-Directora del
 $lang['home']['content_27'] = "Carlina L. demostró una comprensión del trabajo comunitario realizado en el programa Nuevo Amanecer a través de su capacidad para incorporar las implicaciones psicológicas, culturales, económicas, sociales y legales que afectan a nuestra población.";
 $lang['home']['content_28'] = "Directora del Programa de Violencia Domestica. Centro del Desarrollo de la Mujer Dominicana.";
 $lang['home']['content_29'] = "<p style='font-size: 22px; line-height: 34px; color: #424242; font-weight: 400;'>
-                                Encuentrame: <a style='font-size: 20px; font-weight: 600;' href='contact.php'>contact info</a>, o reserva una cita aquí <a style='font-size: 20px; font-weight: 600;' target='_blank' rel='nofollow' href='https://itherapy.com/counselor/carlina-d-leon/'>carlina-d-leon</a>
+                                Find me: <a style='font-size: 20px; font-weight: 600;' href='contact.php'>contact info</a>, or book an appointment here <a style='font-size: 20px; font-weight: 600;' target='_blank' rel='nofollow' href='https://itherapy.com/counselor/carlina-d-leon/'>carlina-d-leon</a>
                                 </p>";
 ?>

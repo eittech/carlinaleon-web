@@ -144,19 +144,17 @@
                                     <div class="column one-third column_icon_box">
                                         <!-- Animated area -->
                                         <div>
-                                            <div class="icon_box icon_position_top has_border">
-                                                <a class="scroll" href="#thematic-websites">
-                                                    <div class="icon_wrapper">
-                                                        <div class="icon">
-                                                            <i class="icon-lightbulb-line"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                      <div class="column_attr " style="margin-top: -120px !important;">
-                                                         <?php echo $lang['programs']['content_2']; ?>
+                                            <div class="icon_box icon_position_top">
+                                                   <div class="icon_wrapper">
+                                                      <div class="icon">
+                                                         <i class="icon-lightbulb-line"></i>
                                                       </div>
-                                                    </div>
-                                                </a>
+                                                   </div>
+                                                   <div>
+                                                   <div class="column_attr " style="margin-top: -120px !important;">
+                                                      <?php echo $lang['programs']['content_2']; ?>
+                                                   </div>
+                                                   </div>
                                             </div>
                                         </div>
                                     </div>
@@ -164,19 +162,17 @@
                                     <div class="column one-third column_icon_box">
                                         <!-- Animated area -->
                                         <div>
-                                            <div class="icon_box icon_position_top has_border">
-                                                <a href="#">
-                                                    <div class="icon_wrapper">
-                                                        <div class="icon">
-                                                            <i class="icon-beaker-line"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                      <div class="column_attr " style="margin-top: -120px !important;">
-                                                            <?php echo $lang['programs']['content_3']; ?>
-                                                      </div>
-                                                    </div>
-                                                </a>
+                                            <div class="icon_box icon_position_top">
+                                                <div class="icon_wrapper">
+                                                   <div class="icon">
+                                                      <i class="icon-beaker-line"></i>
+                                                   </div>
+                                                </div>
+                                                <div>
+                                                   <div class="column_attr " style="margin-top: -120px !important;">
+                                                         <?php echo $lang['programs']['content_3']; ?>
+                                                   </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -185,18 +181,38 @@
                                         <!-- Animated area -->
                                         <div>
                                             <div class="icon_box icon_position_top no_border">
-                                                <a href="http://support.BeantownThemes.com" target="_blank">
-                                                    <div class="icon_wrapper">
-                                                        <div class="icon">
-                                                            <i class="icon-comment-line"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="column_attr " style="margin-top: -120px !important;">
-                                                            <?php echo $lang['programs']['content_4']; ?>
-                                                      </div>
-                                                </a>
+                                                <div class="icon_wrapper">
+                                                   <div class="icon">
+                                                      <i class="icon-comment-line"></i>
+                                                   </div>
+                                                </div>
+                                                <div class="column_attr " style="margin-top: -120px !important;">
+                                                   <?php echo $lang['programs']['content_4']; ?>
+                                                </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <hr class="no_line" style="margin: 0 auto 10px;">
+                                    <div id="Content">
+                                       <div class="content_wrapper clearfix">
+                                          <div class="sections_group">
+                                             <div class="entry-content">
+                                                <div class="section mcb-section" style="padding-top:0px; padding-bottom:10px; background-color:#f0f1f2">
+                                                   <div class="container">
+                                                      <div class="row">
+                                                         <div class="col-sm">
+                                                            <div class="section_wrapper">
+                                                               <div class="inside" style="text-align: center;">
+                                                                  <?php echo $lang['programs']['content_5']; ?>
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
                                     </div>
                                 </div>
                             </div>

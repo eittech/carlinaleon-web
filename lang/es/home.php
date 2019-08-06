@@ -2,7 +2,8 @@
 
 // Textos de datos
 
-// About
+// Home
+$lang['home']['button'] = "Suscribir";
 $lang['home']['content_1'] = "Experta en tratamiento de trauma psicológico y victimologia";
 $lang['home']['content_2'] = "Especialista en evaluaciones forenses para casos de inmigración";
 $lang['home']['content_3'] = "Acerca de mi";

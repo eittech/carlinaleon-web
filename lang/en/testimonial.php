@@ -11,8 +11,8 @@ $lang['home']['content_test_6'] = "Former Program Director Changing Futures Prog
 $lang['home']['content_test_7'] = "Carlina L. demonstrated an understanding of the community-based work done at Nuevo Amanecer Program through her ability to incorporate psychological, cultural, economic, social and legal implications that affect our population.";
 $lang['home']['content_test_8'] = "Program Director New Dawn - Dominican Women Development Center (DWDC).";
 $lang['home']['content_test_9'] = "<p style='font-size: 22px; line-height: 34px; color: #424242; font-weight: 400;'>
-                                Encuentrame: <a style='font-size: 20px; font-weight: 600;' href='contact.php'>contact info</a>, o reserva una cita aquí <a style='font-size: 20px; font-weight: 600;' target='_blank' rel='nofollow' href='https://itherapy.com/counselor/carlina-d-leon/'>carlina-d-leon</a>
-                                </p>";
+                                        Find me: <a style='font-size: 20px; font-weight: 600;' href='contact.php'>contact info</a>, or book an appointment here <a style='font-size: 20px; font-weight: 600;' target='_blank' rel='nofollow' href='https://itherapy.com/counselor/carlina-d-leon/'>carlina-d-leon</a>
+                                    </p>";
 $lang['home']['content_test_10'] = "Executive Director - Kinsbridge Heights Community Center (KHCC)";
 
 ?>

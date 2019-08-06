@@ -1,3 +1,14 @@
+
+.content
+{
+text-align: center;
+}
+.inner
+{
+display:inline-block;
+}
+
+
 @media only screen and (max-width: 767px) {
     div.home-chat1{
        margin-top: -380px !important;

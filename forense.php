@@ -253,7 +253,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="column mcb-column one column_column" style="padding-top:95px; padding-bottom:0px; background-image:url(images/section-md.png); background-repeat:no-repeat; background-position:right top">
+                                 <div class="column mcb-column one column_column" style="padding-top:95px; padding-bottom:0px; background-image:url(images/section-md.png.old); background-repeat:no-repeat; background-position:right top">
                                     <div class="column_attr clearfix align_center">
                                        <h2 style="display: inline-block; color: #E1DEDE margin: 0;  font-size: 30px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
                                           <?php echo $lang['forense']['content_16']; ?>
@@ -300,8 +300,14 @@
                                        </tr>
                                     </tbody>
                                  </table>
-
-
+                              </div>
+                              <br>
+                              <br>
+                              <div class="column mcb-column one column_column" style="padding-top:10px; padding-bottom:0px; background-image:url(images/section-md.png.old); background-repeat:no-repeat; background-position:right top">
+                                 <div class="column_attr clearfix align_center">
+                                    <?php echo $lang['forense']['content_22']; ?>
+                                    <hr class="no_line" style="margin: 0 auto 10px;">
+                                 </div>
                               </div>
                            </div>
                         </div>

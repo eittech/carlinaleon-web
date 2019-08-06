@@ -56,7 +56,7 @@ $lang['programs']['content_4'] = "<p style=\"display: inline-block; color: #512a
                                     <br>
                                     </ul>
                                     ";
-$lang['programs']['content_5'] = "<p style=\"font-size: 18px; font-weight: 600; line-height: 35px; color: #6b7c93;\">(*) These are relatively new techniques to address psychological trauma. If you would like to hear and read more,<a target=\"_blank\" rel=\"nofollow\" href=\"tecnicas.html\" style=\"color: #512a8a;\"> click here.</a>
+$lang['programs']['content_5'] = "<p style=\"font-size: 18px; font-weight: 600; line-height: 35px; color: #6b7c93;\">(*) These are relatively new techniques to address psychological trauma. If you would like to hear and read more,<a target=\"_blank\" rel=\"nofollow\" href=\"tecnicas.php\" style=\"color: #512a8a;\"> click here.</a>
                                     <br>
                                     Still not sure about a program? If you would like regular weekly sessions, no problem! You can book a 50 min session for <span style= \"font-weight: 700; font-size: 20px; color: #512a8a;\"> <a href=\"https://cleon.mytherabook.com/home/login\"> $80.</a></span>
                                     </p>";
@@ -85,7 +85,7 @@ $lang['programs']['content_6'] = "<h4 style=\"margin-bottom: 5px;\">Getting my f
                                         Full payment up front:  <strong>$ 225</strong>
                                     </p>
                                     </div>
-                                    <hr class=\"no_line\" style=\"margin: 0 auto 15px;\">
+                                    <hr class=\"no_line\" style=\"margin: 0 auto 62px;\">
                                     <div class=\"plan-footer\">
                                     <a href=\"https://cleon.mytherabook.com/home/login\" class=\"button button_left button_theme button_js kill_the_icon\"><span class=\"button_icon\"><i class=\"icon-basket\"></i></span><span class=\"button_label\">Find</span></a>
                                     </div>";
@@ -99,7 +99,7 @@ $lang['programs']['content_7'] = "<h4 style=\"margin-bottom: 5px;\">Deeper commi
                                     <span class=\"big\"> 1 to 3 challenges you have identified as problematic and an obstacle that prevents your dream from coming true.
                                     </span>
                                     </p>
-                                    <hr class=\"no_line\" style=\"margin: 0 auto 15px;\">
+                                    <hr class=\"no_line\" style=\"margin: 0 auto 50px;\">
                                     <div style=\"text-align: left;\">
                                     <p style=\"background: url(content/product4/images/home_product4_pic11.png) no-repeat left 4px; padding-left: 25px;\">
                                         Payment plan
@@ -114,7 +114,7 @@ $lang['programs']['content_7'] = "<h4 style=\"margin-bottom: 5px;\">Deeper commi
                                         Full payment up front:  <strong>$ 585</strong>
                                     </p>
                                     </div>
-                                    <hr class=\"no_line\" style=\"margin: 0 auto 15px;\">
+                                    <hr class=\"no_line\" style=\"margin: 0 auto 5px;\">
                                     <div class=\"plan-footer\">
                                     <a href=\"https://cleon.mytherabook.com/home/login\" class=\"button button_left button_theme button_js kill_the_icon\"><span class=\"button_icon\"><i class=\"icon-basket\"></i></span><span class=\"button_label\">Find</span></a>
                                     </div>";
