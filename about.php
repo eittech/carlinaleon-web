@@ -332,18 +332,16 @@
                                         <!-- Animated area -->
                                         <div class="animate fadeInLeftLarge" data-anim-type="fadeInLeftLarge">
                                             <div class="icon_box icon_position_top has_border">
-                                                <a class="scroll" href="#thematic-websites">
-                                                    <div class="icon_wrapper">
-                                                        <div class="icon">
-                                                            <img src="images/datos-interesantes1.png" alt="Curabitur ipsum" class="scale-with-grid">
-                                                        </div>
-                                                    </div>
-                                                    <div class="desc_wrapper">
-                                                        <div class="desc" style="font-size: 18px;line-height: 30px;text-align: left !important;">
-                                                            <?php echo $lang['about']['content_15']; ?>
-                                                        </div>
-                                                    </div>
-                                                </a>
+                                                <div class="icon_wrapper">
+                                                   <div class="icon">
+                                                      <img src="images/datos-interesantes1.png" alt="Curabitur ipsum" class="scale-with-grid">
+                                                   </div>
+                                                </div>
+                                                <div class="desc_wrapper">
+                                                   <div class="desc" style="font-size: 18px;line-height: 30px;text-align: left !important;">
+                                                      <?php echo $lang['about']['content_15']; ?>
+                                                   </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -352,18 +350,16 @@
                                         <!-- Animated area -->
                                         <div class="animate zoomIn" data-anim-type="zoomIn">
                                             <div class="icon_box icon_position_top has_border">
-                                                <a href="#">
-                                                    <div class="icon_wrapper">
-                                                        <div class="icon">
-                                                            <img src="images/datos-interesantes2.png" alt="Curabitur ipsum" class="scale-with-grid">
-                                                        </div>
-                                                    </div>
-                                                    <div class="desc_wrapper">
-                                                        <div class="desc" style="font-size: 18px;line-height: 30px;text-align: left !important;">
-                                                            <?php echo $lang['about']['content_16']; ?>
-                                                        </div>
-                                                    </div>
-                                                </a>
+                                                <div class="icon_wrapper">
+                                                   <div class="icon">
+                                                      <img src="images/datos-interesantes2.png" alt="Curabitur ipsum" class="scale-with-grid">
+                                                   </div>
+                                                </div>
+                                                <div class="desc_wrapper">
+                                                   <div class="desc" style="font-size: 18px;line-height: 30px;text-align: left !important;">
+                                                      <?php echo $lang['about']['content_16']; ?>
+                                                   </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -372,18 +368,16 @@
                                         <!-- Animated area -->
                                         <div class="animate fadeInRightLarge" data-anim-type="fadeInRightLarge">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a href="http://support.BeantownThemes.com" target="_blank">
-                                                    <div class="icon_wrapper">
-                                                        <div class="icon">
-                                                            <img src="images/datos-interesantes3.png" alt="Curabitur ipsum" class="scale-with-grid">
-                                                        </div>
-                                                    </div>
-                                                    <div class="desc_wrapper">
-                                                        <div class="desc" style="font-size: 18px;line-height: 30px;">
-                                                            <?php echo $lang['about']['content_17']; ?>
-                                                        </div>
-                                                    </div>
-                                                </a>
+                                                <div class="icon_wrapper">
+                                                   <div class="icon">
+                                                      <img src="images/datos-interesantes3.png" alt="Curabitur ipsum" class="scale-with-grid">
+                                                   </div>
+                                                </div>
+                                                <div class="desc_wrapper">
+                                                   <div class="desc" style="font-size: 18px;line-height: 30px;">
+                                                      <?php echo $lang['about']['content_17']; ?>
+                                                   </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

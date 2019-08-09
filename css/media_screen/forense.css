@@ -1,3 +1,14 @@
+
+.td-hover:hover{
+    color:#FFFFFF !important;
+    background-color: #5b268d !important;
+}
+
+.td-hover:hover a{
+    color:#FFFFFF !important;
+    background-color: #5b268d !important;
+}
+
 /*
 	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
 	*/
@@ -42,6 +53,10 @@
     }
     
 }
+
+
+
+
 
 
 @media only screen and (max-width: 767px) {

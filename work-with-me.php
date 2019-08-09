@@ -133,7 +133,7 @@
                                        <!-- One Full Row-->
                                        <div class="column mcb-column one column_column column-margin-20px">
                                           <div class="column_attr">
-                                             <h2 style="display: inline-block; font-size: 40px; line-height: 50px; font-weight: 600; margin-right: 15px;"><?php echo $lang['work-with-me']['content_2']; ?></h2>
+                                             <h2 style="display: inline-block; font-size: 39px !important; line-height: 50px; font-weight: 600; margin-right: 15px;"><?php echo $lang['work-with-me']['content_2']; ?></h2>
                                           </div>
                                        </div>
                                     </div>
@@ -141,7 +141,7 @@
                                        <!-- One Full Row-->
                                        <div class="column mcb-column two column_column ">
                                           <div class="column_attr">
-                                             <h2 style="display: inline-block; font-size: 40px; line-height: 50px; font-weight: 600; margin-right: 15px;"><?php echo $lang['work-with-me']['content_3']; ?>:  </h2>
+                                             <h2 style="display: inline-block; font-size: 39px !important; line-height: 50px; font-weight: 600; margin-right: 15px;"><?php echo $lang['work-with-me']['content_3']; ?>:  </h2>
                                           </div>
                                        </div>
                                     </div>

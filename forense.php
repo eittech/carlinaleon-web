@@ -119,7 +119,7 @@
                 <div id="Subheader" style="padding:90px 0 70px;">
                     <div class="container">
                         <div class="column one">
-                            <h1 class="title" style="color:#ffffff; font-size: 55px;line-height: 60px;letter-spacing: 0em;"><?php echo $lang['forense']['content_1']; ?> 
+                            <h1 class="title" style="color:#ffffff; font-size: 55px;line-height: 60px;letter-spacing: 0em;text-align:center;"><?php echo $lang['forense']['content_1']; ?> 
                                     <br>
                                     <?php echo $lang['forense']['content_2']; ?>
                                  </h1>
@@ -177,27 +177,27 @@
                             <table role="table">
                                 <tbody role="rowgroup">
                                     <tr role="row">
-                                        <td role="cell">
+                                        <td class='td-hover'  role="cell">
                                             <a data-fancybox="popup_1" data-src="#popup_1" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 24px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
                                                 <?php echo $lang['forense']['content_5']; ?>
                                             </a>
                                         </td>
-                                        <td role="cell">
+                                        <td class='td-hover' class='td-over' role="cell">
                                             <a data-fancybox="popup_2" data-src="#popup_2" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 24px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
                                                 <?php echo $lang['forense']['content_6']; ?>
                                             </a>
                                         </td>
-                                        <td role="cell">
+                                        <td class='td-hover' role="cell">
                                             <a data-fancybox="popup_3" data-src="#popup_3" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 24px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
                                                 <?php echo $lang['forense']['content_7']; ?>
                                             </a>
                                         </td>
-                                        <td role="cell">
+                                        <td class='td-hover' role="cell">
                                             <a data-fancybox="popup_4" data-src="#popup_4" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 24px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
                                                 <?php echo $lang['forense']['content_8']; ?>
                                             </a>
                                         </td>
-                                        <td role="cell">
+                                        <td class='td-hover' role="cell">
                                             <a data-fancybox="popup_5" data-src="#popup_5" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 24px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
                                                 <?php echo $lang['forense']['content_9']; ?>
                                             </a>
@@ -361,7 +361,7 @@
                            <div class="wrap mcb-wrap one-second clearfix">
                               <!-- One Full Row-->
                               <div class="column mcb-column one column_column">
-                              <span style="color:#5b268d !important;display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;text-align:center;">
+                              <span style="color:#5b268d !important;display: inline-block; font-size: 25px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;text-align:center;">
                                           <?php echo $lang['forense']['content_26']; ?>
                                        </span>
                                        <br>
@@ -375,7 +375,7 @@
                            <div class="wrap mcb-wrap one-second clearfix">
                               <!-- One Full Row-->
                               <div class="column mcb-column one column_column">
-                                <span style="color:#5b268d !important;display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;text-align:center;">
+                                <span style="color:#5b268d !important;display: inline-block; font-size: 25px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;text-align:center;">
                                     <?php echo $lang['forense']['content_27']; ?>
                                 </span>
                                 <br>
@@ -388,7 +388,7 @@
                                 <br>
                                 <br>
                                 <br>
-                                <span style="color:#5b268d !important;display: inline-block; font-size: 20px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;text-align:center;">
+                                <span style="color:#5b268d !important;display: inline-block; font-size: 25px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 500;text-align:center;">
                                     <?php echo $lang['forense']['content_30']; ?>
                                 </span>
                                 <br>

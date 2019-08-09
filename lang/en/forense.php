@@ -19,11 +19,11 @@ $lang['forense']['content_13'] = "Relief for victims of human trafficking.";
 $lang['forense']['content_14'] = "Protection granted by the United States government to someone who has left their native country as a political refugee.";
 $lang['forense']['content_15'] = "My forensic evaluation work consists of a combination of online and face-to-face sessions in order to guarantee a thorough assessment at a reasonable price. I work directly with your lawyer, providing her/him constant feedback to make sure your case gathers as much evidence as possible. This evaluation is by no means intended to falsify or devalue what you went through, but rather to provide the appropriate context to understand and convey the gravity of your experiences.";
 $lang['forense']['content_16'] = "¿What are forensic assessments for immigration purposes?";
-$lang['forense']['content_17'] = "Orientation for best practices before and while the examinee is going through the evaluation process.";
-$lang['forense']['content_18'] = "Recollection and organization of all information provided by the examinee.";
-$lang['forense']['content_19'] = "Revision of all relevant documents.";
-$lang['forense']['content_20'] = "Psychological assessment to determine the level of validity / malingering.";
-$lang['forense']['content_21'] = "A psychological report summarizing the data and interpretation of the information in the context of the relevant law.";
+$lang['forense']['content_17'] = "<img style='margin-left: -20px !important;width: 10px;' class='p-img' src='images/icons/list_check.png'>Orientation for best practices before and while the examinee is going through the evaluation process.";
+$lang['forense']['content_18'] = "<img style='margin-left: -20px !important;width: 10px;' class='p-img' src='images/icons/list_check.png'>Recollection and organization of all information provided by the examinee.";
+$lang['forense']['content_19'] = "<img style='margin-left: -20px !important;width: 10px;' class='p-img' src='images/icons/list_check.png'>Revision of all relevant documents.";
+$lang['forense']['content_20'] = "<img style='margin-left: -20px !important;width: 10px;' class='p-img' src='images/icons/list_check.png'>Psychological assessment to determine the level of validity / malingering.";
+$lang['forense']['content_21'] = "<img style='margin-left: -20px !important;width: 10px;' class='p-img' src='images/icons/list_check.png'>A psychological report summarizing the data and interpretation of the information in the context of the relevant law.";
 $lang['forense']['content_22'] = "<p style=\"display: inline-block; color: #E1DEDE margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 28px 10px !important;\">
                                     Teach your clients 5 different ways to LEGALLY make money in the US even if they are undocumented.
                                     As an immigrant, I understand the sense of urgency and concern when you need a remedy for your immigration situation in these uncertain times.<a style=\"font-size: 20px; font-weight: 600;\" href=\"suscribete-2.php\" target=\"_blank\" rel=\"nofollow\"> Let me help you in this process</a>
@@ -35,7 +35,7 @@ $lang['forense']['content_26'] = "Reingreso de su país de origen a los EEUU: I-
 $lang['forense']['content_27'] = "Cancelación de remoción / Cancelación de expulsión (Formulario 42-B)";
 $lang['forense']['content_28'] = "Para que un ciudadano o residente legal permanente de los Estados Unidos establezca la relación con ciertos parientes extranjeros que desean emigrar a los Estados Unidos. Se debe presentar un formulario por separado para cada pariente elegible. USCIS procesa el Formulario I-130, Petición de familiar extranjero, a medida que se obtiene un número de visa. La presentación y aprobación de un I-130 es solo el primer paso para ayudar a un pariente a emigrar a los Estados Unidos. Los miembros elegibles de la familia deben esperar hasta que haya un número de visa disponible antes de poder solicitar una visa de inmigrante o un ajuste de estatus a un residente permanente legal.";
 $lang['forense']['content_29'] = "La cancelación de la deportación es una forma de alivio de la deportación. Esto significa que solo puede solicitar la cancelación de la expulsión si tiene un caso abierto en un proceso de deportación o expulsión en el Tribunal de Inmigración ante un Juez de Inmigración.";
-$lang['forense']['content_30'] = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Formulario N-648";
+$lang['forense']['content_30'] = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Formulario N-648";
 $lang['forense']['content_31'] = "Certificación médica N-648 para excepciones por discapacidad";
 
 
