@@ -2,9 +2,9 @@
 
 // Textos de datos
 
-$lang['home']['content_test_1'] = "La gente habla";
-$lang['home']['content_test_2'] = "Carlina is a dedicated and passionate professional, that goes above and beyond the call of duty. I had the pleasure of working closely with Carlina in a non-profit setting, and can attest to her genuine interest of those she serves. She is culturally competent, sensitive, and highly knowledgeable in the field of mental health and trauma informed services. Profesional Private Practice.";
-$lang['home']['content_test_3'] = "Carlina es una profesional dedicada y apasionada, que va más allá del deber. Tuve el placer de trabajar en estrecha colaboración con Carlina en un entorno sin fines de lucro, y puedo dar fe de su verdadero compromiso para garantizar el mejor interés si los que prestan servicios. Ella es culturalmente competente, sensible y altamente conocedora en el campo de la salud mental y servicios informados sobre traumas.";
+$lang['home']['content_test_1'] = "People talk";
+$lang['home']['content_test_2'] = "Carlina has a wonderful ability to pull apart complicated challenges, map out solutions and achieve designated outcomes that served to get projects off the ground. While a critical thinker and action-oriented team member, Carlina can also shift to help teams process, grow and learn from trauma, grief and marginalization. Margaret Della, Executive Director - Kinsbridge Heights Community Center (KHCC)";
+$lang['home']['content_test_3'] = "Carlina is a dedicated and passionate professional, that goes above and beyond the call of duty. I had the pleasure of working closely with Carlina in a non-profit setting, and can attest to her genuine interest of those she serves. She is culturally competent, sensitive, and highly knowledgeable in the field of mental health and trauma informed services. Profesional Private Practice. Former Comissioner Major Office for Human Rights - New York City.";
 $lang['home']['content_test_4'] = "Profesional en Practica Privada. Ex-comisionada de la Oficina de Derechos Humanos de la Ciudad de Nueva York.";
 $lang['home']['content_test_5'] = "Carlina is honest, trustworthy and incredibly hardworking. Beyond that, it has an impressive work ethic that is always reassuring. His knowledge of psychological trauma and gender perspective and experience in cultural change was a great advantage for our program.";
 $lang['home']['content_test_6'] = "Former Program Director Changing Futures Program (CFP) Kingsbridge Heights Community Center (KHCC)";
