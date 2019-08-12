@@ -242,7 +242,7 @@
                                  <div class="wrap mcb-wrap mcb-wrap-tfjf9p4ux one-third valign-top clearfix" style="padding:0 1%">
                                     <div class="mcb-wrap-inner">
                                        <div class="column mcb-column mcb-item-m83lbkvew one column_column">
-                                          <div class="column_attr clearfix align_center" style=" background-color:#fff; padding:50px 50px 35px; border-radius: 8px;">
+                                          <div class="column_attr clearfix align_center" style=" background-color:#fcfcfc; padding:50px 50px 35px; border-radius: 8px;">
                                              <?php echo $lang['programs']['content_7']; ?>
                                           </div>
                                        </div>
