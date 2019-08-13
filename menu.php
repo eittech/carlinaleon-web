@@ -104,9 +104,6 @@ li.dropdown {
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn"><i class="icon-language"></i></a>
                 <div class="dropdown-content">
-                    <a class="nav-link smooth-scroll" href="index.php?lang=pt" style="color:#9a9aa3 !important;font-size: 10px !important;">
-                        <b>Portugues</b>
-                    </a>
                     <a class="nav-link smooth-scroll" href="index.php?lang=en" style="color:#9a9aa3 !important;font-size: 10px !important;">
                         <b>English</b>
                     </a>
