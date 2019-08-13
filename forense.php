@@ -290,40 +290,66 @@
                                                    </h2>
                                                    <hr class="no_line" style="margin: 0 auto 10px;">
                                                 </div>
-                                                <br>
-                                                <br>
-                                                <div class="column_attr clearfix align_left">
-                                                   <span style="display: inline-block; color: #6a6a6a margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
-                                                      <?php echo $lang['forense']['content_17']; ?>
-                                                   </span>
-                                                   <hr class="no_line" style="margin: 0 auto 10px;">
-                                                </div>
-                                                <div class="column_attr clearfix align_left">
-                                                   <span style="display: inline-block; color: #6a6a6a margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
-                                                      <?php echo $lang['forense']['content_18']; ?>
-                                                   </span>
-                                                   <hr class="no_line" style="margin: 0 auto 10px;">
-                                                </div>
-                                                <div class="column_attr clearfix align_left">
-                                                   <span style="display: inline-block; color: #6a6a6a margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
-                                                      <?php echo $lang['forense']['content_19']; ?>
-                                                   </span>
-                                                   <hr class="no_line" style="margin: 0 auto 10px;">
-                                                </div>
-                                                <div class="column_attr clearfix align_left">
-                                                   <span style="display: inline-block; color: #6a6a6a margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
-                                                      <?php echo $lang['forense']['content_20']; ?>
-                                                   </span>
-                                                   <hr class="no_line" style="margin: 0 auto 10px;">
-                                                </div>
-                                                <div class="column_attr clearfix align_left">
-                                                   <span style="display: inline-block; color: #6a6a6a margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
-                                                      <?php echo $lang['forense']['content_21']; ?>
-                                                   </span>
-                                                   <hr class="no_line" style="margin: 0 auto 10px;">
+                                            </div>
+                                            <br>
+                                            <br>
+                                            <div class="column mcb-column one column_column" style="padding-top:10px; padding-bottom:0px; background-image:url(images/section-md.png.old); background-repeat:no-repeat; background-position:right top">
+                                                <div class="column_attr clearfix align_center" style="color: #6a6a6a margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
+                                                    <?php echo $lang['forense']['content_17']; ?>
                                                 </div>
                                                 <br/>
-                                             </div>
+                                                <div class="column_attr clearfix align_center" style="color: #6a6a6a margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
+                                                    <?php echo $lang['forense']['content_18']; ?>
+                                                </div>
+                                                <br/>
+                                                <div class="column_attr clearfix align_center" style="color: #6a6a6a margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
+                                                    <?php echo $lang['forense']['content_19']; ?>
+                                                </div>
+                                                <br/>
+                                                <div class="column_attr clearfix align_center" style="color: #6a6a6a margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
+                                                    <?php echo $lang['forense']['content_20']; ?>
+                                                </div>
+                                                <br/>
+                                                <div class="column_attr clearfix align_center" style="color: #6a6a6a margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
+                                                    <?php echo $lang['forense']['content_21']; ?>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            <!--
+                                            <div class="column_attr clearfix align_left">
+                                                <span style="display: inline-block; color: #6a6a6a margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
+                                                    <?php echo $lang['forense']['content_17']; ?>
+                                                </span>
+                                                <hr class="no_line" style="margin: 0 auto 10px;">
+                                            </div>
+                                            <div class="column_attr clearfix align_left">
+                                                <span style="display: inline-block; color: #6a6a6a margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
+                                                    <?php echo $lang['forense']['content_18']; ?>
+                                                </span>
+                                                <hr class="no_line" style="margin: 0 auto 10px;">
+                                            </div>
+                                            <div class="column_attr clearfix align_left">
+                                                <span style="display: inline-block; color: #6a6a6a margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
+                                                    <?php echo $lang['forense']['content_19']; ?>
+                                                </span>
+                                                <hr class="no_line" style="margin: 0 auto 10px;">
+                                            </div>
+                                            <div class="column_attr clearfix align_left">
+                                                <span style="display: inline-block; color: #6a6a6a margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
+                                                    <?php echo $lang['forense']['content_20']; ?>
+                                                </span>
+                                                <hr class="no_line" style="margin: 0 auto 10px;">
+                                            </div>
+                                            <div class="column_attr clearfix align_left">
+                                                <span style="display: inline-block; color: #6a6a6a margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 35px 10px !important;">
+                                                    <?php echo $lang['forense']['content_21']; ?>
+                                                </span>
+                                                <hr class="no_line" style="margin: 0 auto 10px;">
+                                            </div>-->
+                                            
+
+                                            <br/>
                                           </div>
                                        </div>
                                     </div>

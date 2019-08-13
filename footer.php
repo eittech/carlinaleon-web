@@ -19,7 +19,7 @@ $active_menu = $config['config']['maintenance']['active'];
                 </a>
                 <span style="font-size: 27px; line-height: 26px;"><?php echo $lang['footer']['content_1']; ?>:</span>
                 <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.linkedin.com/in/carlinaleon/?locale=en_US"><i class="icon-linkedin-circled"></i></a>
-                <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.facebook.com/carlinadesireel"><i class="icon-facebook-circled"></i></a>
+                <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.facebook.com/Carlina-Leon-LLC-103786507650420/"><i class="icon-facebook-circled"></i></a>
                 <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://twitter.com/carlinadla"><i class="icon-twitter-circled"></i></a>
                 <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.youtube.com/channel/UC8pfQxG2YhEErtxr7O0W-5A?view_as=subscriber"><i class="icon-youtube"></i></a>
             </div>

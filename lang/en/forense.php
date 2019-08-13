@@ -43,11 +43,11 @@ $lang['forense']['content_14.4'] = "Medical Certification for Disability Excepti
 
 $lang['forense']['content_15'] = "My forensic evaluation work consists of a combination of online and face-to-face sessions in order to guarantee a thorough assessment at a reasonable price. I work directly with your lawyer, providing her/him constant feedback to make sure your case gathers as much evidence as possible. This evaluation is by no means intended to falsify or devalue what you went through, but rather to provide the appropriate context to understand and convey the gravity of your experiences.";
 $lang['forense']['content_16'] = "¿What are forensic assessments for immigration purposes?";
-$lang['forense']['content_17'] = "<img style='margin-left: -20px !important;width: 10px;' class='p-img' src='images/icons/list_check.png'>Orientation for best practices before and while the examinee is going through the evaluation process.";
-$lang['forense']['content_18'] = "<img style='margin-left: -20px !important;width: 10px;' class='p-img' src='images/icons/list_check.png'>Recollection and organization of all information provided by the examinee.";
-$lang['forense']['content_19'] = "<img style='margin-left: -20px !important;width: 10px;' class='p-img' src='images/icons/list_check.png'>Revision of all relevant documents.";
-$lang['forense']['content_20'] = "<img style='margin-left: -20px !important;width: 10px;' class='p-img' src='images/icons/list_check.png'>Psychological assessment to determine the level of validity / malingering.";
-$lang['forense']['content_21'] = "<img style='margin-left: -20px !important;width: 10px;' class='p-img' src='images/icons/list_check.png'>A psychological report summarizing the data and interpretation of the information in the context of the relevant law.";
+$lang['forense']['content_17'] = "Orientation for best practices before and while the examinee is going through the evaluation process.";
+$lang['forense']['content_18'] = "Recollection and organization of all information provided by the examinee.";
+$lang['forense']['content_19'] = "Revision of all relevant documents.";
+$lang['forense']['content_20'] = "Psychological assessment to determine the level of validity / malingering.";
+$lang['forense']['content_21'] = "A psychological report summarizing the data and interpretation of the information in the context of the relevant law.";
 $lang['forense']['content_22'] = "<p style=\"display: inline-block; color: #E1DEDE margin: 0;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 28px 10px !important;\">
                                     Teach your clients 5 different ways to LEGALLY make money in the US even if they are undocumented.
                                     As an immigrant, I understand the sense of urgency and concern when you need a remedy for your immigration situation in these uncertain times.<a style=\"font-size: 20px; font-weight: 600;\" href=\"suscribete-2.php\" target=\"_blank\" rel=\"nofollow\"> Let me help you in this process</a>
