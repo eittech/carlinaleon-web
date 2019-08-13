@@ -67,10 +67,11 @@ li.dropdown {
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 12px 5px;
   text-decoration: none;
   display: block;
   text-align: left;
+  width:100% !important;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
@@ -103,13 +104,13 @@ li.dropdown {
             <li class="dropdown">
                 <a href="javascript:void(0)" class="dropbtn"><i class="icon-language"></i></a>
                 <div class="dropdown-content">
-                    <a class="nav-link smooth-scroll" href="index.php?lang=pt" style="color:#9a9aa3 !important;font-size: 11px !important;">
+                    <a class="nav-link smooth-scroll" href="index.php?lang=pt" style="color:#9a9aa3 !important;font-size: 10px !important;">
                         <b>Portugues</b>
                     </a>
-                    <a class="nav-link smooth-scroll" href="index.php?lang=en" style="color:#9a9aa3 !important;font-size: 11px !important;">
+                    <a class="nav-link smooth-scroll" href="index.php?lang=en" style="color:#9a9aa3 !important;font-size: 10px !important;">
                         <b>English</b>
                     </a>
-                    <a class="nav-link smooth-scroll" href="index.php?lang=es" style="color:#9a9aa3 !important;font-size: 11px !important;">
+                    <a class="nav-link smooth-scroll" href="index.php?lang=es" style="color:#9a9aa3 !important;font-size: 10px !important;">
                         <b>Spanish</b>
                     </a>
                 </div>
