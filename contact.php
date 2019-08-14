@@ -195,8 +195,10 @@
                                           <div class="column mcb-column one column_map ">
                                              <!-- Google map area -->
                                              <div class="google-map-wrapper no_border">
-                                                <div class="google-map" id="google-map-area-5638c5a0b0187" style="width:100%; height:450px;">
-                                                   &nbsp;
+                                                <!--<div class="google-map" id="google-map-area-5638c5a0b0187" style="width:100%; height:450px;">-->
+                                                <div style="width:100%;">
+                                                   <!--&nbsp;-->
+                                                   <img class="scale-with-grid" src="images/maps.jpg" style="height: 450px !important;width: 717.35px !important;" alt="CarlinaLeon" />
                                                 </div>
                                              </div>
                                           </div>
@@ -246,7 +248,7 @@
                   <script src="js/email.js"></script>
                   <script async defer
                      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwp9dDgxhTasxOm_7BBfTtKmPrpK0xTic&callback=initMap"></script>
-                  <script>
+                  <!--<script>
                      function initMap() {
                        var uluru = {lat: 40.7358938, lng: -73.9962813};
                        var map = new google.maps.Map(document.getElementById('google-map-area-5638c5a0b0187'), {
@@ -258,7 +260,7 @@
                          map: map
                        });
                      }
-                  </script>
+                  </script>-->
                   <script>
                      jQuery(window).load(function() {
                          var retina = window.devicePixelRatio > 1 ? true : false;
