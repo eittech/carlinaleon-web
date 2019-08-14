@@ -51,7 +51,7 @@ $lang['forense']['content_22'] = "<p style=\"display: inline-block; color: #7474
                                     5 maneras diferentes de ganar dinero LEGALMENTE en los EE. UU, incluso si usted esta
                                     indocumentado.
                                     Como inmigrante, entiendo el sentido de urgencia y preocupación cuando necesita un remedio
-                                    para su situación de inmigración en estos tiempos inciertos.<a style=\"font-size: 20px; font-weight: 600;\" href=\"suscribete-2.php\" target=\"_blank\" rel=\"nofollow\"> Déjame ayudarte en este proceso</a>
+                                    para su situación de inmigración en estos tiempos inciertos.<a style=\"font-size: 20px; font-weight: 600;\" href=\"suscribete-2.php?lang=es\" target=\"_blank\" rel=\"nofollow\"> Déjame ayudarte en este proceso</a>
                                     </p>";
 $lang['forense']['content_23'] = "Evidencia para exención provisional de presencia ilegal por dificultades Extremas - 3 o 10 años (Formulario I-601A)";
 $lang['forense']['content_24'] = "La barrera de tres años se aplica a las personas que han estado presentes ilegalmente en los Estados Unidos durante un período continuo de más de 180 días (6 meses), pero menos de un año, y que decide partir voluntariamente de los EE. UU. El impedimento se activa por el acto de partir de los EE. UU., incluso si se trata de un proceso consular para obtener una visa de inmigrante. Esto puede aplicar a su situación incluso si está casado con un ciudadano estadounidense.";
