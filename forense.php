@@ -171,7 +171,7 @@
                                     </div>
                                  </div>
 
-                                 <table role="table" style="border-collapse: separate;border-spacing: 57px 40px;">
+                                    <table role="table" style="border-collapse: separate;border-spacing: 57px 40px;">
                                     <tbody role="rowgroup">
                                        <tr role="row">
                                           <td class='td-hover' role="cell">
@@ -192,17 +192,17 @@
                                        </tr>
                                        <tr role="row">
                                           <td class='td-hover' role="cell">
-                                             <a data-fancybox="popup_5" data-src="#popup_5" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                             <a data-fancybox="popup_4" data-src="#popup_4" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
                                              <?php echo $lang['forense']['content_6']; ?>
                                              </a>
                                           </td>
                                           <td class='td-hover' class='td-over' role="cell">
-                                             <a data-fancybox="popup_6" data-src="#popup_6" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                             <a data-fancybox="popup_5" data-src="#popup_5" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
                                              <?php echo $lang['forense']['content_9']; ?>
                                              </a>
                                           </td>
                                           <td class='td-hover' role="cell">
-                                             <a data-fancybox="popup_7" data-src="#popup_7" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                             <a data-fancybox="popup_6" data-src="#popup_6" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
                                              <?php echo $lang['forense']['content_8']; ?>
                                              </a>
                                           </td>
@@ -212,21 +212,40 @@
                                  <table role="table" style="border-collapse: separate;border-spacing: 57px 5px;">
                                     <tbody role="rowgroup">
                                        <tr role="row">
-                                          <td class='td-hover'  role="cell"></td>
-                                          <td class='td-hover'  role="cell">
-                                             <a data-fancybox="popup_1" data-src="#popup_1" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 30px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
-                                             <?php echo $lang['forense']['content_7']; ?>
-                                             </a>
-                                          </td>
-                                          <td class='td-hover' class='td-over' role="cell">
-                                             <a data-fancybox="popup_2" data-src="#popup_2" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 30px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
-                                             <?php echo $lang['forense']['content_9.1']; ?>
-                                             </a>
-                                          </td>
-                                          <td class='td-hover'  role="cell"></td>
-                                       </tr>
-                                    </tbody>
+                                             <td class='td-hover' role="cell" style="width:315.133px !important;">
+                                                <a data-fancybox="popup_7" data-src="#popup_7" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                                <?php echo $lang['forense']['content_7']; ?>
+                                                </a>
+                                             </td>
+                                             <td role="cell" style="width:328.8px !important;">
+                                                &nbsp;
+                                             </td>
+                                             <td class='td-hover' role="cell" style="width:241.567px !important;">
+                                                <a data-fancybox="popup_8" data-src="#popup_8" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                                <?php echo $lang['forense']['content_9.1']; ?>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                       </tbody>
                                  </table>
+
+
+                                 
+
+                                 
+
+
+
+
+                                 
+
+
+
+
+
+
+
+
                                  
                                  <div id="popup_1" style="display: none;width:100%;max-width:660px;">
                                     <p class="mb-0 text-right" style='display: inline-block; color: #0d09aa; margin: 0;  font-size: 23px; line-height: 31px; line-he_letter-spacing: 0.036em; font-weight: 500;font-style: italic;letter-spacing: 0em;'>
@@ -245,22 +264,22 @@
                                  </div>
                                  <div id="popup_4" style="display: none;width:100%;max-width:660px;">
                                     <p class="mb-0 text-right" style='display: inline-block; color: #0d09aa; margin: 0;  font-size: 23px; line-height: 31px; line-he_letter-spacing: 0.036em; font-weight: 500;font-style: italic;letter-spacing: 0em;'>
-                                       <?php echo $lang['forense']['content_14']; ?>
+                                       <?php echo $lang['forense']['content_14.1']; ?>
                                     </p>
                                  </div>
                                  <div id="popup_5" style="display: none;width:100%;max-width:660px;">
                                     <p class="mb-0 text-right" style='display: inline-block; color: #0d09aa; margin: 0;  font-size: 23px; line-height: 31px; line-he_letter-spacing: 0.036em; font-weight: 500;font-style: italic;letter-spacing: 0em;'>
-                                       <?php echo $lang['forense']['content_14.1']; ?>
+                                       <?php echo $lang['forense']['content_14.2']; ?>
                                     </p>
                                  </div>
                                  <div id="popup_6" style="display: none;width:100%;max-width:660px;">
                                     <p class="mb-0 text-right" style='display: inline-block; color: #0d09aa; margin: 0;  font-size: 23px; line-height: 31px; line-he_letter-spacing: 0.036em; font-weight: 500;font-style: italic;letter-spacing: 0em;'>
-                                       <?php echo $lang['forense']['content_14.2']; ?>
+                                       <?php echo $lang['forense']['content_14.3']; ?>
                                     </p>
                                  </div>
                                  <div id="popup_7" style="display: none;width:100%;max-width:660px;">
                                     <p class="mb-0 text-right" style='display: inline-block; color: #0d09aa; margin: 0;  font-size: 23px; line-height: 31px; line-he_letter-spacing: 0.036em; font-weight: 500;font-style: italic;letter-spacing: 0em;'>
-                                       <?php echo $lang['forense']['content_14.3']; ?>
+                                       <?php echo $lang['forense']['content_14']; ?>
                                     </p>
                                  </div>
                                  <div id="popup_8" style="display: none;width:100%;max-width:660px;">
