@@ -9,11 +9,11 @@ $lang['forense']['content_3'] = "Muchas y muchos inmigrantes están de acuerdo e
 $lang['forense']['content_4'] = "Trabajo con los siguientes casos";
 
 $lang['forense']['content_5'] = "VAWA";
-$lang['forense']['content_6'] = "Form I-601A</br><span style='font-size: 13px !important;'>Solicitud de Exención Provisional por Presencia Ilegal</span>";
-$lang['forense']['content_7'] = "Form 42B<br/><span style='font-size: 13px !important;'>Cancelación de remoción / Cancelación de expulsión</span>";
-$lang['forense']['content_8'] = "Form I-130<br/><span style='font-size: 13px !important;'>Petición de familiar extranjero (reentrada)</span>";
-$lang['forense']['content_9'] = "I-589<br/><span style='font-size: 13px !important;'>Solicitud de Asilo Político y de Retención de Deportación</span>";
-$lang['forense']['content_9.1'] = "Form N-648</br><span style='font-size: 13px !important;'>Certificación médica para excepciones por discapacidad</span>";
+$lang['forense']['content_6'] = "Form I-601A</br><span style='font-size: 16px !important;'>Solicitud de Exención Provisional por Presencia Ilegal</span>";
+$lang['forense']['content_7'] = "Form 42B<br/><span style='font-size: 16px !important;'>Cancelación de remoción / Cancelación de expulsión</span>";
+$lang['forense']['content_8'] = "Form I-130<br/><span style='font-size: 16px !important;'>Petición de familiar extranjero (reentrada)</span>";
+$lang['forense']['content_9'] = "I-589<br/><span style='font-size: 16px !important;'>Solicitud de Asilo Político y de Retención de Deportación</span>";
+$lang['forense']['content_9.1'] = "Form N-648</br><span style='font-size: 16px !important;'>Certificación médica para excepciones por discapacidad</span>";
 $lang['forense']['content_9.2'] = "U Visa";
 $lang['forense']['content_9.3'] = "T Visa";
 

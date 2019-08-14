@@ -9,11 +9,11 @@ $lang['forense']['content_3'] = "Many immigrants agree that relating their exper
 $lang['forense']['content_4'] = "I work for the following cases";
 
 $lang['forense']['content_5'] = "VAWA";
-$lang['forense']['content_6'] = "Form I-601A</br><span style='font-size: 13px !important;'>Application for Provisional Unlawful Presence Waiver</span>";
-$lang['forense']['content_7'] = "Form 42B<br/><span style='font-size: 13px !important;'>Cancellation of Removal</span>";
-$lang['forense']['content_8'] = "Form I-130<br/><span style='font-size: 13px !important;'>Petition for Alien Relative (Reentry)</span>";
-$lang['forense']['content_9'] = "I-589<br/><span style='font-size: 13px !important;'>Application for Asylum and for Withholding of Removal</span>";
-$lang['forense']['content_9.1'] = "Form N-648</br><span style='font-size: 13px !important;'>Medical Certification for Disability Exceptions</span>";
+$lang['forense']['content_6'] = "Form I-601A</br><span style='font-size: 16px !important;'>Application for Provisional Unlawful Presence Waiver</span>";
+$lang['forense']['content_7'] = "Form 42B<br/><span style='font-size: 16px !important;'>Cancellation of Removal</span>";
+$lang['forense']['content_8'] = "Form I-130<br/><span style='font-size: 16px !important;'>Petition for Alien Relative (Reentry)</span>";
+$lang['forense']['content_9'] = "I-589<br/><span style='font-size: 16px !important;'>Application for Asylum and for Withholding of Removal</span>";
+$lang['forense']['content_9.1'] = "Form N-648</br><span style='font-size: 16px !important;'>Medical Certification for Disability Exceptions</span>";
 $lang['forense']['content_9.2'] = "U Visa";
 $lang['forense']['content_9.3'] = "T Visa";
 
