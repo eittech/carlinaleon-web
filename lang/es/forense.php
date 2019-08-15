@@ -41,7 +41,7 @@ Se debe presentar un formulario por separado para cada pariente elegible. USCIS 
 $lang['forense']['content_14.4'] = "Certificación médica para excepciones por discapacidad";
 
 $lang['forense']['content_15'] = "Mi trabajo de evaluación forense consiste en una combinación de sesiones prelínea para garantizar una evaluación completa a un precio razonable. Trabajo disu abogada / abogado, proporcionándole retroalimentación constante para asegurcaso reúna tanta evidencia como sea posible. Esta evaluación no pretende, de nfalsificar o devaluar lo que usted pasó, sino más bien proporcionar el contextocomprender y transmitir la gravedad y seriedad de sus experiencias.";
-$lang['forense']['content_16'] = "¿En qué consisten las evaluaciones forenses con fines de imigración?";
+$lang['forense']['content_16'] = "¿En qué consisten las evaluaciones forenses con fines de inmigración?";
 $lang['forense']['content_17'] = "<img style='margin-left: -20px !important;width: 10px;' class='p-img' src='images/icons/list_check.png'>Orientación para las mejores prácticas antes y durante la aplicación de pruebas psicológicas.";
 $lang['forense']['content_18'] = "<img style='margin-left: -20px !important;width: 10px;' class='p-img' src='images/icons/list_check.png'>Recopilación y organización de toda la información proporcionada por la/el examinado.";
 $lang['forense']['content_19'] = "<img style='margin-left: -20px !important;width: 10px;' class='p-img' src='images/icons/list_check.png'>Revisión de todos los documentos relevantes.";
@@ -50,8 +50,15 @@ $lang['forense']['content_21'] = "<img style='margin-left: -20px !important;widt
 $lang['forense']['content_22'] = "<p style=\"display: inline-block; color: #747474 margin: 0 !important;  font-size: 20px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 28px 10px !important;\">
                                     5 maneras diferentes de ganar dinero LEGALMENTE en los EE. UU, incluso si usted esta
                                     indocumentado.
+                                    <br/>
+                                    <a style=\"font-size: 20px; font-weight: 600;\" href=\"suscribete-2.php?lang=es\" target=\"_blank\" rel=\"nofollow\">
+                                        <button class=\"button button_left button_theme button_js kill_the_icon\">
+                                        Subscripcion
+                                        </button>
+                                    </a>
+                                    <br/>
                                     Como inmigrante, entiendo el sentido de urgencia y preocupación cuando necesita un remedio
-                                    para su situación de inmigración en estos tiempos inciertos.<a style=\"font-size: 20px; font-weight: 600;\" href=\"suscribete-2.php?lang=es\" target=\"_blank\" rel=\"nofollow\"> Déjame ayudarte en este proceso</a>
+                                    para su situación de inmigración en estos tiempos inciertos. Déjame ayudarte en este proceso
                                     </p>";
 $lang['forense']['content_23'] = "Evidencia para exención provisional de presencia ilegal por dificultades Extremas - 3 o 10 años (Formulario I-601A)";
 $lang['forense']['content_24'] = "La barrera de tres años se aplica a las personas que han estado presentes ilegalmente en los Estados Unidos durante un período continuo de más de 180 días (6 meses), pero menos de un año, y que decide partir voluntariamente de los EE. UU. El impedimento se activa por el acto de partir de los EE. UU., incluso si se trata de un proceso consular para obtener una visa de inmigrante. Esto puede aplicar a su situación incluso si está casado con un ciudadano estadounidense.";

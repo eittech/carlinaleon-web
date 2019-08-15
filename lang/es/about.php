@@ -72,7 +72,7 @@ $lang['about']['content_13'] = "<p style=\"font-size: 16px;line-height: 26px;fon
                                 </p>";
 $lang['about']['content_14'] = "Tres datos interesantes acerca de mí";
 $lang['about']['content_15'] = "Mis amigas, amigos y familiares me comparan constantemente con Wendy de Bob El constructor porque me encanta el trabajo de construcción.";
-$lang['about']['content_16'] = "Puedo encontrar espacio donde la mayoría de la gente diría que no hay. En realidad me causa gracia ver a la gente sorprendida cuando se cuenta que ese espacio se encuentra disponible si hay compromiso, fe, esperanza y un montón de creatividad.";
+$lang['about']['content_16'] = "Puedo encontrar espacio donde la mayoria de la gente diria que no hay. En realidad me causa gracia ver a la gente sorprendida cuando se dan cuenta que si es posible. Muchas cosas se pueden lograr cuando se cuenta con compromiso, fe y un monton de creatividad.";
 $lang['about']['content_17'] = "Soy un cerebrito - me la paso con un libro en las manos.";
 
 ?>
