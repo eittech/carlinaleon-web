@@ -157,7 +157,7 @@
                                                 <div class="post-item isotope-item clearfix no-img post-2275 post  format-standard  category-center category-uncategorized  tag-grid ">
                                                    <div class="post-desc-wrapper">
                                                       <div class="post-desc">
-                                                         <div class="post-title" style="width: 124% !important;text-align: center !important;margin-left: 19% !important;">
+                                                         <div class="post-title" style="width: 124% !important;text-align: center !important;margin-left: 19% !important;margin-top: 10% !important">
                                                             <h2 style="display: inline-block; color: #E1DEDE margin: 0;  font-size: 30px; line-height: 34px; line-he_letter-spacing: 0.027em; font-weight: 500; margin: 0 62px 10px !important;">
                                                                <?php echo $lang['forense']['content_4']; ?>:
                                                             </h2>
@@ -170,64 +170,71 @@
                                        </div>
                                     </div>
                                  </div>
+                                    
 
-                                    <table role="table" style="border-collapse: separate;border-spacing: 57px 40px;">
-                                    <tbody role="rowgroup">
-                                       <tr role="row">
-                                          <td class='td-hover' role="cell">
-                                             <a data-fancybox="popup_1" data-src="#popup_1" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
-                                             <?php echo $lang['forense']['content_5']; ?>
-                                             </a>
-                                          </td>
-                                          <td class='td-hover' class='td-over' role="cell">
-                                             <a data-fancybox="popup_2" data-src="#popup_2" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
-                                             <?php echo $lang['forense']['content_9.2']; ?>
-                                             </a>
-                                          </td>
-                                          <td class='td-hover' role="cell">
-                                             <a data-fancybox="popup_3" data-src="#popup_3" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
-                                             <?php echo $lang['forense']['content_9.3']; ?>
-                                             </a>
-                                          </td>
-                                       </tr>
-                                       <tr role="row">
-                                          <td class='td-hover' role="cell">
-                                             <a data-fancybox="popup_4" data-src="#popup_4" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
-                                             <?php echo $lang['forense']['content_6']; ?>
-                                             </a>
-                                          </td>
-                                          <td class='td-hover' class='td-over' role="cell">
-                                             <a data-fancybox="popup_5" data-src="#popup_5" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
-                                             <?php echo $lang['forense']['content_9']; ?>
-                                             </a>
-                                          </td>
-                                          <td class='td-hover' role="cell">
-                                             <a data-fancybox="popup_6" data-src="#popup_6" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
-                                             <?php echo $lang['forense']['content_8']; ?>
-                                             </a>
-                                          </td>
-                                       </tr>
-                                    </tbody>
-                                 </table>
-                                 <table role="table" style="border-collapse: separate;border-spacing: 57px 5px;">
-                                    <tbody role="rowgroup">
-                                       <tr role="row">
-                                             <td class='td-hover' role="cell" style="width:315.133px !important;">
-                                                <a data-fancybox="popup_7" data-src="#popup_7" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
-                                                <?php echo $lang['forense']['content_7']; ?>
+                                    <div class="content">
+                                       <div class="inner">
+
+                                       <table role="table" style="border-collapse: separate;border-spacing: 57px 40px;">
+                                       <tbody role="rowgroup">
+                                          <tr role="row">
+                                             <td class='td-hover' role="cell" style="height:107.533px !important;">
+                                                <a data-fancybox="popup_1" data-src="#popup_1" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                                <?php echo $lang['forense']['content_5']; ?>
                                                 </a>
                                              </td>
-                                             <td role="cell" style="width:328.8px !important;">
-                                                &nbsp;
+                                             <td class='td-hover' role="cell" style="height:107.533px !important;">
+                                                <a data-fancybox="popup_2" data-src="#popup_2" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                                <?php echo $lang['forense']['content_9.2']; ?>
+                                                </a>
                                              </td>
-                                             <td class='td-hover' role="cell" style="width:241.567px !important;">
-                                                <a data-fancybox="popup_8" data-src="#popup_8" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
-                                                <?php echo $lang['forense']['content_9.1']; ?>
+                                             <td class='td-hover' role="cell" style="height:107.533px !important;">
+                                                <a data-fancybox="popup_3" data-src="#popup_3" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                                <?php echo $lang['forense']['content_9.3']; ?>
+                                                </a>
+                                             </td>
+                                          </tr>
+                                          <tr role="row">
+                                             <td class='td-hover' role="cell">
+                                                <a data-fancybox="popup_4" data-src="#popup_4" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                                <?php echo $lang['forense']['content_6']; ?>
+                                                </a>
+                                             </td>
+                                             <td class='td-hover' role="cell">
+                                                <a data-fancybox="popup_5" data-src="#popup_5" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                                <?php echo $lang['forense']['content_9']; ?>
+                                                </a>
+                                             </td>
+                                             <td class='td-hover' role="cell">
+                                                <a data-fancybox="popup_6" data-src="#popup_6" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                                <?php echo $lang['forense']['content_8']; ?>
                                                 </a>
                                              </td>
                                           </tr>
                                        </tbody>
-                                 </table>
+                                    </table>
+                                    <table role="table" style="border-collapse: separate;border-spacing: 57px 40px;">
+                                       <tbody role="rowgroup">
+                                          <tr role="row">
+                                                <td class='td-hover' role="cell">
+                                                   <a data-fancybox="popup_7" data-src="#popup_7" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                                   <?php echo $lang['forense']['content_7']; ?>
+                                                   </a>
+                                                </td>
+                                                <td role="cell" style="width:328.8px !important;">
+                                                   &nbsp;
+                                                </td>
+                                                <td class='td-hover' role="cell">
+                                                   <a data-fancybox="popup_8" data-src="#popup_8" style="cursor:pointer;display: inline-block; color: #5b258f; margin: 0;  font-size: 40px; line-height: 30px; line-he_letter-spacing: 0.036em; font-weight: 600;">
+                                                   <?php echo $lang['forense']['content_9.1']; ?>
+                                                   </a>
+                                                </td>
+                                             </tr>
+                                          </tbody>
+                                    </table>
+                                    </div>
+                                    </div>
+                                 
 
 
                                  

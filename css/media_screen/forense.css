@@ -1,3 +1,20 @@
+/* Contenedor resṕonsive 3 columnas */
+main {
+        
+    column-count:3;
+    column-gap: 3em;
+    column-width: 140px;
+}
+
+.content
+{
+    text-align: center;
+}
+.inner
+{
+    display:inline-block;
+}
+
 
 .td-hover:hover{
     color:#FFFFFF !important;
