@@ -11,7 +11,7 @@ $lang['home']['content_test_6'] = "Profesional en Practica Privada. Ex-Directora
 $lang['home']['content_test_7'] = "Carlina L. demostró una comprensión del trabajo comunitario realizado en el programa Nuevo Amanecer a través de su capacidad para incorporar las implicaciones psicológicas, culturales, económicas, sociales y legales que afectan a nuestra población.";
 $lang['home']['content_test_8'] = "Directora del Programa de Violencia Domestica. Centro del Desarrollo de la Mujer Dominicana.";
 $lang['home']['content_test_9'] = "<p style='font-size: 22px; line-height: 34px; color: #424242; font-weight: 400;'>
-                                Encuentrame: <a style='font-size: 20px; font-weight: 600;' href='contact.php'>contact info</a>, o reserva una cita aquí <a style='font-size: 20px; font-weight: 600;' target='_blank' rel='nofollow' href='https://itherapy.com/counselor/carlina-d-leon/'>carlina-d-leon</a>
+                                Encuentrame: <a style='font-size: 20px; font-weight: 600;' href='contact.php'>datos de contacto</a>, o reserva una cita aquí <a style='font-size: 20px; font-weight: 600;' target='_blank' rel='nofollow' href='https://itherapy.com/counselor/carlina-d-leon/'>carlina-d-leon</a>
                                 </p>";
 $lang['home']['content_test_10'] = "Directora ejecutiva - Kingsbridge Heights Community Center.";
 
