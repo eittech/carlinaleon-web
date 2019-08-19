@@ -1,0 +1,52 @@
+<?php
+
+ // ++++++++++++++++++++++++++++++++++++
+//error_reporting(0);
+include 'conexion.php';
+	// Correo principal
+$correo_it_to = "info@carlinaleon.com";
+
+$nombre=$_POST['name'];
+$correo=$_POST['email'];
+$empresa=$_POST['subject'];
+$mensaje=$_POST['body'];
+
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-Type: text/html; charset=UTF-8". "\r\n";
+$headers .= 'From: '.stripslashes($correo);
+
+
+// Funcion para el envio de email
+function send_email($correo_it_to,$empresa,$mensaje,$headers)
+{
+	if(mail($correo_it_to,$empresa,$mensaje,$headers)){
+	echo "Enviado con exito";
+	}else{
+	echo "No se envio";
+	}
+}
+
+// Verificamos si existe el registro
+$check = mysqli_query("SELECT * FROM registro WHERE empresa='$empresa'");
+$num_rows = mysqli_num_rows($check);
+
+if (count($num_rows) == 0) {
+	
+	//Creamos la consulta de inserción.
+	$query = "INSERT INTO `registro` (`nombre`, `correo`, `empresa`, `mensaje`) VALUES ('$nombre', '$correo', '$empresa', '$mensaje');";
+
+	//Para ejecutar la consulta necesitamos escribir el siguiente código.
+	$resultado = $conn->query($query);
+
+	// Preparacion de la salida
+	if($resultado){
+		send_email($correo_it_to,$empresa,$mensaje,$headers);
+	}
+} else {
+	echo "EXISTE";
+}
+
+
+$conn->close();
+
+?>

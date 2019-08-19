@@ -1,3 +1,13 @@
+
+
+<?php
+   // Cargamos el archivo de fijación de idioma
+   include "lang.php";
+   // Obtiene el nombre de la página actual
+   include "check_url.php";
+   // Cargamos archivo de configuraciones globales
+   include "config.php";
+   ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 ">
@@ -33,6 +43,7 @@
                   <link rel='stylesheet' href='css/structure-copywriter.css'>
                   <link rel='stylesheet' href='css/copywriter.css'>
                   <link rel='stylesheet' href='css/custom.css'>
+                  <link rel='stylesheet' href='css/media_screen/contact.css'>
                </head>
                <body class="style-simple layout-full-width mobile-tb-left button-stroke no-content-padding header-classic minimalist-header sticky-header sticky-white ab-hide subheader-title-left menuo-right menuo-no-borders footer-sliding footer-copy-center">
                   <!-- Main Theme Wrapper -->
@@ -48,35 +59,12 @@
                                     <div class="top_bar_left clearfix">
                                        <!-- Logo-->
                                        <div class="logo">
-                                          <a id="logo" href="index.html" title="CarlinaLeon"> <img class="scale-with-grid" src="images/logo_menu.png" alt="CarlinaLeon" />
+                                          <a id="logo" href="index.php" title="CarlinaLeon"> <img class="scale-with-grid" src="images/logo_menu.png" alt="CarlinaLeon" />
                                           </a>
                                        </div>
-                                       <!-- Main menu-->
-                                       <div class="menu_wrapper">
-                                          <nav id="menu" class="menu-main-menu-container">
-                                             <ul id="menu-main-menu" class="menu">
-                                                <li >
-                                                   <a href="index.html"><span>Inicio</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="about.html"><span>Acerca de mí</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="work-with-me.html"><span>Trabaja conmigo</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="programs.html"><span>Programas</span></a>
-                                                </li>
-                                                <li>
-                                                   <a href="forense.html"><span>Evaluación forense</span></a>
-                                                </li>
-                                                <li class="current_page_item">
-                                                   <a href="contact.html"><span>Contacto</span></a>
-                                                </li>
-                                             </ul>
-                                          </nav>
-                                          <a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
-                                       </div>
+                                       <!-- Apertura Menu -->
+                                       <?php include "menu.php"; ?>
+                                       <!-- Cierre Menu -->
                                        <!-- Secondary menu area - only for certain pages -->
                                        <div class="secondary_menu_wrapper"></div>
                                        <!-- Banner area - only for certain pages-->
@@ -97,7 +85,7 @@
                         <div id="Subheader" style="padding:90px 0 70px;">
                            <div class="container">
                               <div class="column one">
-                                 <h1 class="title" style="color:#ffffff;">Contáctame</h1>
+                                 <h1 class="title" style="color:#ffffff;"><?php echo $lang['contact']['content_1']; ?></h1>
                               </div>
                            </div>
                         </div>
@@ -113,7 +101,7 @@
                                           <!-- One Full Row-->
                                           <div class="column mcb-column one column_column column-margin-20px">
                                              <div class="column_attr">
-                                                <h2 style="display: inline-block; font-size: 49px; line-height: 55px; font-weight: 600; margin-right: 15px;">Información</h2>
+                                                <h2 style="display: inline-block; font-size: 49px; line-height: 55px; font-weight: 600; margin-right: 15px;"><?php echo $lang['contact']['content_2']; ?></h2>
                                              </div>
                                           </div>
                                        </div>
@@ -130,15 +118,15 @@
                                           <div class="column mcb-column one column_column">
                                              <div class="column_attr">
                                                 <p style="font-size: 20px; line-height: 33px; font-weight: 500;">
-                                                   Encuentrala mi oficina virtual en el siguiente enlace: 
+                                                   <?php echo $lang['contact']['content_3']; ?>
                                                    <br>
                                                    <a target="_blank" rel="nofollow" href="https://itherapy.com/counselor/carlina-d-leon/">https://itherapy.com/counselor/carlina-d-leon</a>
                                                 </p>
                                                 <br>
-                                                <h4 style="font-weight: 500;font-size: 22px;">Email: recoveryjourney@itherapymail.com </h4>
-                                                 <h4 style="font-weight: 500;font-size: 22px;">Email: info@carlinaleon.com </h4>
-                                                <h4 style="font-weight: 500;font-size: 22px;">Telefono: (212) 683-7327 </h4>
-                                                <h4 style="font-weight: 500;font-size: 22px;">Fax: (212) 683-7327  </h4>
+                                                <h4 style="font-weight: 500;font-size: 22px;"><?php echo $lang['contact']['content_4']; ?>: recoveryjourney@itherapymail.com </h4>
+                                                <h4 style="font-weight: 500;font-size: 22px;"><?php echo $lang['contact']['content_4']; ?>: info@carlinaleon.com </h4>
+                                                <h4 style="font-weight: 500;font-size: 22px;"><?php echo $lang['contact']['content_5']; ?>: (212) 683-7327 </h4>
+                                                <h4 style="font-weight: 500;font-size: 22px;"><?php echo $lang['contact']['content_6']; ?>: (212) 683-7327  </h4>
                                              </div>
                                           </div>
                                        </div>
@@ -153,7 +141,7 @@
                                           <!-- One Full Row-->
                                           <div class="column mcb-column one column_column">
                                              <div class="column_attr">
-                                                <h3>Envíanos un mensaje</h3>
+                                                <h3><?php echo $lang['contact']['content_7']; ?></h3>
                                                 <hr class="no_line hrmargin_b_30" />
                                                 <div role="form" class="wpcf7" id="wpcf7-f2314-p2294-o1" lang="en-US" dir="ltr">
                                                    <div class="screen-reader-response"></div>
@@ -161,20 +149,20 @@
                                                       <form id="contactform">
                                                          <!-- One Second (1/2) Column -->
                                                          <div class="column one-second">
-                                                            <input placeholder="Tu nombre" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false" />
+                                                            <input placeholder="<?php echo $lang['contact']['content_8']; ?>" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false" />
                                                          </div>
                                                          <!-- One Second (1/2) Column -->
                                                          <div class="column one-second">
-                                                            <input placeholder="Tu e-mail" type="email" name="email" id="email" size="40" aria-required="true" aria-invalid="false" />
+                                                            <input placeholder="<?php echo $lang['contact']['content_9']; ?>" type="email" name="email" id="email" size="40" aria-required="true" aria-invalid="false" />
                                                          </div>
                                                          <div class="column one">
-                                                            <input placeholder="Asunto" type="text" name="subject" id="subject" size="40" aria-invalid="false" />
+                                                            <input placeholder="<?php echo $lang['contact']['content_10']; ?>" type="text" name="subject" id="subject" size="40" aria-invalid="false" />
                                                          </div>
                                                          <div class="column one">
-                                                            <textarea placeholder="Mensaje" name="body" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
+                                                            <textarea placeholder="<?php echo $lang['contact']['content_11']; ?>" name="body" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
                                                          </div>
                                                          <div class="column one">
-                                                            <input type="button" value="Envía un mensaje" id="submit" onClick="return check_values();">
+                                                            <input type="button" value="<?php echo $lang['contact']['content_12']; ?>" id="submit" onClick="return check_values();">
                                                          </div>
                                                       </form>
                                                    </div>
@@ -190,8 +178,8 @@
                                           <!-- One Full Row-->
                                           <div class="column mcb-column one column_column column-margin-20px">
                                              <div class="column_attr">
-                                                <h2 style="display: inline-block; font-size: 49px; line-height: 55px; font-weight: 600; margin-right: 15px;">Localización</h2>
-                                                <h4 style="display: inline-block;">En el mapa</h4>
+                                                <h2 style="display: inline-block; font-size: 49px; line-height: 55px; font-weight: 600; margin-right: 15px;"><?php echo $lang['contact']['content_13']; ?></h2>
+                                                <h4 style="display: inline-block;"><?php echo $lang['contact']['content_14']; ?></h4>
                                              </div>
                                           </div>
                                        </div>
@@ -207,8 +195,10 @@
                                           <div class="column mcb-column one column_map ">
                                              <!-- Google map area -->
                                              <div class="google-map-wrapper no_border">
-                                                <div class="google-map" id="google-map-area-5638c5a0b0187" style="width:100%; height:450px;">
-                                                   &nbsp;
+                                                <!--<div class="google-map" id="google-map-area-5638c5a0b0187" style="width:100%; height:450px;">-->
+                                                <div style="width:100%;">
+                                                   <!--&nbsp;-->
+                                                   <img class="scale-with-grid" src="images/maps.jpg" style="height: 450px !important;width: 717.35px !important;" alt="CarlinaLeon" />
                                                 </div>
                                              </div>
                                           </div>
@@ -223,10 +213,10 @@
                                           <!-- One Full Row-->
                                           <div class="column mcb-column one column_column">
                                              <div class="column_attr" style=" padding:0 5%;">
-                                                <h3>Dirección:
+                                                <h3><?php echo $lang['contact']['content_15']; ?>
                                                 </h3>
                                                 <p style="display: inline-block; color: #E1DEDE margin: 0;  font-size: 22px; line-height: 34px; line-he_letter-spacing: 0.036em; font-weight: 500;">
-                                                   80 Fifth Avenue, in Suite 1004, N.Y., N.Y. 10011 (Únicamente se atenderán clientes con previa cita)
+                                                   <?php echo $lang['contact']['content_16']; ?>
                                                 </p>
                                                 <p>&nbsp;</p>
                                              </div>
@@ -234,7 +224,6 @@
                                        </div>
                                     </div>
                                  </div>
-                                
                                  <div class="section the_content no_content">
                                     <div class="section_wrapper">
                                        <div class="the_content_wrapper"></div>
@@ -244,79 +233,9 @@
                            </div>
                         </div>
                      </div>
-                      <!-- Footer-->
-                     <footer id="Footer" class="clearfix">
-                        <!-- Footer - First area -->
-                        <div class="footer_action">
-                           <div class="container">
-                              <!-- One full width row-->
-                              <div class="column one column_column">
-                                 <span style="font-size: 26px; line-height: 26px;">Encuentrame aqui:</span>
-                                  <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.linkedin.com/in/carlinaleon/?locale=en_US"><i class="icon-linkedin-circled"></i></a>
-                                  <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.facebook.com/carlinadesireel"><i class="icon-facebook-circled"></i></a>
-                                  <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://twitter.com/carlinadla"><i class="icon-twitter-circled"></i></a>
-                                  <a style="font-size: 22px;" target="_blank" rel="nofollow" href="https://www.youtube.com/channel/UC8pfQxG2YhEErtxr7O0W-5A?view_as=subscriber"><i class="icon-youtube"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                          
-                         <!-- links finales mas glosario 
-
-
-                        <div class="widgets_wrapper">
-                           <div class="container">
-                              
-                              <div class="column one-fourth">
-                                 
-                                 <aside id="meta-2" class="widget widget_meta">
-                                    <h4>Enlaces Adicionales</h4>
-                                  </aside>
-                              </div>
-                              
-                              <div class="column one-fourth">
-                                  <aside id="meta-2" class="widget widget_meta">
-                                      <ul>
-                                       <li>
-                                          <a href="tecnicas.html" style="font-size: 17px;line-height: 21px;font-weight: 500;">Terminos y Condiciones</a>
-                                       </li>
-                                      </ul>
-                                 </aside>
-                              </div>
-                              
-                              <div class="column one-fourth">
-                                <aside id="meta-2" class="widget widget_meta">
-                                     <ul>
-                                         <li>
-                                          <a href="tecnicas.html" style="font-size: 17px;line-height: 21px;font-weight: 500;">Documentos Tecnicos</a>
-                                       </li>
-                                    </ul>
-                                 </aside>
-                              </div>
-                              
-                              <div class="column one-fourth">
-                                  <aside id="meta-2" class="widget widget_meta">
-                                     <ul>
-                                       <li>
-                                          <a href="tecnicas.html" style="font-size: 17px;line-height: 21px;font-weight: 500;">Glosario</a>
-                                       </li>
-                                    </ul>
-                                 </aside>
-                              </div>
-                           </div>
-                        </div>-->
-                        <!-- Footer copyright-->
-                        <div class="footer_copy">
-                           <div class="container">
-                              <div class="column one">
-                                 <div class="copyright">
-                                    &copy; 2019 Carlina Leon - Powered by <a target="_blank" rel="nofollow" href="http://eittech.net">eittech</a>
-                                 </div>
-                                 <!--Social info area-->
-                                 <ul class="social"></ul>
-                              </div>
-                           </div>
-                        </div>
-                     </footer>
+                     <!-- Apertura Footer -->
+                     <?php include "footer.php"; ?>
+                     <!-- Cierre Footer -->
                   </div>
                   <!-- JS -->
                   <script src="js/jquery-2.1.4.min.js"></script>
@@ -329,7 +248,7 @@
                   <script src="js/email.js"></script>
                   <script async defer
                      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwp9dDgxhTasxOm_7BBfTtKmPrpK0xTic&callback=initMap"></script>
-                  <script>
+                  <!--<script>
                      function initMap() {
                        var uluru = {lat: 40.7358938, lng: -73.9962813};
                        var map = new google.maps.Map(document.getElementById('google-map-area-5638c5a0b0187'), {
@@ -341,7 +260,7 @@
                          map: map
                        });
                      }
-                  </script>
+                  </script>-->
                   <script>
                      jQuery(window).load(function() {
                          var retina = window.devicePixelRatio > 1 ? true : false;
@@ -363,3 +282,4 @@
                   </script>
                </body>
             </html>
+

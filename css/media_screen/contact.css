@@ -1,0 +1,40 @@
+
+
+@media only screen and (max-width: 767px) {
+    
+    #Subheader .title {
+        font-weight: 900;
+        font-size: 41px !important;
+    }
+
+    h2, h2 a, h2 a {
+        color: #5b258f;
+        font-size: 34px !important;
+    }
+
+    .column .mcb-column{
+        margin: 0px 0px 0px -105px !important;
+        width: 180% !important;
+    }
+
+    p {
+        margin: 0 0 15px;
+        font-size: 15px !important;
+    }
+
+    h4 {
+        font-weight: 600;
+        font-size: 15px !important;
+    }
+
+    /*span{
+        padding: 0px 51px 0px 34px !important;
+    }*/
+    
+}
+
+@media only screen and (min-width: 480px) {
+    /*span{
+        padding: 0px 0px 0px 0px !important
+    }*/
+}

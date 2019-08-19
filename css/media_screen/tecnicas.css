@@ -1,0 +1,15 @@
+@media only screen and (max-width: 767px) {
+    .fancy_heading .title {
+        font-size: 33px !important;
+        line-height: 42px;
+    }
+
+    #Footer .footer_action .one {
+        margin-bottom: 30px;
+        padding-top: 30px;
+        text-align: center;
+        font-size: 169%;
+        line-height: 180%;
+    }
+    
+}
